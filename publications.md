@@ -50,6 +50,7 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
                 </div>
                 <div id="div{{pub.id}}"></div>
             </div>
+            <!--<div id="bib{{pub.id}}" style="display:none">-->
             <div id="bib{{pub.id}}" style="display:none">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
