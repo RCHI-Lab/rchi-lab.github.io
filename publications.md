@@ -9,6 +9,17 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
 
 # Publications
 
+<script>
+function showhide(d) {
+  var x = document.getElementById(d);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     <tr>
@@ -47,15 +58,18 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
                             <a href="{{pub.pdf}}">[PDF]</a>
                         {% endif %}
                     </em>
+                    <div id="bib{{pub.id}}">
+                        <pre>{{pub.bibtex}}</pre>
+                    </div>
+                </div>
+                <div id="div{{pub.id}}"></div>
+            </div>
+            <!--<div id="bib{{pub.id}}" style="display:none">-->
             <div id="bib{{pub.id}}">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>
             </div>
-                </div>
-                <div id="div{{pub.id}}"></div>
-            </div>
-            <!--<div id="bib{{pub.id}}" style="display:none">-->
             <div id="abs{{pub.id}}" style="display:none">
                 <blockquote>
                     {{pub.abstract}}
@@ -67,13 +81,4 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
 {% endfor %}
 </table>
 
-<script>
-function showhide(d) {
-  var x = document.getElementById(d);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+
