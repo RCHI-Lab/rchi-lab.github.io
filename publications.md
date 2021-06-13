@@ -56,16 +56,6 @@ function myFunction(myMessage) {
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
-            <div id="bib{{pub.id}}" style="display:none">
-                <blockquote>
-                    <pre>{{pub.bibtex}}</pre>
-                </blockquote>
-            </div>
-            <div id="abs{{pub.id}}" style="display:none">
-                <blockquote>
-                    {{pub.abstract}}
-                </blockquote>
-            </div>
             <div>
                 <em>{{pub.venue}}</em>, {{pub.year}}
                 <div style="font-size:small">
@@ -102,6 +92,16 @@ function myFunction(myMessage) {
                 </div>
                 <div id="div{{pub.id}}" class="pubInfo"></div>
                 <!--<div id="div2" class="pubInfo"></div>-->
+            </div>
+            <div id="bib{{pub.id}}" style="display:none">
+                <blockquote>
+                    <pre>{{pub.bibtex}}</pre>
+                </blockquote>
+            </div>
+            <div id="abs{{pub.id}}" style="display:none">
+                <blockquote>
+                    {{pub.abstract}}
+                </blockquote>
             </div>
             <br>
         </td>
