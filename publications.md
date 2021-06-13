@@ -72,16 +72,12 @@ function myFunction(myMessage) {
                         <a href="{{pub.pdf}}">[PDF]</a>
                     {% endif %}
                 </em>
-            </div>
-            <div id="bib{{pub.id}}" style="display:none font-size:small">
-                <blockquote>
+                <div id="bib{{pub.id}}" style="display:none">
                     <pre>{{pub.bibtex}}</pre>
-                </blockquote>
-            </div>
-            <div id="abs{{pub.id}}" style="display:none font-size:small">
-                <blockquote>
+                </div>
+                <div id="abs{{pub.id}}" style="display:none">
                     {{pub.abstract}}
-                </blockquote>
+                </div>
             </div>
             <br>
         </td>
