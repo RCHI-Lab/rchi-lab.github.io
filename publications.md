@@ -9,7 +9,7 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
 
 # Publications
 
-<script>
+<!-- <script>
 function showhide(d) {
   var x = document.getElementById(d);
   if (x.style.display === "none") {
@@ -18,13 +18,23 @@ function showhide(d) {
     x.style.display = "none";
   }
 }
+</script> -->
+
+<script type="text/javascript">
+  function copyDiv(d1, d2){
+    var firstDivContent = document.getElementById(d1);
+    var secondDivContent = document.getElementById(d2);
+    secondDivContent.innerHTML = firstDivContent.innerHTML;
+  }
 </script>
 
-<div id="biberickson2020assistive" style="display:none">
+<!-- <div id="biberickson2020assistive" style="display:none">
     <blockquote>
         <pre>Test</pre>
     </blockquote>
-</div>
+</div> -->
+
+<!-- <div id="diverickson2020assistive" class="pubInfo"></div> -->
 
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
@@ -61,7 +71,8 @@ function showhide(d) {
                         {% endif %}
                         {% if pub.bibtex %}
                             <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
-                            <a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>
+                            <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
+                            <a href="javascript:copyDiv(bib{{pub.id}},div{{pub.id}})">[Bibtex]</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <a href="javascript:copy(div{{pub.id}},abs{{pub.id}})">[Abstract]</a>
