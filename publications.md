@@ -20,21 +20,11 @@ function showhide(d) {
 }
 </script>
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = document.getElementById(this.id+"data");
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+<div id="biberickson2020assistive" style="display:none">
+    <blockquote>
+        <pre>Test</pre>
+    </blockquote>
+</div>
 
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
@@ -86,19 +76,6 @@ for (i = 0; i < coll.length; i++) {
                     </em>
                 </div>
                 <div id="div{{pub.id}}" class="pubInfo"></div>
-<div class="wrap-collabsible">
-  <input id="collapsible" class="toggle" type="checkbox">
-  <label for="collapsible" class="lbl-toggle">More Info</label>
-  <div class="collapsible-content">
-    <div class="content-inner">
-      <p>
-        QUnit is by calling one of the object that are embedded in JavaScript, and faster JavaScript program could also used with
-        its elegant, well documented, and functional programming using JS, HTML pages Modernizr is a popular browsers without
-        plug-ins. Test-Driven Development.
-      </p>
-    </div>
-  </div>
-</div>
             </div>
             <br>
         </td>
