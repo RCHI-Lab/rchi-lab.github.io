@@ -35,6 +35,7 @@ function showhide(d) {
 </div> -->
 
 <!-- <div id="diverickson2020assistive" class="pubInfo"></div> -->
+<div id="div2" class="pubInfo"></div>
 
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
@@ -90,7 +91,7 @@ function showhide(d) {
                     </em>
                 </div>
                 <!--<div id="div{{pub.id}}" class="pubInfo"></div>-->
-                <div id="div2" class="pubInfo"></div>
+                <!--<div id="div2" class="pubInfo"></div>-->
             </div>
             <br>
         </td>
