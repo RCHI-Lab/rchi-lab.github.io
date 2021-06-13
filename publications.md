@@ -37,6 +37,12 @@ function showhide(d) {
 <!-- <div id="diverickson2020assistive" class="pubInfo"></div> -->
 <div id="div2" class="pubInfo"></div>
 
+<script type="text/javascript">
+function myFunction(myMessage) {
+    alert(myMessage);
+}
+</script>
+
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     <tr>
@@ -73,9 +79,10 @@ function showhide(d) {
                         {% if pub.bibtex %}
                             <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
                             <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
-                            <a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>
+                            <!--<a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>-->
                             <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
                             <!--<a href="javascript:alert('You clicked!')">My link</a>-->
+                            <a href="javascript:myFunction('You clicked!')">My link</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>
