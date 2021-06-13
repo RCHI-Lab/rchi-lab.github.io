@@ -73,7 +73,7 @@ function myFunction(myMessage) {
                     {% endif %}
                 </em>
                 <div id="bib{{pub.id}}" style="display:none">
-                    <pre>{{pub.bibtex}}</pre>
+                    {{pub.bibtex}}
                 </div>
                 <div id="abs{{pub.id}}" style="display:none">
                     {{pub.abstract}}
