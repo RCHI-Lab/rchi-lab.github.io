@@ -28,11 +28,11 @@ function showhide(d) {
   }
 </script> -->
 
-<!-- <div id="biberickson2020assistive" style="display:none">
+<div id="bib2" style="display:none">
     <blockquote>
         <pre>Test</pre>
     </blockquote>
-</div> -->
+</div>
 
 <!-- <div id="diverickson2020assistive" class="pubInfo"></div> -->
 <div id="div2" class="pubInfo"></div>
@@ -50,8 +50,7 @@ function showhide(d) {
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
-            <!--<div id="bib{{pub.id}}" style="display:none">-->
-            <div id="bib2" style="display:none">
+            <div id="bib{{pub.id}}" style="display:none">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>
