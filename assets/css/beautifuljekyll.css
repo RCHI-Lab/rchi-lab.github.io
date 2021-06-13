@@ -1105,3 +1105,12 @@ table tr.year {
 table tr td, table tr {
   border: transparent;
 }
+
+div.pubInfo {
+	margin-left: 15px;
+	border-left-style: solid;
+	border-width:2px;
+  border-color: #aaaaaa;
+  max-width: 1000px;
+}
+
