@@ -83,7 +83,7 @@ function myFunction(myMessage) {
                             <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
                             <!--<a href="javascript:alert('You clicked!')">My link</a>-->
                             <!--<a href="javascript:myFunction('You clicked!')">My link</a>-->
-                            <a href="javascript:showhide(bib2)">Bib2</a>
+                            <a href="javascript:showhide('bib2')">Bib2</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>
