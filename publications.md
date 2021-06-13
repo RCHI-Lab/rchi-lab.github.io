@@ -20,12 +20,6 @@ function showhide(d) {
 }
 </script>
 
-<script type="text/javascript">
-function myFunction(myMessage) {
-    alert(myMessage);
-}
-</script>
-
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     <tr>
@@ -73,9 +67,7 @@ function myFunction(myMessage) {
                     {% endif %}
                 </em>
                 <div id="bib{{pub.id}}" style="display:none">
-                    ```
-                        {{pub.bibtex}}
-                    ```
+                    {{pub.bibtex}}
                 </div>
                 <div id="abs{{pub.id}}" style="display:none">
                     {{pub.abstract}}
