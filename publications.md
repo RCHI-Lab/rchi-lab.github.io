@@ -77,10 +77,11 @@ function myFunction(myMessage) {
                             <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
                         {% endif %}
                         {% if pub.abstract %}
-                            <a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>
+                            <!--<a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>-->
                             <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
                             <!--<a href="javascript:copy(div2,bib2)">[Bibtex]</a>-->
                             <!--<a href="javascript:alert('{{pub.id}}')">My link</a>-->
+                            <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
                         {% endif %}
                         {% if pub.video %}
                             <a href="{{pub.video}}">[Video]</a>
@@ -94,10 +95,9 @@ function myFunction(myMessage) {
                 <!--<div id="div2" class="pubInfo"></div>-->
             </div>
             <div id="bib{{pub.id}}" style="display:none">
-                {% ``` pub.bibtex ``` %}
-                <!--<blockquote>
+                <blockquote>
                     <pre>{{pub.bibtex}}</pre>
-                </blockquote>-->
+                </blockquote>
             </div>
             <div id="abs{{pub.id}}" style="display:none">
                 <blockquote>
