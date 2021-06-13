@@ -134,6 +134,12 @@ var BeautifulJekyllJS = {
         $("body").removeClass("overflow-hidden");
       }
     });
+  },
+  
+  copyDiv : function(d1, d2){
+    var firstDivContent = document.getElementById(d1);
+    var secondDivContent = document.getElementById(d2);
+    secondDivContent.innerHTML = firstDivContent.innerHTML;
   }
 };
 
