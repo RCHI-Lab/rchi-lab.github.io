@@ -33,6 +33,16 @@ function showhide(d) {
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
+            <div id="bib{{pub.id}}" style="display:none">
+                <blockquote>
+                    <pre>{{pub.bibtex}}</pre>
+                </blockquote>
+            </div>
+            <div id="abs{{pub.id}}" style="display:none">
+                <blockquote>
+                    {{pub.abstract}}
+                </blockquote>
+            </div>
             <div>
                 <em>{{pub.venue}}</em>, {{pub.year}}
                 <div style="font-size:small">
@@ -44,12 +54,12 @@ function showhide(d) {
                             <a href="{{pub.code}}">[Code]</a>
                         {% endif %}
                         {% if pub.bibtex %}
-                            <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
-                            <a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>
+                            <a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>
+                            <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
                         {% endif %}
                         {% if pub.abstract %}
-                            <!--<a href="javascript:copy(div{{pub.id}},abs{{pub.id}})">[Abstract]</a>-->
-                            <a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>
+                            <a href="javascript:copy(div{{pub.id}},abs{{pub.id}})">[Abstract]</a>
+                            <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
                         {% endif %}
                         {% if pub.video %}
                             <a href="{{pub.video}}">[Video]</a>
@@ -58,22 +68,8 @@ function showhide(d) {
                             <a href="{{pub.pdf}}">[PDF]</a>
                         {% endif %}
                     </em>
-                    <div id="bib{{pub.id}}">
-                        <pre>{{pub.bibtex}}</pre>
-                    </div>
                 </div>
-                <div id="div{{pub.id}}"></div>
-            </div>
-            <!--<div id="bib{{pub.id}}" style="display:none">-->
-            <div id="bib{{pub.id}}">
-                <blockquote>
-                    <pre>{{pub.bibtex}}</pre>
-                </blockquote>
-            </div>
-            <div id="abs{{pub.id}}" style="display:none">
-                <blockquote>
-                    {{pub.abstract}}
-                </blockquote>
+                <div id="div{{pub.id}}" class="pubInfo"></div>
             </div>
             <br>
         </td>
