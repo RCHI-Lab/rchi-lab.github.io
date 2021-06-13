@@ -34,33 +34,35 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
                     {{pub.abstract}}
                 </blockquote>
             </div>
-            <em>{{pub.venue}}</em>, {{pub.year}}
-            <div style="font-size:small">
-                <em>
-                    {% if pub.projectpage %}
-                        <a href="{{pub.projectpage}}">[Project Page]</a>
-                    {% endif %}
-                    {% if pub.code %}
-                        <a href="{{pub.code}}">[Code]</a>
-                    {% endif %}
-                    {% if pub.bibtex %}
-                        <!--<a href="javascript:copy(div{{pub.id}}, bib{{pub.id}})">[Bibtex]</a>-->
-                        <a href="javascript:copy(div2, bib)">[Bibtex]</a>
-                    {% endif %}
-                    {% if pub.abstract %}
-                        <!--<a href="javascript:copy(div{{pub.id}}, abs{{pub.id}})">[Abstract]</a>-->
-                        <a href="javascript:copy(div2, abs)">[Abstract]</a>
-                    {% endif %}
-                    {% if pub.video %}
-                        <a href="{{pub.video}}">[Video]</a>
-                    {% endif %}
-                    {% if pub.pdf %}
-                        <a href="{{pub.pdf}}">[PDF]</a>
-                    {% endif %}
-                </em>
+            <div>
+                <em>{{pub.venue}}</em>, {{pub.year}}
+                <div style="font-size:small">
+                    <em>
+                        {% if pub.projectpage %}
+                            <a href="{{pub.projectpage}}">[Project Page]</a>
+                        {% endif %}
+                        {% if pub.code %}
+                            <a href="{{pub.code}}">[Code]</a>
+                        {% endif %}
+                        {% if pub.bibtex %}
+                            <!--<a href="javascript:copy(div{{pub.id}}, bib{{pub.id}})">[Bibtex]</a>-->
+                            <a href="javascript:copy(div2, bib)">[Bibtex]</a>
+                        {% endif %}
+                        {% if pub.abstract %}
+                            <!--<a href="javascript:copy(div{{pub.id}}, abs{{pub.id}})">[Abstract]</a>-->
+                            <a href="javascript:copy(div2, abs)">[Abstract]</a>
+                        {% endif %}
+                        {% if pub.video %}
+                            <a href="{{pub.video}}">[Video]</a>
+                        {% endif %}
+                        {% if pub.pdf %}
+                            <a href="{{pub.pdf}}">[PDF]</a>
+                        {% endif %}
+                    </em>
+                </div>
+                <!--<div id="div{{pub.id}}"></div>-->
+                <div id="div2"></div>
             </div>
-            <!--<div id="div{{pub.id}}"></div>-->
-            <div id="div2"></div>
             <br>
         </td>
     </tr>
