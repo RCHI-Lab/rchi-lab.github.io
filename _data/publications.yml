@@ -4,6 +4,7 @@
   type: conference
   venue: IEEE International Conference on Robotics and Automation (ICRA)
   image: images/assistive_gym.jpg
+  id: erickson2020assistive
   projectpage:
   code: https://github.com/Healthcare-Robotics/assistive-gym
   bibtex: |
