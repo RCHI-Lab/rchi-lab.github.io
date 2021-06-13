@@ -9,7 +9,7 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
 
 # Publications
 
-<!-- <script>
+<script>
 function showhide(d) {
   var x = document.getElementById(d);
   if (x.style.display === "none") {
@@ -18,7 +18,7 @@ function showhide(d) {
     x.style.display = "none";
   }
 }
-</script> -->
+</script>
 
 <!-- <script type="text/javascript">
   function copyDiv(d1, d2){
@@ -82,7 +82,8 @@ function myFunction(myMessage) {
                             <!--<a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>-->
                             <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
                             <!--<a href="javascript:alert('You clicked!')">My link</a>-->
-                            <a href="javascript:myFunction('You clicked!')">My link</a>
+                            <!--<a href="javascript:myFunction('You clicked!')">My link</a>-->
+                            <a href="javascript:showhide(bib2)">Bib2</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>
