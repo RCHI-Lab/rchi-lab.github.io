@@ -75,13 +75,13 @@ function showhide(d) {
                             <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
                             <!--<a href="javascript:copyDiv(bib{{pub.id}},div{{pub.id}})">[Bibtex]</a>-->
                             <!--<a href="javascript:copyDiv(bib2,div2)">[Bibtex]</a>-->
-                            <p onclick="copyDiv(bib2,div2)">[Bibtex]</p>
+                            <a href="javascript:alert('You clicked!')">My link</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <!--<a href="javascript:copy(div{{pub.id}},abs{{pub.id}})">[Abstract]</a>-->
                             <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
                             <!--<a href="javascript:copy(div2,bib2)">[Bibtex]</a>-->
-                            <p onclick="copy(div2,bib2)">[Bibtex]</p>
+                            <a href="javascript:alert('{{pub.id}}')">My link</a>
                         {% endif %}
                         {% if pub.video %}
                             <a href="{{pub.video}}">[Video]</a>
