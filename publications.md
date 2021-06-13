@@ -20,13 +20,13 @@ function showhide(d) {
 }
 </script> -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   function copyDiv(d1, d2){
     var firstDivContent = document.getElementById(d1);
     var secondDivContent = document.getElementById(d2);
     secondDivContent.innerHTML = firstDivContent.innerHTML;
   }
-</script>
+</script> -->
 
 <!-- <div id="biberickson2020assistive" style="display:none">
     <blockquote>
