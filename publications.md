@@ -54,8 +54,8 @@ function showhide(d) {
                             <a href="{{pub.code}}">[Code]</a>
                         {% endif %}
                         {% if pub.bibtex %}
-                            <a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>
-                            <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
+                            <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
+                            <a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>
                         {% endif %}
                         {% if pub.abstract %}
                             <a href="javascript:copy(div{{pub.id}},abs{{pub.id}})">[Abstract]</a>
