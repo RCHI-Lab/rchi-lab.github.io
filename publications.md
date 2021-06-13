@@ -20,23 +20,6 @@ function showhide(d) {
 }
 </script>
 
-<!-- <script type="text/javascript">
-  function copyDiv(d1, d2){
-    var firstDivContent = document.getElementById(d1);
-    var secondDivContent = document.getElementById(d2);
-    secondDivContent.innerHTML = firstDivContent.innerHTML;
-  }
-</script> -->
-
-<div id="bib2" style="display:none">
-    <blockquote>
-        <pre>Test</pre>
-    </blockquote>
-</div>
-
-<!-- <div id="diverickson2020assistive" class="pubInfo"></div> -->
-<div id="div2" class="pubInfo"></div>
-
 <script type="text/javascript">
 function myFunction(myMessage) {
     alert(myMessage);
@@ -56,50 +39,46 @@ function myFunction(myMessage) {
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
-            <div>
-                <em>{{pub.venue}}</em>, {{pub.year}}
-                <div style="font-size:small">
-                    <em>
-                        {% if pub.projectpage %}
-                            <a href="{{pub.projectpage}}">[Project Page]</a>
-                        {% endif %}
-                        {% if pub.code %}
-                            <a href="{{pub.code}}">[Code]</a>
-                        {% endif %}
-                        {% if pub.bibtex %}
-                            <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
-                            <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
-                            <!--<a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>-->
-                            <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
-                            <!--<a href="javascript:alert('You clicked!')">My link</a>-->
-                            <!--<a href="javascript:myFunction('You clicked!')">My link</a>-->
-                            <!-- <a href="javascript:showhide('bib2')">Bib2</a> -->
-                            <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
-                        {% endif %}
-                        {% if pub.abstract %}
-                            <!--<a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>-->
-                            <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
-                            <!--<a href="javascript:copy(div2,bib2)">[Bibtex]</a>-->
-                            <!--<a href="javascript:alert('{{pub.id}}')">My link</a>-->
-                            <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
-                        {% endif %}
-                        {% if pub.video %}
-                            <a href="{{pub.video}}">[Video]</a>
-                        {% endif %}
-                        {% if pub.pdf %}
-                            <a href="{{pub.pdf}}">[PDF]</a>
-                        {% endif %}
-                    </em>
-                </div>
-                <div id="div{{pub.id}}" class="pubInfo"></div>
-                <!--<div id="div2" class="pubInfo"></div>-->
+            <em>{{pub.venue}}</em>, {{pub.year}}
+            <div style="font-size:small">
+                <em>
+                    {% if pub.projectpage %}
+                        <a href="{{pub.projectpage}}">[Project Page]</a>
+                    {% endif %}
+                    {% if pub.code %}
+                        <a href="{{pub.code}}">[Code]</a>
+                    {% endif %}
+                    {% if pub.bibtex %}
+                        <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
+                        <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
+                        <!--<a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>-->
+                        <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
+                        <!--<a href="javascript:alert('You clicked!')">My link</a>-->
+                        <!--<a href="javascript:myFunction('You clicked!')">My link</a>-->
+                        <!-- <a href="javascript:showhide('bib2')">Bib2</a> -->
+                        <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
+                    {% endif %}
+                    {% if pub.abstract %}
+                        <!--<a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>-->
+                        <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
+                        <!--<a href="javascript:copy(div2,bib2)">[Bibtex]</a>-->
+                        <!--<a href="javascript:alert('{{pub.id}}')">My link</a>-->
+                        <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
+                    {% endif %}
+                    {% if pub.video %}
+                        <a href="{{pub.video}}">[Video]</a>
+                    {% endif %}
+                    {% if pub.pdf %}
+                        <a href="{{pub.pdf}}">[PDF]</a>
+                    {% endif %}
+                </em>
             </div>
-            <div id="bib{{pub.id}}" style="display:none">
+            <div id="bib{{pub.id}}" style="display:none font-size:small">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>
             </div>
-            <div id="abs{{pub.id}}" style="display:none">
+            <div id="abs{{pub.id}}" style="display:none font-size:small">
                 <blockquote>
                     {{pub.abstract}}
                 </blockquote>
