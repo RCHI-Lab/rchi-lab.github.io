@@ -8,7 +8,7 @@
   projectpage:
   code: https://github.com/Healthcare-Robotics/assistive-gym
   bibtex: |
-      @inproceedings{erickson2020assistive,
+      @inproceedings{erickson2020assistive,\n
           title={Assistive gym: A physics simulation framework for assistive robotics},
           author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
           booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
