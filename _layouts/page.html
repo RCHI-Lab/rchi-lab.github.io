@@ -5,10 +5,10 @@ layout: base
 {% include header.html type="page" %}
 
 <!--<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">-->
-<div class="container-md" role="main">
+<div class="container-fluid" role="main">
   <div class="row">
     <!--<div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">-->
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-xl-10 offset-xl-1 col-lg-12">
       {% if page.before-content %}
         <div class="before-content">
           {% for file in page.before-content %}
