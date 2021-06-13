@@ -22,12 +22,14 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
-            <div id="bib{{pub.id}}" style="display:none">
+            <!--<div id="bib{{pub.id}}" style="display:none">-->
+            <div id="bib" style="display:none">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>
             </div>
-            <div id="abs{{pub.id}}" style="display:none">
+            <!--<div id="abs{{pub.id}}" style="display:none">-->
+            <div id="abs" style="display:none">
                 <blockquote>
                     {{pub.abstract}}
                 </blockquote>
@@ -42,17 +44,23 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
                         <a href="{{pub.code}}">[Code]</a>
                     {% endif %}
                     {% if pub.bibtex %}
-                        <a href="javascript:copy(div{{pub.id}}, bib{{pub.id}})">[Bibtex]</a>
+                        <!--<a href="javascript:copy(div{{pub.id}}, bib{{pub.id}})">[Bibtex]</a>-->
+                        <a href="javascript:copy(div2, bib)">[Bibtex]</a>
                     {% endif %}
                     {% if pub.abstract %}
-                        <a href="javascript:copy(div{{pub.id}}, abs{{pub.id}})">[Abstract]</a>
+                        <!--<a href="javascript:copy(div{{pub.id}}, abs{{pub.id}})">[Abstract]</a>-->
+                        <a href="javascript:copy(div2, abs)">[Abstract]</a>
+                    {% endif %}
+                    {% if pub.video %}
+                        <a href="{{pub.video}}">[Video]</a>
                     {% endif %}
                     {% if pub.pdf %}
                         <a href="{{pub.pdf}}">[PDF]</a>
                     {% endif %}
                 </em>
             </div>
-            <div id="div{{pub.id}}"></div>
+            <!--<div id="div{{pub.id}}"></div>-->
+            <div id="div2"></div>
             <br>
         </td>
     </tr>
