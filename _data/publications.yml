@@ -1,9 +1,9 @@
-- title: Assistive Gym: A Physics Simulation Framework for Assistive Robotics
+- title: "Assistive Gym: A Physics Simulation Framework for Assistive Robotics"
   authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
   year: 2020
   type: conference
   venue: IEEE International Conference on Robotics and Automation (ICRA)
-  image: ../images/assistive_gym.jpg
+  image: images/assistive_gym.jpg
   id: erickson2020assistive
   projectpage:
   code: https://github.com/Healthcare-Robotics/assistive-gym
