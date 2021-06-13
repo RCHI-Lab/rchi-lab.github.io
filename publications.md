@@ -5,9 +5,9 @@ title: Publications
 
 Our lab begins in Fall 2021! Publications and preprints from our group will show up here.
 
-# Preprints
+<!--# Preprints-->
 
-# Publications
+<!--# Publications
 
 <script>
 function showhide(d) {
@@ -25,11 +25,6 @@ function showhide(d) {
     <tr>
         <td width="250" height="100">
             <img src="{{pub.image}}" img width="250">
-            <!--{% if pub.note %}
-                <img src="{{ pub.image }}" img width="250">
-            {% else %}
-                <img src="" img width="250">
-            {% endif %}-->
         </td>
         <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
             {{pub.authors}}<br>
@@ -43,20 +38,9 @@ function showhide(d) {
                         <a href="{{pub.code}}">[Code]</a>
                     {% endif %}
                     {% if pub.bibtex %}
-                        <!--<a href="javascript:copy(div{{pub.id}},bib{{pub.id}})">[Bibtex]</a>-->
-                        <!--<a href="javascript:showhide(bib{{pub.id}})">[Bibtex]</a>-->
-                        <!--<a href="javascript:copyDiv('bib{{pub.id}}','div{{pub.id}}')">[Bibtex]</a>-->
-                        <!--<a href="javascript:copyDiv('bib2','div2')">[Bibtex]</a>-->
-                        <!--<a href="javascript:alert('You clicked!')">My link</a>-->
-                        <!--<a href="javascript:myFunction('You clicked!')">My link</a>-->
-                        <!-- <a href="javascript:showhide('bib2')">Bib2</a> -->
                         <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
                     {% endif %}
                     {% if pub.abstract %}
-                        <!--<a href="javascript:copy('div{{pub.id}}','abs{{pub.id}}')">[Abstract]</a>-->
-                        <!--<a href="javascript:showhide(abs{{pub.id}})">[Abstract]</a>-->
-                        <!--<a href="javascript:copy(div2,bib2)">[Bibtex]</a>-->
-                        <!--<a href="javascript:alert('{{pub.id}}')">My link</a>-->
                         <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
                     {% endif %}
                     {% if pub.video %}
@@ -70,7 +54,6 @@ function showhide(d) {
                     <br>
                     <blockquote>
                         <div style="white-space: pre-wrap;">{{pub.bibtex}}</div>
-                        <!--{{pub.bibtex}}-->
                     </blockquote>
                 </div>
                 <div id="abs{{pub.id}}" style="display:none">
@@ -83,5 +66,5 @@ function showhide(d) {
     </tr>
 {% endfor %}
 </table>
-
+-->
 
