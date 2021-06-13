@@ -69,7 +69,8 @@ function showhide(d) {
                 <div id="bib{{pub.id}}" style="display:none">
                     <br>
                     <blockquote>
-                        {{pub.bibtex}}
+                        <div style="white-space: pre-wrap;">{{pub.bibtex}}</div>
+                        <!--{{pub.bibtex}}-->
                     </blockquote>
                 </div>
                 <div id="abs{{pub.id}}" style="display:none">
