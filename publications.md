@@ -73,7 +73,9 @@ function myFunction(myMessage) {
                     {% endif %}
                 </em>
                 <div id="bib{{pub.id}}" style="display:none">
+                    {% highlight %}
                     {{pub.bibtex}}
+                    {% endhighlight %}
                 </div>
                 <div id="abs{{pub.id}}" style="display:none">
                     {{pub.abstract}}
