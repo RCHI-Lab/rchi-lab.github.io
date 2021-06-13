@@ -20,6 +20,22 @@ function showhide(d) {
 }
 </script>
 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = document.getElementById(this.id+"data");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     <tr>
@@ -70,6 +86,10 @@ function showhide(d) {
                     </em>
                 </div>
                 <div id="div{{pub.id}}" class="pubInfo"></div>
+<button class="collapsible" id="yaml{{pub.id}}">Click here for the code.</button>
+<div class="content" id="yaml{{pub.id}}data" markdown="1">
+  CONTENT
+</div>
             </div>
             <br>
         </td>
