@@ -94,9 +94,7 @@ function myFunction(myMessage) {
                 <!--<div id="div2" class="pubInfo"></div>-->
             </div>
             <div id="bib{{pub.id}}" style="display:none">
-                {% ```
-                pub.bibtex
-                ``` %}
+                {% ``` pub.bibtex ``` %}
                 <!--<blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>-->
