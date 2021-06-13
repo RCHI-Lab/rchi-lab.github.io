@@ -47,15 +47,15 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
                             <a href="{{pub.pdf}}">[PDF]</a>
                         {% endif %}
                     </em>
-                </div>
-                <div id="div{{pub.id}}"></div>
-            </div>
-            <!--<div id="bib{{pub.id}}" style="display:none">-->
             <div id="bib{{pub.id}}">
                 <blockquote>
                     <pre>{{pub.bibtex}}</pre>
                 </blockquote>
             </div>
+                </div>
+                <div id="div{{pub.id}}"></div>
+            </div>
+            <!--<div id="bib{{pub.id}}" style="display:none">-->
             <div id="abs{{pub.id}}" style="display:none">
                 <blockquote>
                     {{pub.abstract}}
