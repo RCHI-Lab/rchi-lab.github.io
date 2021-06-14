@@ -5,36 +5,43 @@
         - name: Zackory Erickson
           image: ../images/zackory_square.jpg
           website: http://zackory.com
+          alt: I am Zackory. I have short hair with black glasses. I am wearing a black polo with a gray sweater.
 - name: PhD Students
   list:
     - full: true
       list:
-        - name: 
+        - name: Join
           image: ../images/stretch.jpg
-          website:
-        - name: 
+          website: mailto:zackory@cmu.edu
+          alt: A Stretch robot from Hello Robot.
+        - name: Join
           image: ../images/stretch.jpg
-          website:
+          website: mailto:zackory@cmu.edu
+          alt: A Stretch robot from Hello Robot.
 - name: Master's Students
   list:
     - full: true
       list:
-        - name: 
+        - name: Join
           image: ../images/kinova_gen3.png
-          website:
-        - name: 
+          website: mailto:zackory@cmu.edu
+          alt: A Kinova Gen3 robot from Kinova.
+        - name: Join
           image: ../images/kinova_gen3.png
-          website:
+          website: mailto:zackory@cmu.edu
+          alt: A Kinova Gen3 robot from Kinova.
 - name: Undergraduate Students
   list:
     - full: true
       list:
-        - name: 
+        - name: Join
           image: ../images/kinova_gen3.png
-          website:
-        - name: 
+          website: mailto:zackory@cmu.edu
+          alt: A Kinova Gen3 robot from Kinova.
+        - name: Join
           image: ../images/kinova_gen3.png
-          website:
+          website: mailto:zackory@cmu.edu
+          alt: A Kinova Gen3 robot from Kinova.
 #- name: Alumni
 #  list:
 #    - name: PhD students
