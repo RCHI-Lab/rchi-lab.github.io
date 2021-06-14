@@ -15,7 +15,7 @@ title: Members
                 {% if group.full %}
                   <div class="row member-row">
                       {% for member in group.list %}
-                          <div class="col-xl-3 col-lg-3 col-md-4 text-center col-sm-6 col-xs-6 member-col">
+                          <div class="col-xl-2 col-lg-2 col-md-3 text-center col-sm-6 col-xs-6 member-col">
                               <a target="_blank" href="{{member.website}}">
                                   <img class="circle" src="{{member.image}}">
                               </a>
