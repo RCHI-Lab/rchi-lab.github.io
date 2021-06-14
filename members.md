@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Members
-full-width: true
+slim: true
 ---
 
 
