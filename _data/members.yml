@@ -20,20 +20,20 @@
     - full: true
       list:
         - name: 
-          image: ../images/kinova_gen3.jpg
+          image: ../images/kinova_gen3.png
           website:
         - name: 
-          image: ../images/kinova_gen3.jpg
+          image: ../images/kinova_gen3.png
           website:
 - name: Undergraduate Students
   list:
     - full: true
       list:
         - name: 
-          image: ../images/kinova_gen3.jpg
+          image: ../images/kinova_gen3.png
           website:
         - name: 
-          image: ../images/kinova_gen3.jpg
+          image: ../images/kinova_gen3.png
           website:
 #- name: Alumni
 #  list:
