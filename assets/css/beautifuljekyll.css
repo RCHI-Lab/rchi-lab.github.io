@@ -1106,7 +1106,7 @@ table tr td, table tr {
   border: transparent;
 }
 
-circle {
+.img-circle {
   border-radius: 50%;
 }
 
