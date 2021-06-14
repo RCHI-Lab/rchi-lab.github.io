@@ -15,7 +15,7 @@
         - name: 
           image: ../images/stretch.jpg
           website:
-- name: Master''s Students
+- name: Master's Students
   list:
     - full: true
       list:
@@ -42,7 +42,7 @@
 #      list:
 #        - name:
 #          website:
-#    - name: Master''s students
+#    - name: Master's students
 #      full: False
 #      list:
 #        - name:
