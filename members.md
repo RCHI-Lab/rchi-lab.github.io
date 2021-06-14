@@ -17,7 +17,7 @@ title: Members
                       {% for member in group.list %}
                           <div class="col-xl-2 col-lg-2 col-md-3 text-center col-sm-6 col-xs-6 member-col">
                               <a target="_blank" href="{{member.website}}">
-                                  <img class="circle" src="{{member.image}}">
+                                  <img class="img-responsive img-circle" src="{{member.image}}" alt="{{member.alt}}">
                               </a>
                               <a target="_blank" href="{{member.website}}">
                                   {{member.name}}
