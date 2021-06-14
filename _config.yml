@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: Zackory Lab
+title: Robotic Caregiving Lab
 
 # Your name to show in the footer
-author: Zackory Lab
+author: RoboCare Lab
 
 # --- List of links in the navigation bar --- #
 
@@ -94,7 +94,7 @@ feed_show_tags: false
 post_search: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "robotic,caregivers,healthcare,research,CMU"
+keywords: "robotic,caregiving,healthcare,research,CMU,RI"
 
 # --- Colours / background image --- #
 
