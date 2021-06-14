@@ -693,13 +693,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   bottom: 0;
   display: none;
 }
-/*@media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .intro-header {
     margin-top: 8.125rem;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
-  /*}
+  }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
     padding: 9.375rem 0;
@@ -713,7 +713,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
   }
-}*/
+}
 
 .header-section.has-img .no-img {
   margin-top: 0;
