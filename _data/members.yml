@@ -1,0 +1,58 @@
+- name: Faculty
+  list:
+    - full: true
+      list:
+        - name: Zackory Erickson
+          image: ../images/zackory_square.jpg
+          website: http://zackory.com
+- name: PhD Students
+  list:
+    - full: true
+      list:
+        - name: 
+          image: ../images/stretch.jpg
+          website:
+        - name: 
+          image: ../images/stretch.jpg
+          website:
+- name: Master''s Students
+  list:
+    - full: true
+      list:
+        - name: 
+          image: ../images/kinova_gen3.jpg
+          website:
+        - name: 
+          image: ../images/kinova_gen3.jpg
+          website:
+- name: Undergraduate Students
+  list:
+    - full: true
+      list:
+        - name: 
+          image: ../images/kinova_gen3.jpg
+          website:
+        - name: 
+          image: ../images/kinova_gen3.jpg
+          website:
+#- name: Alumni
+#  list:
+#    - name: PhD students
+#      full: False
+#      list:
+#        - name:
+#          website:
+#    - name: Master''s students
+#      full: False
+#      list:
+#        - name:
+#          website:
+#    - name: Undergraduate students
+#      full: False
+#      list:
+#        - name:
+#          website:
+#    - name: Visiting students
+#      full: False
+#      list:
+#        - name:
