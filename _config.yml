@@ -6,15 +6,15 @@
 # --- Required options --- #
 
 # Name of website
-title: Robotic Caregiving Lab
+title: Robotic Caregiving and Human Interaction Lab
 
 # Your name to show in the footer
-author: RoboCare Lab
+author: RCHI Lab
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "https://zackory-lab.github.io"
+  Home: "https://rchi-lab.github.io"
   Members: "members"
   Publications: "publications"
   # Resources:
