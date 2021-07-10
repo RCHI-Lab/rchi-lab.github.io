@@ -7,7 +7,7 @@ Our lab begins in Fall 2021! Publications and preprints from our group will show
 
 <!--# Preprints-->
 
-<!--# Publications
+<!--# Publications-->
 
 <script>
 function showhide(d) {
@@ -66,5 +66,5 @@ function showhide(d) {
     </tr>
 {% endfor %}
 </table>
--->
+<!-- -->
 
