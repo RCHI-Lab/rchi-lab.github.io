@@ -106,7 +106,7 @@ function showhide(d) {
 
 {% if has_pubs == true %}
 {% if has_preprints == true %}
-    # Peer-Reviewed Publications
+# Peer-Reviewed Publications
 {% endif %}
 
 <table cellpadding="10" width="100%">
