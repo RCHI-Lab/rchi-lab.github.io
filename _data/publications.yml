@@ -1,3 +1,24 @@
+- title: "Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction"
+  authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Eliot Xing, Greg Turk, C. Karen Liu, Charles C. Kemp
+  year: 2021
+  type: preprint
+  venue: arXiv preprint
+  image: ../images/assistive_gym.jpg
+  id: erickson2021characterizing
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{erickson2021characterizing,
+          title={Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction},
+          author={Erickson, Zackory and Clever, Henry M and Gangaram, Vamsee and Xing, Eliot and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          journal={arXiv preprint arXiv:2105.11582},
+          year={2021}
+      }
+  abstract: "Towards the goal of robots performing robust and intelligent physical interactions with people, it is crucial that robots are able to accurately sense the human body, follow trajectories around the body, and track human motion. This study introduces a capacitive servoing control scheme that allows a robot to sense and navigate around human limbs during close physical interactions. Capacitive servoing leverages temporal measurements from a multi-electrode capacitive sensor array mounted on a robot's end effector to estimate the relative position and orientation (pose) of a nearby human limb. Capacitive servoing then uses these human pose estimates from a data-driven pose estimator within a feedback control loop in order to maneuver the robot's end effector around the surface of a human limb. We provide a design overview of capacitive sensors for human-robot interaction and then investigate the performance and generalization of capacitive servoing through an experiment with 12 human participants. The results indicate that multidimensional capacitive servoing enables a robot's end effector to move proximally or distally along human limbs while adapting to human pose. Using a cross-validation experiment, results further show that capacitive servoing generalizes well across people with different body size."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2105.11582.pdf
+
 - title: "Assistive Gym: A Physics Simulation Framework for Assistive Robotics"
   authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
   year: 2020
@@ -17,6 +38,30 @@
           organization={IEEE}
       }
   abstract: "Autonomous robots have the potential to serve as versatile caregivers that improve quality of life for millions of people worldwide. Yet, conducting research in this area presents numerous challenges, including the risks of physical interaction between people and robots. Physics simulations have been used to optimize and train robots for physical assistance, but have typically focused on a single task. In this paper, we present Assistive Gym, an open source physics simulation framework for assistive robots that models multiple tasks. It includes six simulated environments in which a robotic manipulator can attempt to assist a person with activities of daily living (ADLs): itch scratching, drinking, feeding, body manipulation, dressing, and bathing. Assistive Gym models a person's physical capabilities and preferences for assistance, which are used to provide a reward function. We present baseline policies trained using reinforcement learning for four different commercial robots in the six environments. We demonstrate that modeling human motion results in better assistance and we compare the performance of different robots. Overall, we show that Assistive Gym is a promising tool for assistive robotics research."
+  awards: 
+  video: https://www.youtube.com/watch?v=EFKqNKO3P60
+  pdf: https://arxiv.org/pdf/1910.04700.pdf
+    
+- title: "Assistive Gym: A Physics Simulation Framework for Assistive Robotics"
+  authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
+  year: 2020
+  type: conference
+  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  image: ../images/assistive_gym.jpg
+  id: erickson2020assistive
+  projectpage: https://github.com/Healthcare-Robotics/assistive-gym
+  code: https://github.com/Healthcare-Robotics/assistive-gym
+  bibtex: |
+      @inproceedings{erickson2020assistive,
+          title={Assistive gym: A physics simulation framework for assistive robotics},
+          author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
+          booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+          pages={10169--10176},
+          year={2020},
+          organization={IEEE}
+      }
+  abstract: "Autonomous robots have the potential to serve as versatile caregivers that improve quality of life for millions of people worldwide. Yet, conducting research in this area presents numerous challenges, including the risks of physical interaction between people and robots. Physics simulations have been used to optimize and train robots for physical assistance, but have typically focused on a single task. In this paper, we present Assistive Gym, an open source physics simulation framework for assistive robots that models multiple tasks. It includes six simulated environments in which a robotic manipulator can attempt to assist a person with activities of daily living (ADLs): itch scratching, drinking, feeding, body manipulation, dressing, and bathing. Assistive Gym models a person's physical capabilities and preferences for assistance, which are used to provide a reward function. We present baseline policies trained using reinforcement learning for four different commercial robots in the six environments. We demonstrate that modeling human motion results in better assistance and we compare the performance of different robots. Overall, we show that Assistive Gym is a promising tool for assistive robotics research."
+  awards: 
   video: https://www.youtube.com/watch?v=EFKqNKO3P60
   pdf: https://arxiv.org/pdf/1910.04700.pdf
     
