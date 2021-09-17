@@ -3,8 +3,6 @@ layout: page
 title: Publications
 ---
 
-Our lab begins in Fall 2021! Publications and preprints from our group will show up here.
-
 <script>
 function showhide(d) {
   var x = document.getElementById(d);
