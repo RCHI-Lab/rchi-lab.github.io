@@ -6,7 +6,7 @@
   image: ../images/bodies_uncovered.jpg
   id: puthuveetil2021bodies
   projectpage: 
-  code: 
+  code: https://github.com/RCHI-Lab/bodies-uncovered
   bibtex: |
       @article{puthuveetil2021bodies,
           title={Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations},
