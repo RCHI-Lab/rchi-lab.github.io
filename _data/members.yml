@@ -32,10 +32,14 @@
       list:
         - name: Fukang Liu
           image: ../images/kinova_gen3.png
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: A Kinova Gen3 robot from Kinova.
         - name: Vaidehi Patil
           image: ../images/kinova_gen3.png
           website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: A Kinova Gen3 robot from Kinova.
 - name: Undergraduate Students
   list:
