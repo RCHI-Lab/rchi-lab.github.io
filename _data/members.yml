@@ -32,7 +32,6 @@
       list:
         - name: Fukang Liu
           image: ../images/kinova_gen3.png
-          website: mailto:zackory@cmu.edu
           alt: A Kinova Gen3 robot from Kinova.
         - name: Vaidehi Patil
           image: ../images/kinova_gen3.png
