@@ -20,9 +20,14 @@ slim: true
                               <a target="_blank" href="{{member.website}}">
                                   <img class="img-responsive img-circle" src="{{member.image}}" alt="{{member.alt}}">
                               </a>
-                              <a target="_blank" href="{{member.website}}">
+                              {% if member.website %}
+                                  <a target="_blank" href="{{member.website}}">{{member.name}}</a>
+                              {% else %}
                                   {{member.name}}
-                              </a>
+                              {% endif %}
+                              {% if member.coadvisor %}
+                                  <a target="_blank" href="{{member.coadvisorweb}}">{{member.coadvisor}}</a>
+                              {% endif %}
                           </div>
                       {% endfor %}
                   </div>
