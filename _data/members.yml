@@ -13,10 +13,14 @@
         - name: Yufei Wang
           image: ../images/yufei.jpg
           website: https://yufeiwang63.github.io
+          coadvisor: David Held
+          coadvisorweb: https://davheld.github.io
           alt: I am Yufei. I am wearing a gray shirt.
         - name: Akhil Padmanabha
           image: ../images/stretch.jpg
           website: https://akhilpadmanabha.github.io
+          coadvisor: Carmel Majidi
+          coadvisorweb: https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html
           alt: I am Akhil.
 #         - name: Join
 #           image: ../images/stretch.jpg
