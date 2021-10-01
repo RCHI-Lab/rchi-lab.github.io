@@ -31,7 +31,7 @@
     - full: true
       list:
         - name: Fukang Liu
-          image: ../images/kinova_gen3.png
+          image: ../images/fukang.jpg
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: A Kinova Gen3 robot from Kinova.
