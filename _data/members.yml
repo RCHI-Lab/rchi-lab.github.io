@@ -47,6 +47,7 @@
       list:
         - name: Kavya Puthuveetil
           image: ../images/kavya.jpg
+          website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Eliot Xing
           image: ../images/kinova_gen3.png
