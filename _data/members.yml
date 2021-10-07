@@ -36,7 +36,7 @@
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
         - name: Vaidehi Patil
-          image: ../images/vaidehi.png
+          image: ../images/vaidehi.jpg
           website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
@@ -50,7 +50,7 @@
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Eliot Xing
-          image: ../images/eliot.png
+          image: ../images/eliot.jpg
           alt: I am Eliot. I am wearing a gray shirt.
         - name: Sasha Wald
           image: ../images/alexandra.jpg
