@@ -36,11 +36,11 @@
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
         - name: Vaidehi Patil
-          image: ../images/kinova_gen3.png
+          image: ../images/vaidehi.png
           website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
-          alt: A Kinova Gen3 robot from Kinova.
+          alt: I am Vaidehi. I am wearing a white sweater.
 - name: Undergraduate Students
   list:
     - full: true
@@ -50,11 +50,11 @@
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Eliot Xing
-          image: ../images/kinova_gen3.png
-          alt: A Kinova Gen3 robot from Kinova.
+          image: ../images/eliot.png
+          alt: I am Eliot. I am wearing a gray shirt.
         - name: Sasha Wald
           image: ../images/alexandra.jpg
-          alt: I am Sasha. 
+          alt: I am Sasha. I am wearing a green shirt
 #- name: Alumni
 #  list:
 #    - name: PhD students
