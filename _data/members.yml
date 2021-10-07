@@ -16,7 +16,7 @@
           coadvisor: David Held
           coadvisorweb: https://davheld.github.io
           alt: I am Yufei. I am wearing a gray shirt.
-        - name: Akhil Padmanabha
+        - name: Akhil 
           image: ../images/akhil.jpg
           website: https://akhilpadmanabha.github.io
           coadvisor: Carmel Majidi
@@ -27,6 +27,21 @@
 #           website: mailto:zackory@cmu.edu
 #           alt: A Stretch robot from Hello Robot.
 - name: Master's Students
+  list:
+    - full: true
+      list:
+        - name: Fukang Liu
+          image: ../images/fukang.jpg
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
+          alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
+        - name: Vaidehi Patil
+          image: ../images/vaidehi.jpg
+          website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
+          alt: I am Vaidehi. I am wearing a white sweater.
+- name: MRSD Students
   list:
     - full: true
       list:
