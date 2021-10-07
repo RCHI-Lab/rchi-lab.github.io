@@ -16,7 +16,7 @@
           coadvisor: David Held
           coadvisorweb: https://davheld.github.io
           alt: I am Yufei. I am wearing a gray shirt.
-        - name: Akhil 
+        - name: Akhil Padmanabha
           image: ../images/akhil.jpg
           website: https://akhilpadmanabha.github.io
           coadvisor: Carmel Majidi
@@ -45,17 +45,36 @@
   list:
     - full: true
       list:
-        - name: Fukang Liu
-          image: ../images/fukang.jpg
-          coadvisor: Zeynep Temel
-          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
-          alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
-        - name: Vaidehi Patil
-          image: ../images/vaidehi.jpg
-          website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
-          coadvisor: Zeynep Temel
-          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
-          alt: I am Vaidehi. I am wearing a white sweater.
+        - name: Jashkumar Diyora
+          image: ../images/jashkumar.jpg
+          website: https://www.linkedin.com/in/jashdiyora/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Jashkumar.
+        - name: Jigar Patel
+          image: ../images/jigar.jpg
+          website: https://www.linkedin.com/in/jigarkumar-patel/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Jigar.
+        - name: Shruti Gangopadhyay
+          image: ../images/shruti.jpg
+          website: https://www.linkedin.com/in/shruti-gangopadhyay/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Shruti.
+        - name: Shivani Sivakumar
+          image: ../images/shivani.jpg
+          website: https://www.linkedin.com/in/shivani-sivakumar/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Shivani.
+        - name: Prakhar Pradeep
+          image: ../images/prakhar.jpg
+          website: https://www.linkedin.com/in/prakharpradeep/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Prakhar.
 - name: Undergraduate Students
   list:
     - full: true
