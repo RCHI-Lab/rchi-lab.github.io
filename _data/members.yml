@@ -3,7 +3,7 @@
     - full: true
       list:
         - name: Zackory Erickson
-          image: ../images/members/zackory_square.jpg
+          image: ../images/members/zackory.jpg
           website: https://zackory.com
           alt: I am Zackory. I have short hair with black glasses. I am wearing a black polo with a gray sweater.
 - name: PhD Students
