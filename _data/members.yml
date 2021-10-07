@@ -3,7 +3,7 @@
     - full: true
       list:
         - name: Zackory Erickson
-          image: ../images/zackory_square.jpg
+          image: ../images/members/zackory_square.jpg
           website: https://zackory.com
           alt: I am Zackory. I have short hair with black glasses. I am wearing a black polo with a gray sweater.
 - name: PhD Students
@@ -11,13 +11,13 @@
     - full: true
       list:
         - name: Yufei Wang
-          image: ../images/yufei.jpg
+          image: ../images/members/yufei.jpg
           website: https://yufeiwang63.github.io
           coadvisor: David Held
           coadvisorweb: https://davheld.github.io
           alt: I am Yufei. I am wearing a gray shirt.
         - name: Akhil Padmanabha
-          image: ../images/akhil.jpg
+          image: ../images/members/akhil.jpg
           website: https://akhilpadmanabha.github.io
           coadvisor: Carmel Majidi
           coadvisorweb: https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html
@@ -31,12 +31,12 @@
     - full: true
       list:
         - name: Fukang Liu
-          image: ../images/fukang.jpg
+          image: ../images/members/fukang.jpg
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
         - name: Vaidehi Patil
-          image: ../images/vaidehi.jpg
+          image: ../images/members/vaidehi.jpg
           website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
@@ -46,31 +46,31 @@
     - full: true
       list:
         - name: Jashkumar Diyora
-          image: ../images/jashkumar.jpg
+          image: ../images/members/jashkumar.jpg
           website: https://www.linkedin.com/in/jashdiyora/
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Jashkumar.
         - name: Jigar Patel
-          image: ../images/jigar.jpg
+          image: ../images/members/jigar.jpg
           website: https://www.linkedin.com/in/jigarkumar-patel/
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Jigar.
         - name: Shruti Gangopadhyay
-          image: ../images/shruti.jpg
+          image: ../images/members/shruti.jpg
           website: https://www.linkedin.com/in/shruti-gangopadhyay/
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Shruti.
         - name: Shivani Sivakumar
-          image: ../images/shivani.jpg
+          image: ../images/members/shivani.jpg
           website: https://www.linkedin.com/in/shivani-sivakumar/
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Shivani.
         - name: Prakhar Pradeep
-          image: ../images/prakhar.jpg
+          image: ../images/members/prakhar.jpg
           website: https://www.linkedin.com/in/prakharpradeep/
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
@@ -80,14 +80,14 @@
     - full: true
       list:
         - name: Kavya Puthuveetil
-          image: ../images/kavya.jpg
+          image: ../images/members/kavya.jpg
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Eliot Xing
-          image: ../images/eliot.jpg
+          image: ../images/members/eliot.jpg
           alt: I am Eliot. I am wearing a gray shirt.
         - name: Sasha Wald
-          image: ../images/alexandra.jpg
+          image: ../images/members/alexandra.jpg
           alt: I am Sasha. I am wearing a green shirt.
 #- name: Alumni
 #  list:
