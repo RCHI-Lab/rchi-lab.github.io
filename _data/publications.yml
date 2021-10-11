@@ -5,7 +5,7 @@
   venue: arXiv preprint
   image: ../images/bodies_uncovered.jpg
   id: puthuveetil2021bodies
-  projectpage: 
+  projectpage: https://rchi-lab.github.io/bodies-uncovered/
   code: https://github.com/RCHI-Lab/bodies-uncovered
   bibtex: |
       @article{puthuveetil2021bodies,
