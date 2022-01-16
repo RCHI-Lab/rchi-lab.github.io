@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-Our lab began in Fall 2021! Publications and preprints from our group will show up here.
+Our lab began in Fall 2021! Publications and preprints from our group will show up here soon.
 
 <script>
 function showhide(d) {
