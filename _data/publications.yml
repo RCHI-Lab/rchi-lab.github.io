@@ -41,7 +41,7 @@
       }
   abstract: "While Robotic bathing assistance has long been considered an important and practical task in healthcare. Yet, achieving flexible and efficient cleaning tasks on the human body is challenging, since washing the body involves direct human-robot physical contact and simple, safe, and effective devices are needed for bathing and hygiene. In this paper, we present a meso-scale wearable robot that can locomote along the human body to provide bathing and skin care assistance. We evaluated the cleaning performance of the robot system under different scenarios. The experiments on the pipe show that the robot can achieve cleaning percentage over 92% with two types of stretchable fabrics. The robot removed most of the debris with average values of 94% on a human arm and 93% on a manikin torso. The results demonstrate that the robot exhibits high performance in cleaning tasks."
   awards: 
-  video: https://youtu.be/jg78ppCogy8
+  video: https://youtu.be/fBQ8yO8PzdQ
   pdf: https://arxiv.org/pdf/2202.13008.pdf
 
 
