@@ -31,7 +31,7 @@
   image: ../images/Wearable-Robot.png
   id: liu2022characterization
   projectpage: https://rchi-lab.github.io/Meso-Scale-Wearable-Robot/
-  code: https://github.com/RCHI-Lab/Meso-Scale-Wearable-Robot
+  code: # https://github.com/RCHI-Lab/Meso-Scale-Wearable-Robot
   bibtex: |
       @article{liu2022characterization,
           title={Characterization of a Meso-Scale Wearable Robot for Bathing Assistance},
