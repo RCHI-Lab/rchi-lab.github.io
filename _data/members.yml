@@ -102,6 +102,9 @@
           image: ../images/members/daphne.jpg
           website: https://dphcy.github.io/
           alt: I am Daphne. I am wearing a tan jacket.
+        - name: Allen Zheng
+          image: ../images/members/allen.jpg
+          alt: I am Allen. I am wearing a black jacket.
 #- name: Alumni
 #  list:
 #    - name: PhD students
