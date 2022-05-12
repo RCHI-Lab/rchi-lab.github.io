@@ -105,6 +105,13 @@
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
+- name: PostDogs
+  list:
+    - full: true
+      list:
+        - name: Mars
+          image: ../images/members/mars.jpg
+          alt: I am Mars. I am an adorable puppy.
 #- name: Alumni
 #  list:
 #    - name: PhD students
