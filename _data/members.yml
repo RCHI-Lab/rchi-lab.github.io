@@ -38,6 +38,7 @@
       list:
         - name: Fukang Liu
           image: ../images/members/fukang.jpg
+          website: https://fukangl.github.io/
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
