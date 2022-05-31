@@ -107,6 +107,7 @@
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
         - name: Wesley Lewis
+          image: ../images/stretch.jpg
           alt: I am Wesley.
         - name: Jacob Delgado-López
           image: ../images/members/jacob.jpg
@@ -116,6 +117,7 @@
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
         - name: Sejeal Katiyar
+          image: ../images/stretch.jpg
           alt: I am Sejeal.
 - name: PostDogs
   list:
