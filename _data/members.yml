@@ -106,6 +106,17 @@
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
+        - name: Wesley Lewis
+          alt: I am Wesley.
+        - name: Jacob Delgado-López
+          image: ../images/members/jacob.jpg
+          website: https://jacobdelgado1002.github.io/
+          alt: I am Jacob.
+        - name: Yikang (Bruce) Cheng
+          image: ../images/members/bruce.jpg
+          alt: I am Bruce.
+        - name: Sejeal Katiyar
+          alt: I am Sejeal.
 - name: PostDogs
   list:
     - full: true
