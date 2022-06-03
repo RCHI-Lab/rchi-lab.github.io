@@ -107,7 +107,7 @@
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
         - name: Wesley Lewis
-          image: ../images/stretch.jpg
+          image: ../images/members/wesley.jpg
           alt: I am Wesley.
         - name: Jacob Delgado-López
           image: ../images/members/jacob.jpg
