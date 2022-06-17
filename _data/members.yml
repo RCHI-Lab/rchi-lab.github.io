@@ -116,9 +116,6 @@
         - name: Yikang (Bruce) Cheng
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
-        - name: Sejeal Katiyar
-          image: ../images/stretch.jpg
-          alt: I am Sejeal.
 - name: PostDogs
   list:
     - full: true
