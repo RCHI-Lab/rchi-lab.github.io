@@ -23,28 +23,6 @@
   video: https://www.youtube.com/watch?v=oTO2NqfSAXw
   pdf: https://arxiv.org/pdf/2109.04930.pdf
 
-- title: "Characterization of a Meso-Scale Wearable Robot for Bathing Assistance"
-  authors: Fukang Liu, Vaidehi Patil, Zackory Erickson, and Zeynep Temel
-  year: 2022
-  type: preprint
-  venue: arXiv preprint
-  image: ../images/Wearable-Robot.png
-  id: liu2022characterization
-  projectpage: https://rchi-lab.github.io/Meso-Scale-Wearable-Robot/
-  code: # https://github.com/RCHI-Lab/Meso-Scale-Wearable-Robot
-  bibtex: |
-      @article{liu2022characterization,
-          title={Characterization of a Meso-Scale Wearable Robot for Bathing Assistance},
-          author={Liu, Fukang and Patil, Vaidehi and Erickson, Zackory and Temel, Zeynep},
-          journal={arXiv preprint arXiv:2202.13008},
-          year={2022}
-      }
-  abstract: "While Robotic bathing assistance has long been considered an important and practical task in healthcare. Yet, achieving flexible and efficient cleaning tasks on the human body is challenging, since washing the body involves direct human-robot physical contact and simple, safe, and effective devices are needed for bathing and hygiene. In this paper, we present a meso-scale wearable robot that can locomote along the human body to provide bathing and skin care assistance. We evaluated the cleaning performance of the robot system under different scenarios. The experiments on the pipe show that the robot can achieve cleaning percentage over 92% with two types of stretchable fabrics. The robot removed most of the debris with average values of 94% on a human arm and 93% on a manikin torso. The results demonstrate that the robot exhibits high performance in cleaning tasks."
-  awards: 
-  video: https://youtu.be/fBQ8yO8PzdQ
-  pdf: https://arxiv.org/pdf/2202.13008.pdf
-
-
 
 # - title: "Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction"
 #   authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Eliot Xing, Greg Turk, C. Karen Liu, Charles C. Kemp
