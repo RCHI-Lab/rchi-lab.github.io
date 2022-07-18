@@ -1,3 +1,67 @@
+- title: "Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions"
+  authors: Yufei Wang, David Held, and Zackory Erickson
+  year: 2022
+  type: conference
+  venue: IROS
+  image: ../images/vhr.jpg
+  id: wang2022visual
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{wang2022visual,
+          title={Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions},
+          author={Wang, Yufei and Held, David and Erickson, Zackory},
+          booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          year={2022},
+          organization={IEEE}
+      }
+  abstract: "Robotic manipulation of highly deformable cloth presents a promising opportunity to assist people with several daily tasks, such as washing dishes; folding laundry; or dressing, bathing, and hygiene assistance for individuals with severe motor impairments. In this work, we introduce a formulation that enables a collaborative robot to perform visual haptic reasoning with cloth---the act of inferring the location and magnitude of applied forces during physical interaction. We present two distinct model representations, trained in physics simulation, that enable haptic reasoning using only visual and robot kinematic observations. We conducted quantitative evaluations of these models in simulation for robot-assisted dressing, bathing, and dish washing tasks, and demonstrate that the trained models can generalize across different tasks with varying interactions, human body sizes, and object shapes. We also present results with a real-world mobile manipulator, which used our simulation-trained models to estimate applied contact forces while performing physically assistive tasks with cloth. Videos can be found at our project webpage."
+  awards: 
+  video: 
+  pdf: 
+
+- title: "CapSense: A Real-Time Capacitive Sensor Simulation Framework for Physical Human-Robot Interaction"
+  authors: Christian Schöffmann, Zackory Erickson, and Hubert Zangl
+  year: 2022
+  type: journal
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  image: ../images/capsense.jpg
+  id: schoffmann2022capsense
+  projectpage: 
+  code: https://github.com/chstetco/capsense
+  bibtex: |
+      @article{schoffmann2022capsense,
+          author={Sch{\"o}ffmann, Christian and Erickson, Zackory and Zangl, Hubert},
+          journal={IEEE Robotics and Automation Letters}, 
+          title={CapSense: A Real-Time Capacitive Sensor Simulation Framework for Physical Human-Robot Interaction}, 
+          year={2022}
+      }
+  abstract: "This article presents CapSense, a real-time open-source capacitive sensor simulation framework for robotic applications. CapSense provides raw data of capacitive proximity sensors based on a fast and efficient 3D finite-element method (FEM) implementation. The proposed framework is interfaced to off-the-shelf robot and physics simulation environments to couple dynamic interaction of the environment with an electro-static solver for capacitance computation in real-time. The FEM method proposed in this article relies on a static tetrahedral mesh of the sensor surrounding without a-posteriori re-meshing and achieves high update rates by an adaptive update step. CapSense is flexible due to various configuration parameters (i.e. number, size, shape and location of electrodes) and serves as a platform for investigation of capacitive sensors in robotic applications. By using the proposed framework, researchers can simulate capacitive sensors in different scenarios and investigate these sensors and their configuration prior to installation and fabrication of real hardware. The proposed framework opens new research opportunities via sim-to-real transfer of capacitive sensing. The simulation approach is validated by comparing real-world results of different scenarios with simulation results. In order to showcase the benefits of CapSense in physical Human-Robot Interaction (pHRI), the framework is evaluated in a robotic healthcare scenario."
+  awards: 
+  video: 
+  pdf: 
+
+- title: "Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction"
+  authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Eliot Xing, Greg Turk, C. Karen Liu, and Charles C. Kemp
+  year: 2022
+  type: journal
+  venue: IEEE Transactions on Robotics (T-RO)
+  image: ../images/capservoing.jpg
+  id: erickson2022characterizing
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{erickson2022characterizing,
+          title={Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction},
+          author={Erickson, Zackory and Clever, Henry M and Gangaram, Vamsee and Xing, Eliot and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          journal={IEEE Transactions on Robotics (T-RO)},
+          year={2022}
+      }
+  abstract: "Towards the goal of robots performing robust and intelligent physical interactions with people, it is crucial that robots are able to accurately sense the human body, follow trajectories around the body, and track human motion. This study introduces a capacitive servoing control scheme that allows a robot to sense and navigate around human limbs during close physical interactions. Capacitive servoing leverages temporal measurements from a multi-electrode capacitive sensor array mounted on a robot's end effector to estimate the relative position and orientation (pose) of a nearby human limb. Capacitive servoing then uses these human pose estimates from a data-driven pose estimator within a feedback control loop in order to maneuver the robot's end effector around the surface of a human limb. We provide a design overview of capacitive sensors for human-robot interaction and then investigate the performance and generalization of capacitive servoing through an experiment with 12 human participants. The results indicate that multidimensional capacitive servoing enables a robot's end effector to move proximally or distally along human limbs while adapting to human pose. Using a cross-validation experiment, results further show that capacitive servoing generalizes well across people with different body size."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2105.11582.pdf
+
 - title: "Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations"
   authors: Kavya Puthuveetil, Charles C. Kemp, and Zackory Erickson
   year: 2022
