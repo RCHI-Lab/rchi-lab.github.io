@@ -39,7 +39,7 @@
   abstract: "This article presents CapSense, a real-time open-source capacitive sensor simulation framework for robotic applications. CapSense provides raw data of capacitive proximity sensors based on a fast and efficient 3D finite-element method (FEM) implementation. The proposed framework is interfaced to off-the-shelf robot and physics simulation environments to couple dynamic interaction of the environment with an electro-static solver for capacitance computation in real-time. The FEM method proposed in this article relies on a static tetrahedral mesh of the sensor surrounding without a-posteriori re-meshing and achieves high update rates by an adaptive update step. CapSense is flexible due to various configuration parameters (i.e. number, size, shape and location of electrodes) and serves as a platform for investigation of capacitive sensors in robotic applications. By using the proposed framework, researchers can simulate capacitive sensors in different scenarios and investigate these sensors and their configuration prior to installation and fabrication of real hardware. The proposed framework opens new research opportunities via sim-to-real transfer of capacitive sensing. The simulation approach is validated by comparing real-world results of different scenarios with simulation results. In order to showcase the benefits of CapSense in physical Human-Robot Interaction (pHRI), the framework is evaluated in a robotic healthcare scenario."
   awards: 
   video: 
-  pdf: 
+  pdf: https://ieeexplore.ieee.org/document/9833265
 
 - title: "Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction"
   authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Eliot Xing, Greg Turk, C. Karen Liu, and Charles C. Kemp
