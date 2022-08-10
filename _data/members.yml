@@ -22,12 +22,6 @@
           coadvisor: Carmel Majidi
           coadvisorweb: https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html
           alt: I am Akhil. I am wearing a white dress shirt.
-        - name: Angela Chen
-          image: ../images/members/angela.jpg
-          website: https://www.angelahchen.com/
-          coadvisor: Melisa Orta Martinez
-          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/melisa-orta-martinez/
-          alt: I am Angela. I am wearing a black shirt.
 #         - name: Join
 #           image: ../images/stretch.jpg
 #           website: mailto:zackory@cmu.edu
