@@ -132,8 +132,8 @@
 #    - name: Undergraduate students
 #      full: False
 #      list:
-#        - name:
-#          website:
+#         - name: Kavya Puthuveetil
+#           website: https://kpputhuveetil.github.io/
 #    - name: Visiting students
 #      full: False
 #      list:
