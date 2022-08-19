@@ -22,6 +22,10 @@
           coadvisor: Carmel Majidi
           coadvisorweb: https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html
           alt: I am Akhil. I am wearing a white dress shirt.
+        - name: Kavya Puthuveetil
+          image: ../images/members/kavya.jpg
+          website: https://kpputhuveetil.github.io/
+          alt: I am Kavya. I am wearing a blue dress shirt.
 #         - name: Join
 #           image: ../images/stretch.jpg
 #           website: mailto:zackory@cmu.edu
@@ -80,10 +84,6 @@
   list:
     - full: true
       list:
-        - name: Kavya Puthuveetil
-          image: ../images/members/kavya.jpg
-          website: https://kpputhuveetil.github.io/
-          alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Eliot Xing
           image: ../images/members/eliot.jpg
           alt: I am Eliot. I am wearing a gray shirt.
