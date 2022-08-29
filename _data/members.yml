@@ -26,6 +26,12 @@
           image: ../images/members/kavya.jpg
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
+        - name: Jehan Yang
+          image: ../images/members/jehan.jpg
+          website: https://jehanyang.github.io/about/
+          coadvisor: Douglas Weber
+          coadvisorweb: https://engineering.cmu.edu/directory/bios/weber-douglas.html/
+          alt: I am Jehan. I am wearing a gray polo shirt.
 #         - name: Join
 #           image: ../images/stretch.jpg
 #           website: mailto:zackory@cmu.edu
