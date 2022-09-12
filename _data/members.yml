@@ -52,6 +52,9 @@
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Vaidehi. I am wearing a white sweater.
+        - name: Zilin Zhang
+          image: ../images/members/zilin.jpg
+          alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
 - name: MRSD Students
   list:
     - full: true
