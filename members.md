@@ -25,7 +25,6 @@ slim: true
                               {% else %}
                                   {{member.name}}
                               {% endif %}
-                              <br>
                               <!--{% if member.coadvisor %}
                                   <br>Co-advised by <a target="_blank" href="{{member.coadvisorweb}}">{{member.coadvisor}}</a>
                               {% endif %}-->
