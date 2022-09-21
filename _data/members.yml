@@ -32,10 +32,11 @@
           coadvisor: Douglas Weber
           coadvisorweb: https://engineering.cmu.edu/directory/bios/weber-douglas.html/
           alt: I am Jehan. I am wearing a gray polo shirt.
-#         - name: Join
-#           image: ../images/stretch.jpg
-#           website: mailto:zackory@cmu.edu
-#           alt: A Stretch robot from Hello Robot.
+        - name: Zulekha Karachiwalla
+          image: ../images/members/zulekha.jpg
+          coadvisor: Henny Admoni
+          coadvisorweb: http://hennyadmoni.com
+          alt: I am Zulekha. I am wearing a white shirt.
 - name: Master's Students
   list:
     - full: true
