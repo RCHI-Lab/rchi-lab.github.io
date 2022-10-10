@@ -126,13 +126,13 @@
           alt: I am Mars. I am an adorable puppy.
 - name: Alumni
   list:
-    - name: Undergraduate students
-      full: False
+    - full: False
       list:
         - name: Eliot Xing
           website: https://etaoxing.com
         - name: Kavya Puthuveetil
           website: https://kpputhuveetil.github.io/
+# name: Undergraduate students
 #    - name: PhD students
 #      full: False
 #      list:
