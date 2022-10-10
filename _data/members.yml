@@ -127,12 +127,12 @@
 - name: Alumni
   list:
     - full: False
+      name: Undergraduate students
       list:
         - name: Eliot Xing
           website: https://etaoxing.com
         - name: Kavya Puthuveetil
           website: https://kpputhuveetil.github.io/
-# name: Undergraduate students
 #    - name: PhD students
 #      full: False
 #      list:
