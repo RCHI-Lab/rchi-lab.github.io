@@ -35,8 +35,7 @@ slim: true
                       {% endfor %}
                   </div>
                 {% else %}
-                    <div style="line-height:50%;">
-                        <br>
+                    <div class="row">
                     </div>
                     <ul>
                         {% for member in group.list %}
