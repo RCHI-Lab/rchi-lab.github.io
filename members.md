@@ -11,6 +11,7 @@ slim: true
         {% for group in big_group.list %}
             {% if group.list.size > 0 %}
                 {% if group.name %}
+                    <div class="w-100"></div>
                     <h2>{{ group.name }}</h2>
                     <div class="w-100"></div>
                 {% endif %}
