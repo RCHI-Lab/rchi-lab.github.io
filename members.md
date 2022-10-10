@@ -11,6 +11,7 @@ slim: true
         {% for group in big_group.list %}
             {% if group.list.size > 0 %}
                 {% if group.name %}
+                    <br>
                     <h2>{{ group.name }}</h2>
                 {% endif %}
                 {% if group.full %}
@@ -32,6 +33,7 @@ slim: true
                       {% endfor %}
                   </div>
                 {% else %}
+                    <br>
                     <ul>
                         {% for member in group.list %}
                             {% if member.website %}
