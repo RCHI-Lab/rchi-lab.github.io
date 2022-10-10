@@ -1,24 +1,68 @@
-- title: "Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions"
-  authors: Yufei Wang, David Held, and Zackory Erickson
+- title: "ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds"
+  authors: Daniel Seita, Yufei Wang, Edward Yao Li, Sarthak J Shetty, Zackory Erickson, and David Held
   year: 2022
   type: conference
-  venue: IROS
-  image: ../images/vhr.jpg
-  id: wang2022visual
+  venue: CoRL
+  image: ../images/toolflownet.jpg
+  id: seita2022toolflownet
+  projectpage: https://sites.google.com/view/point-cloud-policy/home
+  code: 
+  bibtex: |
+      @inproceedings{seita2022toolflownet,
+          title={ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds},
+          author={Daniel Seita and Yufei Wang and Edward Yao Li and Sarthak J Shetty and Zackory Erickson and David Held},
+          booktitle={6th Annual Conference on Robot Learning},
+          year={2022},
+          url={https://openreview.net/forum?id=2gfB_kMVFvP}
+      }
+  abstract: "Point clouds are a widely available and canonical data modality which conveys the 3D geometry of a scene. Despite significant progress in classification and segmentation from point clouds, policy learning from such a modality remains challenging, and most prior works in imitation learning focus on learning policies from images or state information. In this paper, we propose a novel framework for learning policies from point clouds for robotic manipulation with tools. We use a novel neural network, ToolFlowNet, which predicts dense per-point flow on the tool that the robot controls, and then uses the flow to derive the transformation that the robot should execute. We apply this framework to imitation learning of challenging deformable object manipulation tasks with continuous movement of tools, including scooping and pouring, and demonstrate significantly improved performance over baselines which do not use flow. We perform physical scooping experiments with ToolFlowNet and find that we can attain 78% scooping success."
+  awards: 
+  video: 
+  pdf: https://openreview.net/pdf?id=2gfB_kMVFvP
+
+- title: "Learning Representations that Enable Generalization in Assistive Tasks"
+  authors: Jerry Zhi-Yang He, Zackory Erickson, Daniel S. Brown, Aditi Raghunathan, and Anca Dragan
+  year: 2022
+  type: conference
+  venue: CoRL
+  image: ../images/he2022learning.jpg
+  id: he2022learning
   projectpage: 
   code: 
   bibtex: |
-      @inproceedings{wang2022visual,
+      @inproceedings{he2022learning,
+          title={Learning Representations that Enable Generalization in Assistive Tasks},
+          author={Jerry Zhi-Yang He and Zackory Erickson and Daniel S. Brown and Aditi Raghunathan and Anca Dragan},
+          booktitle={6th Annual Conference on Robot Learning},
+          year={2022},
+          url={https://openreview.net/forum?id=b88HF4vd_ej}
+      }
+  abstract: "Recent work in sim2real has successfully enabled robots to act in physical environments by training in simulation with a diverse ``population'' of environments (i.e. domain randomization). In this work, we focus on enabling generalization in assistive tasks: tasks in which the robot is acting to assist a user (e.g. helping someone with motor impairments with bathing or with scratching an itch). Such tasks are particularly interesting relative to prior sim2real successes because the environment now contains a human who is also acting. This complicates the problem because the diversity of human users (instead of merely physical environment parameters) is more difficult to capture in a population, thus increasing the likelihood of encountering out-of-distribution (OOD) human policies at test time. We advocate that generalization to such OOD policies benefits from (1) learning a good latent representation for human policies that test-time humans can accurately be mapped to, and (2) making that representation adaptable with test-time interaction data, instead of relying on it to perfectly capture the space of human policies based on the simulated population only. We study how to best learn such a representation by evaluating on purposefully constructed OOD test policies. We find that sim2real methods that encode environment (or population) parameters and work well in tasks that robots do in isolation, do not work well in assistance.  In assistance, it seems crucial to train the representation based on the history of interaction directly, because that is what the robot will have access to at test time. Further, training these representations to then predict human actions not only gives them better structure, but also enables them to be fine-tuned at test-time, when the robot observes the partner act."
+  awards: 
+  video: 
+  pdf: https://openreview.net/pdf?id=b88HF4vd_ej
+
+- title: "Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions"
+  authors: Yufei Wang, David Held, and Zackory Erickson
+  year: 2022
+  type: journal
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  image: ../images/vhr.jpg
+  id: wang2022visual
+  projectpage: https://sites.google.com/view/visualhapticreasoning/home
+  code: 
+  bibtex: |
+      @article{wang2022visual,
           title={Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions},
           author={Wang, Yufei and Held, David and Erickson, Zackory},
-          booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          journal={IEEE Robotics and Automation Letters},
           year={2022},
           organization={IEEE}
       }
   abstract: "Robotic manipulation of highly deformable cloth presents a promising opportunity to assist people with several daily tasks, such as washing dishes; folding laundry; or dressing, bathing, and hygiene assistance for individuals with severe motor impairments. In this work, we introduce a formulation that enables a collaborative robot to perform visual haptic reasoning with cloth---the act of inferring the location and magnitude of applied forces during physical interaction. We present two distinct model representations, trained in physics simulation, that enable haptic reasoning using only visual and robot kinematic observations. We conducted quantitative evaluations of these models in simulation for robot-assisted dressing, bathing, and dish washing tasks, and demonstrate that the trained models can generalize across different tasks with varying interactions, human body sizes, and object shapes. We also present results with a real-world mobile manipulator, which used our simulation-trained models to estimate applied contact forces while performing physically assistive tasks with cloth. Videos can be found at our project webpage."
   awards: 
   video: 
-  pdf: 
+  pdf: https://arxiv.org/pdf/2208.05632.pdf
 
 - title: "CapSense: A Real-Time Capacitive Sensor Simulation Framework for Physical Human-Robot Interaction"
   authors: Christian Schöffmann, Zackory Erickson, and Hubert Zangl
