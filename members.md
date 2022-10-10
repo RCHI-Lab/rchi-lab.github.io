@@ -11,7 +11,9 @@ slim: true
         {% for group in big_group.list %}
             {% if group.list.size > 0 %}
                 {% if group.name %}
-                    <br />
+                    <div style="line-height:50%;">
+                        <br>
+                    </div>
                     <h2>{{ group.name }}</h2>
                 {% endif %}
                 {% if group.full %}
@@ -33,7 +35,9 @@ slim: true
                       {% endfor %}
                   </div>
                 {% else %}
-                    <br />
+                    <div style="line-height:50%;">
+                        <br>
+                    </div>
                     <ul>
                         {% for member in group.list %}
                             {% if member.website %}
