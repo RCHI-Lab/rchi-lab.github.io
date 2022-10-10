@@ -56,6 +56,33 @@
         - name: Zilin Zhang
           image: ../images/members/zilin.jpg
           alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
+- name: Undergraduate Students
+  list:
+    - full: true
+      list:
+        - name: Sasha Wald
+          image: ../images/members/alexandra.jpg
+          alt: I am Sasha. I am wearing a green shirt.
+        - name: Qin (Alicia) Wang
+          image: ../images/members/alicia.jpg
+          alt: I am Alicia. I am wearing a tan jacket.
+        - name: Daphne Han
+          image: ../images/members/daphne.jpg
+          website: https://dphcy.github.io/
+          alt: I am Daphne. I am wearing a tan jacket.
+        - name: Allen Zheng
+          image: ../images/members/allen.jpg
+          alt: I am Allen. I am wearing a black jacket.
+        - name: Wesley Lewis
+          image: ../images/members/wesley.jpg
+          alt: I am Wesley.
+        - name: Jacob Delgado-López
+          image: ../images/members/jacob.jpg
+          website: https://jacobdelgado1002.github.io/
+          alt: I am Jacob.
+        - name: Yikang (Bruce) Cheng
+          image: ../images/members/bruce.jpg
+          alt: I am Bruce.
 - name: MRSD Students
   list:
     - full: true
@@ -90,36 +117,6 @@
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Prakhar.
-- name: Undergraduate Students
-  list:
-    - full: true
-      list:
-        - name: Eliot Xing
-          image: ../images/members/eliot.jpg
-          alt: I am Eliot. I am wearing a gray shirt.
-        - name: Sasha Wald
-          image: ../images/members/alexandra.jpg
-          alt: I am Sasha. I am wearing a green shirt.
-        - name: Qin (Alicia) Wang
-          image: ../images/members/alicia.jpg
-          alt: I am Alicia. I am wearing a tan jacket.
-        - name: Daphne Han
-          image: ../images/members/daphne.jpg
-          website: https://dphcy.github.io/
-          alt: I am Daphne. I am wearing a tan jacket.
-        - name: Allen Zheng
-          image: ../images/members/allen.jpg
-          alt: I am Allen. I am wearing a black jacket.
-        - name: Wesley Lewis
-          image: ../images/members/wesley.jpg
-          alt: I am Wesley.
-        - name: Jacob Delgado-López
-          image: ../images/members/jacob.jpg
-          website: https://jacobdelgado1002.github.io/
-          alt: I am Jacob.
-        - name: Yikang (Bruce) Cheng
-          image: ../images/members/bruce.jpg
-          alt: I am Bruce.
 - name: PostDogs
   list:
     - full: true
@@ -127,7 +124,14 @@
         - name: Mars
           image: ../images/members/mars.jpg
           alt: I am Mars. I am an adorable puppy.
-#- name: Alumni
+- name: Alumni
+    - name: Undergraduate students
+      full: False
+      list:
+        - name: Eliot Xing
+          website: https://etaoxing.com
+        - name: Kavya Puthuveetil
+          website: https://kpputhuveetil.github.io/
 #  list:
 #    - name: PhD students
 #      full: False
@@ -139,11 +143,6 @@
 #      list:
 #        - name:
 #          website:
-#    - name: Undergraduate students
-#      full: False
-#      list:
-#         - name: Kavya Puthuveetil
-#           website: https://kpputhuveetil.github.io/
 #    - name: Visiting students
 #      full: False
 #      list:
