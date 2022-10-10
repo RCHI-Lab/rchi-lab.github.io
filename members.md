@@ -36,16 +36,18 @@ slim: true
                   </div>
                 {% else %}
                     <div class="row">
+                        <br>
+                        <br />
+                        <ul>
+                            {% for member in group.list %}
+                                {% if member.website %}
+                                    <li><a target="_blank" href="{{member.website}}"> {{member.name}} </a></li>
+                                {% else %}
+                                    <li><a> {{member.name}} </a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
                     </div>
-                    <ul>
-                        {% for member in group.list %}
-                            {% if member.website %}
-                                <li><a target="_blank" href="{{member.website}}"> {{member.name}} </a></li>
-                            {% else %}
-                                <li><a> {{member.name}} </a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
                 {% endif %}
                 <br>
             {% endif %}
