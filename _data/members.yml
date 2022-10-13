@@ -56,6 +56,9 @@
         - name: Zilin Zhang
           image: ../images/members/zilin.jpg
           alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
+        - name: Sankalp Chopkar
+          image: ../images/members/sankalp.jpg
+          alt: I am Sankalp. I am wearing a light pink dress shirt.
 - name: Undergraduate Students
   list:
     - full: true
