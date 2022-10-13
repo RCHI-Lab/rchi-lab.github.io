@@ -58,6 +58,7 @@
           alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
         - name: Sankalp Chopkar
           image: ../images/members/sankalp.jpg
+          website: https://www.ri.cmu.edu/ri-people/sankalp-chopkar/
           alt: I am Sankalp. I am wearing a light pink dress shirt.
 - name: Undergraduate Students
   list:
