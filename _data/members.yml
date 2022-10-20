@@ -91,7 +91,7 @@
   list:
     - full: true
       list:
-        - name: Karan Khokar
+        - name: Karan
           image: ../images/members/karan.jpg
           website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
           alt: I am Karan. I am wearing a blue shirt.
