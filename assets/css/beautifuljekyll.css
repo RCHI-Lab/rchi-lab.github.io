@@ -1111,6 +1111,12 @@ table tr td, table tr {
   border-radius: 50%;
 }
 
+.img-resp {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
 /*div.pubInfo {
 	margin-left: 15px;
 	border-left-style: solid;
