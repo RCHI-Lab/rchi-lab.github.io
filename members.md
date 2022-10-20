@@ -7,6 +7,7 @@ slim: true
 
 <div class="row">
     {% for big_group in site.data.members %}
+        <div class="w-100"></div>
         <h1> {{big_group.name}} </h1>
         <div class="w-100"></div>
         {% for group in big_group.list %}
