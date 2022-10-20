@@ -22,7 +22,7 @@ slim: true
                       {% for member in group.list %}
                           <div class="col-xl-3 col-lg-3 col-md-4 text-center col-sm-6 col-xs-6">
                               <a target="_blank" href="{{member.website}}">
-                                  <img class="img-responsive img-circle" src="{{member.image}}" alt="{{member.alt}}">
+                                  <img class="img-resp img-circle" src="{{member.image}}" alt="{{member.alt}}">
                               </a>
                               {% if member.website %}
                                   <a target="_blank" href="{{member.website}}">{{member.name}}</a>
