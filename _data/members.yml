@@ -87,6 +87,14 @@
         - name: Yikang (Bruce) Cheng
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
+- name: Collaborators
+  list:
+    - full: true
+      list:
+        - name: Karan Khokar
+          image: ../images/members/karan.jpg
+          website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
+          alt: I am Karan. I am wearing a blue shirt.
 - name: MRSD Students
   list:
     - full: true
