@@ -60,6 +60,10 @@
           image: ../images/members/sankalp.jpg
           website: https://www.ri.cmu.edu/ri-people/sankalp-chopkar/
           alt: I am Sankalp. I am wearing a light pink dress shirt.
+        - name: Atharva Pusalkar
+          image: ../images/members/atharva.jpg
+          website: https://atharva-18.github.io/
+          alt: I am Atharva. I am wearing a black shirt with the mountains behind me.
 - name: Undergraduate Students
   list:
     - full: true
