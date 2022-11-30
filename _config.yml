@@ -18,6 +18,8 @@ navbar-links:
   Home: "https://rchi-lab.github.io"
   Members: "members"
   Publications: "publications"
+  Other:
+    - Lab photos: "photos"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
