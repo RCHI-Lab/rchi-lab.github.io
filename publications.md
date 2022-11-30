@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-Our lab began in Fall 2021! Publications and preprints from our group will show up here soon.
+The most accurate list of publications can be found on [Google Scholar](https://scholar.google.com/citations?user=wElkTtIAAAAJ&hl=en)
 
 <script>
 function showhide(d) {
