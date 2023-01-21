@@ -68,6 +68,9 @@
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
+        - name: Qin (Alicia) Wang
+          image: ../images/members/alicia.jpg
+          alt: I am Alicia. I am wearing a tan jacket.
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
@@ -142,9 +145,6 @@
           website: https://etaoxing.com
         - name: Kavya Puthuveetil
           website: https://kpputhuveetil.github.io/
-        - name: Qin (Alicia) Wang
-          image: ../images/members/alicia.jpg
-          alt: I am Alicia. I am wearing a tan jacket.
         - name: Daphne Han
           image: ../images/members/daphne.jpg
           website: https://dphcy.github.io/
