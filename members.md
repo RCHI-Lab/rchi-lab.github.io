@@ -14,7 +14,11 @@ slim: true
             {% if group.list.size > 0 %}
                 {% if group.name %}
                     <div class="w-100"></div>
-                    <h2>{{ group.name }}</h2>
+                    {% if group.website %}
+                        <a target="_blank" href="{{group.website}}"><h2>{{ group.name }}</h2></a>
+                    {% else %}
+                        <h2>{{ group.name }}</h2>
+                    {% endif %}
                     <div class="w-100"></div>
                 {% endif %}
                 {% if group.full %}
