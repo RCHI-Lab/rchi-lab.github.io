@@ -82,7 +82,8 @@
           image: ../images/members/karan.jpg
           website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
           alt: I am Karan. I am wearing a blue shirt.
-- name: MRSD Students ((Auxilio)[https://mrsdprojects.ri.cmu.edu/2023teamf/])
+- name: MRSD Students (Team Auxilio)
+  website: https://mrsdprojects.ri.cmu.edu/2023teamf/
   list:
     - full: true
       list:
@@ -152,8 +153,9 @@
           image: ../images/members/jacob.jpg
           website: https://jacobdelgado1002.github.io/
           alt: I am Jacob.
-    - full: true
-      name: MRSD team ((TouRI)[https://mrsdprojects.ri.cmu.edu/2022teamh/])
+    - full: False
+      name: MRSD team (Team TouRI)
+      website: https://mrsdprojects.ri.cmu.edu/2022teamh/
       list:
         - name: Jashkumar Diyora
           image: ../images/members/jashkumar.jpg
