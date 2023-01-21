@@ -8,7 +8,11 @@ slim: true
 <div class="row">
     {% for big_group in site.data.members %}
         <div class="w-100"></div>
-        <h1> {{big_group.name}} </h1>
+            {% if big_group.website %}
+                <a target="_blank" href="{{big_group.website}}"><h1>{{ big_group.name }}</h1></a>
+            {% else %}
+                <h1>{{ big_group.name }}</h1>
+            {% endif %}
         <div class="w-100"></div>
         {% for group in big_group.list %}
             {% if group.list.size > 0 %}
