@@ -47,12 +47,6 @@
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
-        - name: Vaidehi Patil
-          image: ../images/members/vaidehi.jpg
-          website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
-          coadvisor: Zeynep Temel
-          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
-          alt: I am Vaidehi. I am wearing a white sweater.
         - name: Zilin Zhang
           image: ../images/members/zilin.jpg
           alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
@@ -71,23 +65,12 @@
         - name: Sasha Wald
           image: ../images/members/alexandra.jpg
           alt: I am Sasha. I am wearing a green shirt.
-        - name: Qin (Alicia) Wang
-          image: ../images/members/alicia.jpg
-          alt: I am Alicia. I am wearing a tan jacket.
-        - name: Daphne Han
-          image: ../images/members/daphne.jpg
-          website: https://dphcy.github.io/
-          alt: I am Daphne. I am wearing a tan jacket.
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
-        - name: Jacob Delgado-López
-          image: ../images/members/jacob.jpg
-          website: https://jacobdelgado1002.github.io/
-          alt: I am Jacob.
         - name: Yikang (Bruce) Cheng
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
@@ -99,9 +82,78 @@
           image: ../images/members/karan.jpg
           website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
           alt: I am Karan. I am wearing a blue shirt.
-- name: MRSD Students
+- name: MRSD Students ((Auxilio)[https://mrsdprojects.ri.cmu.edu/2023teamf/])
   list:
     - full: true
+      list:
+        - name: Shaolin Kataria
+          image: ../images/members/shaolin.jpg
+          website: https://www.linkedin.com/in/shaolink/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Shaolin.
+        - name: Shivam Tripathy
+          image: ../images/members/shivam.jpg
+          website: https://www.linkedin.com/in/shivamtripathy/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Shivam.
+        - name: Praveen Venkatesh
+          image: ../images/members/praveen.jpg
+          website: http://praveenvnktsh.github.io/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Praveen.
+        - name: Abhinav Gupta
+          image: ../images/members/abhinav.jpg
+          website: https://www.linkedin.com/in/abhinav-gupta-6a0114163/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Abhinav.
+        - name: Atharva Pusalkar
+          image: ../images/members/atharva.jpg
+          website: https://atharva-18.github.io/
+          coadvisor: Yonatan Bisk
+          coadvisorweb: https://yonatanbisk.com
+          alt: I am Prakhar.
+- name: PostDogs
+  list:
+    - full: true
+      list:
+        - name: Mars
+          image: ../images/members/mars.jpg
+          alt: I am Mars. I am an adorable puppy.
+- name: Alumni
+  list:
+    - full: False
+      name: Master's students
+      list:
+        - name: Vaidehi Patil
+          image: ../images/members/vaidehi.jpg
+          website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
+          alt: I am Vaidehi. I am wearing a white sweater.
+    - full: False
+      name: Undergraduate students
+      list:
+        - name: Eliot Xing
+          website: https://etaoxing.com
+        - name: Kavya Puthuveetil
+          website: https://kpputhuveetil.github.io/
+        - name: Qin (Alicia) Wang
+          image: ../images/members/alicia.jpg
+          alt: I am Alicia. I am wearing a tan jacket.
+        - name: Daphne Han
+          image: ../images/members/daphne.jpg
+          website: https://dphcy.github.io/
+          alt: I am Daphne. I am wearing a tan jacket.
+        - name: Jacob Delgado-López
+          image: ../images/members/jacob.jpg
+          website: https://jacobdelgado1002.github.io/
+          alt: I am Jacob.
+    - full: true
+      name: MRSD team ((TouRI)[https://mrsdprojects.ri.cmu.edu/2022teamh/])
       list:
         - name: Jashkumar Diyora
           image: ../images/members/jashkumar.jpg
@@ -133,22 +185,6 @@
           coadvisor: Yonatan Bisk
           coadvisorweb: https://yonatanbisk.com
           alt: I am Prakhar.
-- name: PostDogs
-  list:
-    - full: true
-      list:
-        - name: Mars
-          image: ../images/members/mars.jpg
-          alt: I am Mars. I am an adorable puppy.
-- name: Alumni
-  list:
-    - full: False
-      name: Undergraduate students
-      list:
-        - name: Eliot Xing
-          website: https://etaoxing.com
-        - name: Kavya Puthuveetil
-          website: https://kpputhuveetil.github.io/
 #    - name: PhD students
 #      full: False
 #      list:
