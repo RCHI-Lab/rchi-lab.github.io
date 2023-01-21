@@ -83,9 +83,9 @@
           website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
           alt: I am Karan. I am wearing a blue shirt.
 - name: MRSD Students (Team Auxilio)
-  website: https://mrsdprojects.ri.cmu.edu/2023teamf/
   list:
     - full: true
+      website: https://mrsdprojects.ri.cmu.edu/2023teamf/
       list:
         - name: Shaolin Kataria
           image: ../images/members/shaolin.jpg
