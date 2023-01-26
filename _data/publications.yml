@@ -1,3 +1,25 @@
+- title: "HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators "
+  authors: Akhil Padmanabha*, Qin Wang*, Daphne Han, Jashkumar Diyora, Kriti Kacker, Hamza Khalid, 
+  year: 2023
+  type: conference
+  venue: ICRA
+  image: ../images/HATgif.gif
+  id: padmanabha2023hatteleop
+  projectpage: https://sites.google.com/view/hat-teleop/home
+  code: 
+  bibtex: |
+      @inproceedings{seita2022toolflownet,
+          title={ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds},
+          author={Daniel Seita and Yufei Wang and Edward Yao Li and Sarthak J Shetty and Zackory Erickson and David Held},
+          booktitle={6th Annual Conference on Robot Learning},
+          year={2022},
+          url={https://openreview.net/forum?id=2gfB_kMVFvP}
+      }
+  abstract: "Mobile manipulators in the home can provide increased autonomy to individuals with severe motor impairments, who often cannot complete activities of daily living (ADLs) without the help of a caregiver. Teleoperation of an assistive mobile manipulator could enable an individual with motor impairments to independently perform self-care and household tasks, yet limited motor function can impede one's ability to interface with a robot. In this work, we present a unique inertial-based wearable assistive interface, embedded in a familiar head-worn garment, for individuals with severe motor impairments to teleoperate and perform physical tasks with a mobile manipulator. We evaluate this wearable interface with both able-bodied (N = 16) and individuals with motor impairments (N = 2) for performing ADLs and everyday household tasks. Our results show that the wearable interface enabled participants to complete physical tasks with low error rates, high perceived ease of use, and low workload measures. Overall, this inertial-based wearable serves as a new assistive interface option for control of mobile manipulators in the home."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2209.13097.pdf
+
 - title: "ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds"
   authors: Daniel Seita, Yufei Wang, Edward Yao Li, Sarthak J Shetty, Zackory Erickson, and David Held
   year: 2022
