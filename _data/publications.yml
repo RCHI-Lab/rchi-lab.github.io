@@ -93,7 +93,7 @@
   year: 2023
   type: conference
   venue: ICLR
-  image: 
+  image: ../images/causal.jpg
   id: tien2023causal
   projectpage: https://sites.google.com/view/causal-reward-confusion
   code: https://sites.google.com/view/causal-reward-confusion#h.ljc718t5ev14
