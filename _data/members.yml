@@ -47,6 +47,9 @@
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
+        - name: Saurav Kambil
+          image: ../images/members/saurav.jpg
+          alt: I am Saurav. I am wearing a blue jacket.
         - name: Zilin Zhang
           image: ../images/members/zilin.jpg
           alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
