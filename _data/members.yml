@@ -62,6 +62,9 @@
           image: ../images/members/abhishek.jpg
           website: https://tandon-a.github.io/
           alt: I am Abhishek. I am wearing a red shirt.
+        - name: Anujraaj Goyal
+          image: ../images/members/argo.jpg
+          alt: I am Argo. I am wearing a blue jacket.
 - name: Undergraduate Students
   list:
     - full: true
@@ -89,6 +92,10 @@
           image: ../images/members/karan.jpg
           website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
           alt: I am Karan. I am wearing a blue shirt.
+        - name: Alberta Longhini
+          image: ../images/members/alberta.jpg
+          website: https://albilo17.github.io/
+          alt: I am Alberta. I am wearing a blue sweater in front of the ocean.
 - name: MRSD Students (Team Auxilio)
   website: https://mrsdprojects.ri.cmu.edu/2023teamf/
   list:
