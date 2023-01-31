@@ -1,4 +1,4 @@
-- title: "HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators "
+- title: "HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators"
   authors: Akhil Padmanabha*, Qin Wang*, Daphne Han, Jashkumar Diyora, Kriti Kacker, Hamza Khalid, Liang-Jung Chen, Carmel Majidi, and Zackory Erickson 
   year: 2023
   type: conference
@@ -8,17 +8,39 @@
   projectpage: https://sites.google.com/view/hat-teleop/home
   code: 
   bibtex: |
-      @inproceedings{seita2022toolflownet,
-          title={ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds},
-          author={Daniel Seita and Yufei Wang and Edward Yao Li and Sarthak J Shetty and Zackory Erickson and David Held},
-          booktitle={6th Annual Conference on Robot Learning},
-          year={2022},
-          url={https://openreview.net/forum?id=2gfB_kMVFvP}
+      @inproceedings{padmanabha2023hatteleop,
+          title={HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators},
+          author={Akhil Padmanabha* and Qin Wang* and Daphne Han and Jashkumar Diyora and Kriti Kacker and Hamza Khalid and Liang-Jung Chen and Carmel Majidi and Zackory Erickson},
+          booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+          year={2023},
+          organization={IEEE}
       }
   abstract: "Mobile manipulators in the home can provide increased autonomy to individuals with severe motor impairments, who often cannot complete activities of daily living (ADLs) without the help of a caregiver. Teleoperation of an assistive mobile manipulator could enable an individual with motor impairments to independently perform self-care and household tasks, yet limited motor function can impede one's ability to interface with a robot. In this work, we present a unique inertial-based wearable assistive interface, embedded in a familiar head-worn garment, for individuals with severe motor impairments to teleoperate and perform physical tasks with a mobile manipulator. We evaluate this wearable interface with both able-bodied (N = 16) and individuals with motor impairments (N = 2) for performing ADLs and everyday household tasks. Our results show that the wearable interface enabled participants to complete physical tasks with low error rates, high perceived ease of use, and low workload measures. Overall, this inertial-based wearable serves as a new assistive interface option for control of mobile manipulators in the home."
   awards: 
   video: 
   pdf: https://arxiv.org/pdf/2209.13097.pdf
+
+- title: "SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing"
+  authors: Nathaniel Hanson*, Wesley Lewis*, Kavya Puthuveetil, Donelle Furline Jr, Akhil Padmanabha, Taskin Padir, Zackory Erickson
+  year: 2023
+  type: conference
+  venue: ICRA
+  image: ../images/slurp_spread.jpg
+  id: hanson2023slurp
+  projectpage: https://river-lab.github.io/slurp_grasping/
+  code: https://github.com/RIVeR-Lab/slurp_grasping
+  bibtex: |
+      @inproceedings{hanson2023slurp,
+          title={SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing},
+          author={Nathaniel Hanson* and Wesley Lewis* and Kavya Puthuveetil and Donelle Furline Jr and Akhil Padmanabha and Taskin Padir and Zackory Erickson},
+          booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+          year={2023},
+          organization={IEEE}
+      }
+  abstract: "Liquids and granular media are pervasive throughout human environments. Their free-flowing nature causes people to constrain them into containers. We do so with thousands of different types of containers made out of different materials with varying sizes, shapes, and colors. In this work, we present a state-of-the-art sensing technique for robots to perceive what liquid is inside of an unknown container. We do so by integrating Visible to Near Infrared (VNIR) reflectance spectroscopy into a robot’s end effector. We introduce a hierarchical model for inferring the material classes of both containers and internal contents given spectral measurements from two integrated spectrometers. To train these inference models, we capture and open source a dataset of spectral measurements from over 180 different combinations of containers and liquids. Our technique demonstrates over 85% accuracy in identifying 13 different liquids and granular media contained within 13 different containers. The sensitivity of our spectral readings allow our model to also identify the material composition of the containers themselves with 96% accuracy. Overall, VNIR spectroscopy presents a promising method to give household robots a general-purpose ability to infer the liquids inside of containers, without needing to open or manipulate the containers."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2210.04941.pdf
 
 - title: "ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds"
   authors: Daniel Seita, Yufei Wang, Edward Yao Li, Sarthak J Shetty, Zackory Erickson, and David Held
