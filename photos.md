@@ -4,6 +4,11 @@ title: Lab Photos
 slim: true
 ---
 
+## Spring 2023
+![Lab Dinner Spring 2023](images/lab_photos/dinner_spring2023.jpg)
+
+---
+
 ## Fall 2022
 ![Lab Fall 2022](images/lab_photos/lab_fall2022.jpg)
 
