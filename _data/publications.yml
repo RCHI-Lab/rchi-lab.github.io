@@ -42,6 +42,50 @@
   video: 
   pdf: https://arxiv.org/pdf/2210.04941.pdf
 
+- title: "EDO-Net: Learning Elastic Properties of Deformable Objects from Graph Dynamics"
+  authors: Alberta Longhini*, Marco Moletta*, Alfredo Reichlin, Michael C. Welle, David Held, Zackory Erickson, Danica Kragic
+  year: 2023
+  type: conference
+  venue: ICRA
+  image: ../images/edonet.jpg
+  id: longhini2023edonet
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{longhini2023edonet,
+          title={EDO-Net: Learning Elastic Properties of Deformable Objects from Graph Dynamics},
+          author={Alberta Longhini* and Marco Moletta* and Alfredo Reichlin and Michael C. Welle and David Held and Zackory Erickson and Danica Kragic},
+          booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+          year={2023},
+          organization={IEEE}
+      }
+  abstract: "We study the problem of learning graph dynamics of deformable objects which generalize to unknown physical properties. In particular, we leverage a latent representation of elastic physical properties of cloth-like deformable objects which we explore through a pulling interaction. We propose EDO-Net (Elastic Deformable Object - Net), a model trained in a self-supervised fashion on a large variety of samples with different elastic properties. EDO-Net jointly learns an adaptation module, responsible for extracting a latent representation of the physical properties of the object, and a forward-dynamics module, which leverages the latent representation to predict future states of cloth-like objects, represented as graphs. We evaluate EDO-Net both in simulation and real world, assessing its capabilities of: 1) generalizing to unknown physical properties of cloth-like deformable objects, 2) transferring the learned representation to new downstream tasks."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2209.08996.pdf
+
+- title: "Elastic Context: Encoding Elasticity for Data-driven Models of Textiles"
+  authors: Alberta Longhini, Marco Moletta, Alfredo Reichlin, Michael C. Welle, Alexander Kravberg, Yufei Wang, David Held, Zackory Erickson, Danica Kragic
+  year: 2023
+  type: conference
+  venue: ICRA
+  image: ../images/elastic_context.jpg
+  id: longhini2023elastic
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{longhini2023elastic,
+          title={Elastic Context: Encoding Elasticity for Data-driven Models of Textiles},
+          author={Alberta Longhini and Marco Moletta and Alfredo Reichlin and Michael C. Welle and Alexander Kravberg and Yufei Wang and David Held and Zackory Erickson and Danica Kragic},
+          booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+          year={2023},
+          organization={IEEE}
+      }
+  abstract: "Physical interaction with textiles, such as assistive dressing scenarios, relies on advanced dexterous capabilities. The underlying complexity in textile behavior when being pulled and stretched is due to both the yarn material properties and the textile construction technique. Those are often not known a-priori, making it almost impossible to identify through sensing commonly available on robotic platforms. We introduce Elastic Context (EC) to encode elastic behaviors, which enables a more effective physical interaction with textiles. The definition of EC relies on stress/strain curves commonly used in textile engineering, which we reformulated for robotic applications. We employ EC using a GNN to learn generalized elastic behaviors of textiles. Furthermore, we explore the effect of the dimension of the EC on accurate force modeling of non-linear real-world elastic behaviors."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2209.05428.pdf
+
 - title: "ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds"
   authors: Daniel Seita, Yufei Wang, Edward Yao Li, Sarthak J Shetty, Zackory Erickson, and David Held
   year: 2022
