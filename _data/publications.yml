@@ -12,7 +12,7 @@
   bibtex: |
       @inproceedings{padmanabha2023hatteleop,
           title={HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators},
-          author={Akhil Padmanabha* and Qin Wang* and Daphne Han and Jashkumar Diyora and Kriti Kacker and Hamza Khalid and Liang-Jung Chen and Carmel Majidi and Zackory Erickson},
+          author={Padmanabha, Akhil and Wang, Qin and Han, Daphne and Diyora, Jashkumar and Kacker, Kriti and Khalid, Hamza and Chen, Liang-Jung and Majidi, Carmel and Erickson, Zackory},
           booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
           year={2023},
           organization={IEEE}
@@ -34,7 +34,7 @@
   bibtex: |
       @inproceedings{hanson2023slurp,
           title={SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing},
-          author={Nathaniel Hanson* and Wesley Lewis* and Kavya Puthuveetil and Donelle Furline Jr and Akhil Padmanabha and Taskin Padir and Zackory Erickson},
+          author={Hanson, Nathaniel and Lewis, Wesley and Puthuveetil, Kavya and Furline, Donelle and Padmanabha, Akhil and Pad{\i}r, Ta{\c{s}}k{\i}n and Erickson, Zackory},
           booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
           year={2023},
           organization={IEEE}
@@ -56,7 +56,7 @@
   bibtex: |
       @inproceedings{longhini2023edonet,
           title={EDO-Net: Learning Elastic Properties of Deformable Objects from Graph Dynamics},
-          author={Alberta Longhini* and Marco Moletta* and Alfredo Reichlin and Michael C. Welle and David Held and Zackory Erickson and Danica Kragic},
+          author={Longhini, Alberta and Moletta, Marco and Reichlin, Alfredo and Welle, Michael C and Held, David and Erickson, Zackory and Kragic, Danica},
           booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
           year={2023},
           organization={IEEE}
@@ -78,7 +78,7 @@
   bibtex: |
       @inproceedings{longhini2023elastic,
           title={Elastic Context: Encoding Elasticity for Data-driven Models of Textiles},
-          author={Alberta Longhini and Marco Moletta and Alfredo Reichlin and Michael C. Welle and Alexander Kravberg and Yufei Wang and David Held and Zackory Erickson and Danica Kragic},
+          author={Longhini, Alberta and Moletta, Marco and Reichlin, Alfredo and Welle, Michael C and Kravberg, Alexander and Wang, Yufei and Held, David and Erickson, Zackory and Kragic, Danica},
           booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
           year={2023},
           organization={IEEE}
@@ -100,7 +100,7 @@
   bibtex: |
       @inproceedings{tien2023causal,
           title={A Study of Causal Confusion in Preference-Based Reward Learning},
-          author={Jeremy Tien and Jerry Zhi-Yang He and Zackory Erickson and Anca D. Dragan and Daniel S. Brown},
+          author={Tien, Jeremy and He, Jerry Zhi-Yang and Erickson, Zackory and Dragan, Anca D and Brown, Daniel},
           booktitle={International Conference on Learning Representations},
           year={2023
       }
@@ -121,7 +121,7 @@
   bibtex: |
       @inproceedings{seita2022toolflownet,
           title={ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds},
-          author={Daniel Seita and Yufei Wang and Edward Yao Li and Sarthak J Shetty and Zackory Erickson and David Held},
+          author={Seita, Daniel and Wang, Yufei and Shetty, Sarthak J and Li, Edward Yao and Erickson, Zackory and Held, David},
           booktitle={6th Annual Conference on Robot Learning},
           year={2022},
           url={https://openreview.net/forum?id=2gfB_kMVFvP}
@@ -143,7 +143,7 @@
   bibtex: |
       @inproceedings{he2022learning,
           title={Learning Representations that Enable Generalization in Assistive Tasks},
-          author={Jerry Zhi-Yang He and Zackory Erickson and Daniel S. Brown and Aditi Raghunathan and Anca Dragan},
+          author={He, Jerry Zhi-Yang and Raghunathan, Aditi and Brown, Daniel S and Erickson, Zackory and Dragan, Anca D},
           booktitle={6th Annual Conference on Robot Learning},
           year={2022},
           url={https://openreview.net/forum?id=b88HF4vd_ej}
@@ -152,6 +152,29 @@
   awards: 
   video: 
   pdf: https://openreview.net/pdf?id=b88HF4vd_ej
+
+- title: "Characterization of a Meso-Scale Wearable Robot for Bathing Assistance"
+  authors: Fukang Liu, Vaidehi Patil, Zackory Erickson, and Zeynep Temel
+  year: 2022
+  type: conference
+  venue: ROBIO
+  image: ../images/meso.jpg
+  id: liu2022characterization
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{liu2022characterization,
+          title={Characterization of a Meso-Scale Wearable Robot for Bathing Assistance},
+          author={Liu, Fukang and Patil, Vaidehi and Erickson, Zackory and Temel, Zeynep},
+          booktitle={2022 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+          pages={2146--2152},
+          year={2022},
+          organization={IEEE}
+      }
+  abstract: "Robotic bathing assistance has long been considered an important and practical task in healthcare. Yet, achieving flexible and efficient cleaning tasks on the human body is challenging, since washing the body involves direct human-robot physical contact and simple, safe, and effective devices are needed for bathing and hygiene. In this paper, we present a meso-scale wearable robot that can locomote along the human body to provide bathing and skin care assistance. We evaluated the cleaning performance of the robot system under different scenarios. The experiments on the pipe show that the robot can achieve cleaning percentage over 92% with two types of stretchable fabrics. The robot removed most of the debris with average values of 94% on a human arm and 93% on a manikin torso. The results demonstrate that the robot exhibits high performance in cleaning tasks."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2202.13008.pdf
 
 - title: "Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions"
   authors: Yufei Wang, David Held, and Zackory Erickson
