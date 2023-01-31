@@ -88,6 +88,27 @@
   video: 
   pdf: https://arxiv.org/pdf/2209.05428.pdf
 
+- title: "A Study of Causal Confusion in Preference-Based Reward Learning"
+  authors: Jeremy Tien, Jerry Zhi-Yang He, Zackory Erickson, Anca D. Dragan, Daniel S. Brown
+  year: 2023
+  type: conference
+  venue: ICLR
+  image: 
+  id: tien2023causal
+  projectpage: https://sites.google.com/view/causal-reward-confusion
+  code: https://sites.google.com/view/causal-reward-confusion#h.ljc718t5ev14
+  bibtex: |
+      @inproceedings{tien2023causal,
+          title={A Study of Causal Confusion in Preference-Based Reward Learning},
+          author={Jeremy Tien and Jerry Zhi-Yang He and Zackory Erickson and Anca D. Dragan and Daniel S. Brown},
+          booktitle={International Conference on Learning Representations},
+          year={2023
+      }
+  abstract: "Learning policies via preference-based reward learning is an increasingly popular method for customizing agent behavior, but has been shown anecdotally to be prone to spurious correlations and reward hacking behaviors. While much prior work focuses on causal confusion in reinforcement learning and behavioral cloning, we aim to study it in the context of reward learning. To study causal confusion, we perform a series of sensitivity and ablation analyses on three benchmark domains where rewards learned from preferences achieve minimal test error but fail to generalize to out-of-distribution states--resulting in poor policy performance when optimized. We find that the presence of non-causal distractor features, noise in the stated preferences, partial state observability, and larger model capacity can all exacerbate causal confusion. We also identify a set of methods with which to interpret causally confused learned rewards: we observe that optimizing causally confused rewards drives the policy off the reward's training distribution, resulting in high predicted (learned) rewards but low true rewards. These findings illuminate the susceptibility of reward learning to causal confusion, especially in high-dimensional environments—failure to consider even one of many factors (data coverage, state definition, etc.) can quickly result in unexpected, undesirable behavior."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2204.06601.pdf
+
 - title: "ToolFlowNet: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds"
   authors: Daniel Seita, Yufei Wang, Edward Yao Li, Sarthak J Shetty, Zackory Erickson, and David Held
   year: 2022
