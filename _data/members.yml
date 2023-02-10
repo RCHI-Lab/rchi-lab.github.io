@@ -91,6 +91,10 @@
           website: https://guptajanavi.wixsite.com/website
           image: ../images/members/janavi.jpg
           alt: I am Janavi.
+        - name: Preethi Krishnamoorthy
+          website: https://www.linkedin.com/in/preethikrish/
+          image: ../images/members/preethi.jpg
+          alt: I am Preethi.
 - name: Collaborators
   list:
     - full: true
