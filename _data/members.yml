@@ -87,6 +87,10 @@
         - name: Yikang (Bruce) Cheng
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
+        - name: Janavi Gupta
+          website: https://guptajanavi.wixsite.com/website
+          image: ../images/members/janavi.jpg
+          alt: I am Janavi.
 - name: Collaborators
   list:
     - full: true
