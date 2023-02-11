@@ -95,6 +95,10 @@
           website: https://www.linkedin.com/in/preethikrish/
           image: ../images/members/preethi.jpg
           alt: I am Preethi.
+        - name: Sumayya Syeda
+          website: https://www.linkedin.com/in/sums/
+          image: ../images/members/sumayya.jpg
+          alt: I am Sumayya.
 - name: Collaborators
   list:
     - full: true
