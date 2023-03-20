@@ -99,6 +99,9 @@
           website: https://www.linkedin.com/in/sums/
           image: ../images/members/sumayya.jpg
           alt: I am Sumayya.
+        - name: Jessie Yuan
+          image: ../images/members/jessie.jpg
+          alt: I am Jessie.
 - name: Collaborators
   list:
     - full: true
