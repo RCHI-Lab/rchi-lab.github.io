@@ -4,6 +4,11 @@ title: Lab Photos
 slim: true
 ---
 
+## Cat Cafe social, Spring 2023
+![Cat Cafe Spring 2023](images/lab_photos/catcafe_spring2023.jpg)
+
+---
+
 ## Spring 2023
 ![Lab Dinner Spring 2023](images/lab_photos/dinner_spring2023.jpg)
 
