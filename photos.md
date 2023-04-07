@@ -4,6 +4,11 @@ title: Lab Photos
 slim: true
 ---
 
+## Hofbrauhaus, Spring 2023
+![Hofbrauhaus Spring 2023](images/lab_photos/hofbrauhaus_spring2023.jpg)
+
+---
+
 ## Cat Cafe social, Spring 2023
 ![Cat Cafe Spring 2023](images/lab_photos/catcafe_spring2023.jpg)
 
