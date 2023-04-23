@@ -6,11 +6,11 @@
   type: conference
   venue: RSS
   image: ../images/rss.png
-  id: padmanabha2023hatteleop
+  id: wang2023one
   projectpage: https://sites.google.com/view/one-policy-dress
   code: 
   bibtex: |
-      @inproceedings{padmanabha2023hatteleop,
+      @inproceedings{wang2023one,
           title={One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments},
           author={Wang, Yufei and Sun, Zhanyi and Erickson, Zackory and Held, David},
           booktitle={2023 Robotics: Science and Systems (RSS)},
