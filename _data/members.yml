@@ -102,6 +102,10 @@
         - name: Jessie Yuan
           image: ../images/members/jessie.jpg
           alt: I am Jessie.
+        - name: Chen Chen
+          website: https://calaw.cc/
+          image: ../images/members/chen.jpg
+          alt: I am Chen. I am wearing a white shirt.
 - name: Collaborators
   list:
     - full: true
