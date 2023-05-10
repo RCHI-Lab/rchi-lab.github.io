@@ -106,6 +106,10 @@
           website: https://calaw.cc/
           image: ../images/members/chen.jpg
           alt: I am Chen. I am wearing a white shirt.
+        - name: Weikang Wan
+          website: https://wkwan7.github.io/
+          image: ../images/members/weikang.jpg
+          alt: I am Weikang. I am wearing a blue shirt.
 - name: Collaborators
   list:
     - full: true
