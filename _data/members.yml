@@ -113,7 +113,7 @@
           alt: I am Weikang. I am wearing a blue shirt.
         - name: Ellen Lee
           website: https://www.linkedin.com/in/ellenahrumlee/
-          image: ../images/members/Ellen.jpg
+          image: ../images/members/Ellen.png
           alt: I am Ellen
 - name: Collaborators
   list:
