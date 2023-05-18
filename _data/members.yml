@@ -34,6 +34,7 @@
           alt: I am Jehan. I am wearing a gray polo shirt.
         - name: Zulekha Karachiwalla
           image: ../images/members/zulekha.jpg
+          website: https://zkarachi.github.io/
           coadvisor: Henny Admoni
           coadvisorweb: http://hennyadmoni.com
           alt: I am Zulekha. I am wearing a white shirt.
@@ -110,6 +111,10 @@
           website: https://wkwan7.github.io/
           image: ../images/members/weikang.jpg
           alt: I am Weikang. I am wearing a blue shirt.
+        - name: Ellen Lee
+          website: https://www.linkedin.com/in/ellenahrumlee/
+          image: ../images/members/Ellen.jpg
+          alt: I am Ellen
 - name: Collaborators
   list:
     - full: true
