@@ -115,6 +115,9 @@
           website: https://www.linkedin.com/in/ellenahrumlee/
           image: ../images/members/Ellen.png
           alt: I am Ellen
+        - name: Maxwell Soh
+          image: ../images/members/maxwell_soh.jpeg
+          alt: I am Maxwell. I am wearing a black shirt and glasses. 
 - name: Collaborators
   list:
     - full: true
