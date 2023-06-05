@@ -118,6 +118,9 @@
         - name: Maxwell Soh
           image: ../images/members/maxwell_soh.jpeg
           alt: I am Maxwell. I am wearing a black shirt and glasses. 
+        - name: Alex Gillespie
+          image: ../images/members/alex_gillespie.png
+          alt: I am Alex. I am wearing a black jacket. 
 - name: Collaborators
   list:
     - full: true
