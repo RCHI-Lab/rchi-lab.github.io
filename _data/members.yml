@@ -121,6 +121,9 @@
         - name: Alex Gillespie
           image: ../images/members/alex_gillespie.png
           alt: I am Alex. I am wearing a black jacket. 
+        - name: Kendra Givens
+          image: ../images/members/kendra_givens.jpg
+          alt: I am Kendra. 
 - name: Collaborators
   list:
     - full: true
