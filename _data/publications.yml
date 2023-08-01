@@ -1,5 +1,27 @@
 # Find and Delete these: ’
 
+- title: "Robust Body Exposure (RoBE): A Graph-based Dynamics Modeling Approach to Manipulating Blankets over People"
+  authors: Kavya Puthuveetil, Sasha Wald, Atharva Pusalkar, Pratyusha Karnati, and Zackory Erickson
+  year: 2023
+  type: journal
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  image: ../images/robe.jpg
+  id: puthuveetil2023robust
+  projectpage: https://rchi-lab.github.io/robust-body-exposure
+  code: 
+  bibtex: |
+      @article{puthuveetil2023robust,
+          title={Robust Body Exposure (RoBE): A Graph-based Dynamics Modeling Approach to Manipulating Blankets over People},
+          author={Puthuveetil, Kavya and Wald, Sasha and Pusalkar, Atharva and Karnati, Pratyusha and Erickson, Zackory},
+          journal={IEEE Robotics and Automation Letters},
+          year={2023},
+          organization={IEEE}
+      }
+  abstract: "Robotic caregivers could potentially improve the quality of life of many who require physical assistance. However, in order to assist individuals who are lying in bed, robots must be capable of dealing with a significant obstacle: the blanket or sheet that will almost always cover the person's body. We propose a method for targeted bedding manipulation over people lying supine in bed where we first learn a model of the cloth's dynamics. Then, we optimize over this model to uncover a given target limb using information about human body shape and pose that only needs to be provided at run-time. We show how this approach enables greater robustness to variation relative to geometric and reinforcement learning baselines via a number of generalization evaluations in simulation and in the real world. We further evaluate our approach in a human study with 12 participants where we demonstrate that a mobile manipulator can adapt to real variation in human body shape, size, pose, and blanket configuration to uncover target body parts without exposing the rest of the body. Source code and supplementary materials are available online."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2304.04822.pdf
+
 - title: "One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments"
   authors: Yufei Wang, Zhanyi Sun, Zackory Erickson*, David Held* 
   year: 2023
