@@ -1,5 +1,27 @@
 # Find and Delete these: ’
 
+title: "A Multimodal Sensing Ring for Quantification of Scratch Intensity"
+  authors: Akhil Padmanabha, Sonal Choudhary, Carmel Majidi*, and Zackory Erickson*
+  year: 2023
+  type: journal
+  venue: Nature Communications Medicine
+  image: ../images/scratch_intensity.png
+  id: padmanabha2023multimodal
+  projectpage: 
+  code: https://github.com/RCHI-Lab/Wearable_Scratch_Intensity
+  bibtex: |
+      @article{padmanabha2023multimodal,
+          title={A Multimodal Sensing Ring for Quantification of Scratch Intensity},
+          author={Padmanabha, Akhil and Choudhary, Sonal and Majidi, Carmel and Erickson, Zackory},
+          journal={Nature Communications Medicine},
+          year={2023},
+          organization={Nature}
+      }
+  abstract: "An objective measurement of chronic itch is necessary for improvements in patient care for numerous medical conditions. While wearables have shown promise for scratch detection, they are currently unable to estimate scratch intensity, preventing a comprehensive understanding of the effect of itch on an individual. In this work, we present a framework for the estimation of scratch intensity in addition to the detection of scratch. This is accomplished with a multimodal ring device, consisting of an accelerometer and a contact microphone, a pressure sensitive tablet for capturing ground truth intensity values, and machine learning algorithms for regression of scratch intensity on a 0-600 milliwatts (mW) power scale that can be mapped to a 0-10 continuous scale. We evaluate the performance of our algorithms on 20 individuals using Leave One Subject Out Cross Validation and using data from 14 additional participants, we show that our algorithms achieve clinically-relevant discrimination of scratching intensity levels. By doing so, our device enables the quantification of the substantial variations in the interpretation of the 0-10 scale frequently utilized in patient self-reported clinical assessments. This work demonstrates that a finger-worn device can provide multidimensional, objective, real-time measures for the action of scratching."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2302.03813
+
 - title: "Robust Body Exposure (RoBE): A Graph-based Dynamics Modeling Approach to Manipulating Blankets over People"
   authors: Kavya Puthuveetil, Sasha Wald, Atharva Pusalkar, Pratyusha Karnati, and Zackory Erickson
   year: 2023
@@ -27,7 +49,7 @@
   year: 2023
   type: conference
   venue: RSS
-  image: ../images/rss.png
+  image: ../images/RSS23-dressing.gif
   id: wang2023one
   projectpage: https://sites.google.com/view/one-policy-dress
   code: 
