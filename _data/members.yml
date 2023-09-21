@@ -68,6 +68,7 @@
           alt: I am Yexin. I am wearing a black shirt. 
         - name: Yiran Tao
           image: ../images/members/yirantao.jpeg
+          website: http://yirantao1000.github.io/
           alt: I am Yiran. I am wearing a blouse. 
 - name: Undergraduate Students
   list:
