@@ -42,12 +42,6 @@
   list:
     - full: true
       list:
-        - name: Fukang Liu
-          image: ../images/members/fukang.jpg
-          website: https://fukangl.github.io/
-          coadvisor: Zeynep Temel
-          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
-          alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
         - name: Saurav Kambil
           image: ../images/members/saurav.jpg
           alt: I am Saurav. I am wearing a blue jacket.
@@ -72,6 +66,9 @@
         - name: Yexin Hu
           image: ../images/members/yexin.jpg
           alt: I am Yexin. I am wearing a black shirt. 
+        - name: Yiran Tao
+          image: ../images/members/yirantao.jpeg
+          alt: I am Yiran. I am wearing a blouse. 
 - name: Undergraduate Students
   list:
     - full: true
@@ -192,6 +189,12 @@
           coadvisor: Zeynep Temel
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Vaidehi. I am wearing a white sweater.
+        - name: Fukang Liu
+          image: ../images/members/fukang.jpg
+          website: https://fukangl.github.io/
+          coadvisor: Zeynep Temel
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
+          alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
     - full: False
       name: Undergraduate students
       list:
