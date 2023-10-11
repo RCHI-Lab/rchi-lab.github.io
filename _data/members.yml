@@ -70,6 +70,10 @@
           image: ../images/members/yirantao.jpeg
           website: http://yirantao1000.github.io/
           alt: I am Yiran. I am wearing a blouse. 
+        - name: Michaela Tecson
+          image: ../images/members/michaela_tecson.jpg
+          website: https://www.linkedin.com/in/michaela-tecson/
+          alt: I am Michaela. I am wearing a black shirt. 
 - name: Undergraduate Students
   list:
     - full: true
