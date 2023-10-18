@@ -74,6 +74,10 @@
           image: ../images/members/michaela_tecson.jpg
           website: https://www.linkedin.com/in/michaela-tecson/
           alt: I am Michaela. I am wearing a black shirt. 
+        - name: Tariq Hussain
+          image: ../images/members/TariqHussain.png
+          website: https://www.linkedin.com/in/tariq-anwaar/
+          alt: I am Tariq. I am wearing a black polo. 
 - name: Undergraduate Students
   list:
     - full: true
