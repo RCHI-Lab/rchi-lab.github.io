@@ -51,6 +51,9 @@ slim: true
                             {% else %}
                                 <li><a> {{member.name}} </a></li>
                             {% endif %}
+                            {% if member.new_role %}
+                                {{member.new_role}}
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 {% endif %}
