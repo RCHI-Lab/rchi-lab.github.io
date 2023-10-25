@@ -50,10 +50,7 @@ slim: true
                                 <li><a target="_blank" href="{{member.website}}"> {{member.name}} </a></li>
                             {% else %}
                                 <li><a> {{member.name}} </a></li>
-                            {% endif %}
-                            {% if member.new_role %}
-                                {{member.new_role}}
-                            {% endif %}
+                            {% endif %} {% if member.new_role %} {{member.new_role}} {% endif %}
                         {% endfor %}
                     </ul>
                 {% endif %}
