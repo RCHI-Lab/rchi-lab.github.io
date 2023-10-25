@@ -47,10 +47,10 @@ slim: true
                    <ul>
                         {% for member in group.list %}
                             {% if member.website %}
-                                <li><a target="_blank" href="{{member.website}}"> {{member.name}} </a></li>
+                                <li><a target="_blank" href="{{member.website}}"> {{member.name}} {% if member.new_role %} {{member.new_role}} {% endif %} </a></li>
                             {% else %}
-                                <li><a> {{member.name}} </a></li>
-                            {% endif %} {% if member.new_role %} {{member.new_role}} {% endif %}
+                                <li><a> {{member.name}} {% if member.new_role %} {{member.new_role}} {% endif %} </a></li>
+                            {% endif %} 
                         {% endfor %}
                     </ul>
                 {% endif %}
