@@ -78,6 +78,10 @@
           image: ../images/members/TariqHussain.png
           website: https://www.linkedin.com/in/tariq-anwaar/
           alt: I am Tariq. I am wearing a black polo. 
+        - name: Yatharth Ahuja
+          image: ../images/members/YatharthAhuja.jpg
+          website: https://www.linkedin.com/in/yatharth-ahuja/
+          alt: I am Yatharth. I am wearing a blue jacket.
 - name: Undergraduate Students
   list:
     - full: true
