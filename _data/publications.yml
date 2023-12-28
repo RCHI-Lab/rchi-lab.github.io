@@ -1,4 +1,24 @@
 # Find and Delete these: ’
+- title: "Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator"
+  authors: Akhil Padmanabha, Janavi Gupta, Chen Chen, Jehan Yang, Vy Nguyen, Douglas J. Weber, Carmel Majidi, and Zackory Erickson
+  year: 2024
+  type: conference
+  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
+  image: 
+  id: padmanabha2024independence
+  projectpage: https://sites.google.com/view/hat2-teleop/
+  code: 
+  bibtex: |
+      @inproceedings{padmanabha2024independence,
+        title={Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator},
+        author={He, Jerry Zhi-Yang and Brown, Daniel S and Erickson, Zackory and Dragan, Anca},
+        booktitle={ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+        year={2024}
+      }
+  abstract: "Our ultimate goal is to build robust policies for robots that assist people. What makes this hard is that people can behave unexpectedly at test time, potentially interacting with the robot outside its training distribution and leading to failures. Even just measuring robustness is a challenge. Adversarial perturbations are the default, but they can paint the wrong picture: they can correspond to human motions that are unlikely to occur during natural interactions with people. A robot policy might fail under small adversarial perturbations but work under large natural perturbations. We propose that capturing robustness in these interactive settings requires constructing and analyzing the entire natural-adversarial frontier: the Pareto-frontier of human policies that are the best trade-offs between naturalness and low robot performance. We introduce RIGID, a method for constructing this frontier by training adversarial human policies that trade off between minimizing robot reward and acting human-like (as measured by a discriminator). On an Assistive Gym task, we use RIGID to analyze the performance of standard collaborative RL, as well as the performance of existing methods meant to increase robustness. We also compare the frontier RIGID identifies with the failures identified in expert adversarial interaction, and with naturally-occurring failures during user interaction. Overall, we find evidence that RIGID can provide a meaningful measure of robustness predictive of deployment performance, and uncover failure cases in human-robot interaction that are difficult to find manually."
+  awards: 
+  video: https://www.youtube.com/watch?v=XuQKCFJ3-V8
+  pdf: https://arxiv.org/pdf/2312.15071.pdf
 
 - title: "Quantifying Assistive Robustness Via the Natural-Adversarial Frontier"
   authors: Jerry Zhi-Yang He, Daniel S. Brown, Zackory Erickson, and Anca Dragan
