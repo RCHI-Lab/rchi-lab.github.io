@@ -4,14 +4,14 @@
   year: 2024
   type: conference
   venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
-  image: 
+  image: ../images/padmanabha2024independence.gif
   id: padmanabha2024independence
   projectpage: https://sites.google.com/view/hat2-teleop/
   code: 
   bibtex: |
       @inproceedings{padmanabha2024independence,
         title={Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator},
-        author={He, Jerry Zhi-Yang and Brown, Daniel S and Erickson, Zackory and Dragan, Anca},
+        author={Padmanabha, Akhil and Gupta, Janavi and Chen, Chen and Yang, Jehan and Nguyen, Vy and Weber, Douglas and Majidi, Carmel and Erickson, Zackory},
         booktitle={ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
         year={2024}
       }
