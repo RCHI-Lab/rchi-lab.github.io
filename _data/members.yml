@@ -82,6 +82,10 @@
           image: ../images/members/YatharthAhuja.JPG
           website: https://www.linkedin.com/in/yatharth-ahuja/
           alt: I am Yatharth. I am wearing a blue jacket.
+        - name: Zoe Lalena
+          image: ../images/members/ZoeLalena.jpg
+          website: https://zel9356.wixsite.com/portfolio/resume
+          alt: I am Zoe. I am a black shirt. 
 - name: Undergraduate Students
   list:
     - full: true
@@ -92,9 +96,6 @@
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
-        - name: Qin (Alicia) Wang
-          image: ../images/members/alicia.jpg
-          alt: I am Alicia. I am wearing a tan jacket.
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
@@ -227,6 +228,9 @@
           image: ../images/members/jacob.jpg
           website: https://jacobdelgado1002.github.io/
           alt: I am Jacob.
+        - name: Qin (Alicia) Wang
+          image: ../images/members/alicia.jpg
+          alt: I am Alicia. I am wearing a tan jacket.
     - full: False
       name: MRSD team (Team TouRI)
       website: https://mrsdprojects.ri.cmu.edu/2022teamh/
