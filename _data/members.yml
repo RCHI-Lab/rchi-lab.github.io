@@ -99,9 +99,6 @@
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
-        - name: Yikang (Bruce) Cheng
-          image: ../images/members/bruce.jpg
-          alt: I am Bruce.
         - name: Janavi Gupta
           website: https://guptajanavi.wixsite.com/website
           image: ../images/members/janavi.jpg
@@ -231,6 +228,9 @@
         - name: Qin (Alicia) Wang
           image: ../images/members/alicia.jpg
           alt: I am Alicia. I am wearing a tan jacket.
+        - name: Yikang (Bruce) Cheng
+          image: ../images/members/bruce.jpg
+          alt: I am Bruce.
     - full: False
       name: MRSD team (Team TouRI)
       website: https://mrsdprojects.ri.cmu.edu/2022teamh/
