@@ -82,10 +82,13 @@
           image: ../images/members/YatharthAhuja.JPG
           website: https://www.linkedin.com/in/yatharth-ahuja/
           alt: I am Yatharth. I am wearing a blue jacket.
-        - name: Zoe Lalena
+        - name: Zoe LaLena
           image: ../images/members/ZoeLalena.jpg
           website: https://zel9356.wixsite.com/portfolio/resume
-          alt: I am Zoe. I am a black shirt. 
+          alt: I am Zoe. I am wearing a black shirt. 
+        - name: Jing Gao
+          image: ../images/members/JingGao.jpg
+          alt: I am Jing Gao. 
 - name: Undergraduate Students
   list:
     - full: true
