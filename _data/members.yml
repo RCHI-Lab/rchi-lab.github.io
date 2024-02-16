@@ -78,10 +78,6 @@
           image: ../images/members/TariqHussain.png
           website: https://www.linkedin.com/in/tariq-anwaar/
           alt: I am Tariq. I am wearing a black polo. 
-        - name: Yatharth Ahuja
-          image: ../images/members/YatharthAhuja.JPG
-          website: https://www.linkedin.com/in/yatharth-ahuja/
-          alt: I am Yatharth. I am wearing a blue jacket.
         - name: Zoe LaLena
           image: ../images/members/ZoeLalena.jpg
           website: https://zel9356.wixsite.com/portfolio/resume
@@ -138,6 +134,9 @@
         - name: Kendra Givens
           image: ../images/members/kendra_givens.jpg
           alt: I am Kendra. 
+        - name: Catherine Li
+          image: ../images/members/catherine_li.jpg
+          alt: I am Catherine. 
 - name: Collaborators
   list:
     - full: true
@@ -213,6 +212,10 @@
           coadvisorweb: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
           alt: I am Fukang. I am wearing a white T-shirt with green bushes behind me.
           new_role: (now PhD student at Georgia Tech)
+         - name: Yatharth Ahuja
+          image: ../images/members/YatharthAhuja.JPG
+          website: https://www.linkedin.com/in/yatharth-ahuja/
+          alt: I am Yatharth. I am wearing a blue jacket.
     - full: False
       name: Undergraduate students
       list:
