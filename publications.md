@@ -159,7 +159,7 @@ function showhide(d) {
                             <a href="{{pub.video}}">[Video]</a>
                         {% endif %}
                         {% if pub.news %}
-                            <a href="{{pub.news}}">[News]</a>
+                            <a href="{{pub.news}}">[In The News]</a>
                         {% endif %}
                     </em>
                     <div id="bib{{pub.id}}" style="display:none">
