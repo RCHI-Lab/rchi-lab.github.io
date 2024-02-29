@@ -63,6 +63,7 @@
   video: 
   pdf: https://arxiv.org/pdf/2302.03813
   news: https://www.cs.cmu.edu/news/2023/scratch-intensity-sensor
+  news2: https://physicsworld.com/a/wearable-ring-measures-intensity-and-frequency-of-scratching/
 
 - title: "Robust Body Exposure (RoBE): A Graph-based Dynamics Modeling Approach to Manipulating Blankets over People"
   authors: Kavya Puthuveetil, Sasha Wald, Atharva Pusalkar, Pratyusha Karnati, and Zackory Erickson
