@@ -1,4 +1,25 @@
 # Find and Delete these: ’
+- title: "Force Constrained Visual Policy: Safe Robot-Assisted Dressing via Multi-Modal Sensing"
+  authors: Zhanyi Sun*, Yufei Wang*, David Held&dagger;, Zackory Erickson&dagger;
+  year: 2024
+  type: journal
+  venue: IEEE Robotics and Automation Letter (RA-L)
+  image: ../images/padmanabha2024independence.gif
+  id: sun2024force
+  projectpage: https://sites.google.com/view/dressing-fcvp
+  code: 
+  bibtex: |
+      @article{sun2024force,  
+      title={Force-Constrained Visual Policy: Safe Robot-Assisted Dressing via Multi-Modal Sensing},  
+      author={Sun, Zhanyi and Wang, Yufei and Held, David and Erickson, Zackory},  
+      journal={IEEE Robotics and Automation Letters},  
+      year={2024} }
+  abstract: "Robot-assisted dressing could profoundly enhance the quality of life of adults with physical disabilities. To achieve this, a robot can benefit from both visual and force sensing. The former enables the robot to ascertain human body pose and garment deformations, while the latter helps maintain safety and comfort during the dressing process. In this paper, we introduce a new technique that leverages both vision and force modalities for this assistive task. Our approach first trains a vision-based dressing policy using reinforcement learning in simulation with varying body sizes, poses, and types of garments. We then learn a force dynamics model for action planning to ensure safety. Due to limitations of simulating accurate force data when deformable garments interact with the human body, we learn a force dynamics model directly from real-world data. Our proposed method combines the vision-based policy, trained in simulation, with the force dynamics model, learned in the real world, by solving a constrained optimization problem to infer actions that facilitate the dressing process without applying excessive force on the person. We evaluate our system in simulation and in a real-world human study with 10 participants across 240 dressing trials, showing it greatly outperforms prior baselines. Video demonstrations are available on our project website."
+  video: 
+  pdf: https://arxiv.org/abs/2311.04390
+  news: 
+  awards: 
+
 - title: "Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator"
   authors: Akhil Padmanabha, Janavi Gupta, Chen Chen, Jehan Yang, Vy Nguyen, Douglas J. Weber, Carmel Majidi, and Zackory Erickson
   year: 2024
@@ -107,7 +128,8 @@
   abstract: "Robot-assisted dressing could benefit the lives of many people such as older adults and individuals with disabilities. Despite such potential, robot-assisted dressing remains a challenging task for robotics as it involves complex manipulation of deformable cloth in 3D space. Many prior works aim to solve the robot-assisted dressing task, but they make certain assumptions such as a fixed garment and a fixed arm pose that limit their ability to generalize. In this work, we develop a robot-assisted dressing system that is able to dress different garments on people with diverse poses from partial point cloud observations, based on a learned policy. We show that with proper design of the policy architecture and Q function, reinforcement learning (RL) can be used to learn effective policies with partial point cloud observations that work well for dressing diverse garments. We further leverage policy distillation to combine multiple policies trained on different ranges of human arm poses into a single policy that works over a wide range of different arm poses. We conduct comprehensive real-world evaluations of our system with 510 dressing trials in a human study with 17 participants with different arm poses and dressed garments. Our system is able to dress 86% of the length of the participants arms on average. Videos can be found on the anonymized project webpage: https://sites.google.com/view/one-policy-dress."
   awards: 
   video: 
-  pdf: 
+  pdf: https://arxiv.org/abs/2306.12372
+  news: https://www.cmu.edu/news/stories/archives/2023/august/cmu-robot-puts-on-shirts-one-sleeve-at-a-time
 
 - title: "HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators"
   authors: Akhil Padmanabha*, Qin Wang*, Daphne Han, Jashkumar Diyora, Kriti Kacker, Hamza Khalid, Liang-Jung Chen, Carmel Majidi, and Zackory Erickson 
