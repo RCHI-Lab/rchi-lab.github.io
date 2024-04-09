@@ -140,6 +140,7 @@
         - name: Tanisha Mehta
           image: ../image/members/tanisha-mehta.png
           alt: I am Tanisha.
+          website: https://www.linkedin.com/in/tanisha-s-mehta/ 
 - name: Collaborators
   list:
     - full: true
