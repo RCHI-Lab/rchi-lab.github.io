@@ -137,6 +137,9 @@
         - name: Catherine Li
           image: ../images/members/catherine_li.jpg
           alt: I am Catherine. 
+        - name: Tanisha Mehta
+          image: ../image/members/tanisha-mehta.png
+          alt: I am Tanisha.
 - name: Collaborators
   list:
     - full: true
