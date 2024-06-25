@@ -42,27 +42,6 @@
   list:
     - full: true
       list:
-        - name: Saurav Kambil
-          image: ../images/members/saurav.jpg
-          alt: I am Saurav. I am wearing a blue jacket.
-        - name: Zilin Zhang
-          image: ../images/members/zilin.jpg
-          alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
-        - name: Sankalp Chopkar
-          image: ../images/members/sankalp.jpg
-          website: https://www.ri.cmu.edu/ri-people/sankalp-chopkar/
-          alt: I am Sankalp. I am wearing a light pink dress shirt.
-        - name: Atharva Pusalkar
-          image: ../images/members/atharva.jpg
-          website: https://atharva-18.github.io/
-          alt: I am Atharva. I am wearing a black shirt with the mountains behind me.
-        - name: Abhishek Tandon
-          image: ../images/members/abhishek.jpg
-          website: https://tandon-a.github.io/
-          alt: I am Abhishek. I am wearing a red shirt.
-        - name: Anujraaj Goyal
-          image: ../images/members/argo.jpg
-          alt: I am Argo. I am wearing a blue jacket.
         - name: Yexin Hu
           image: ../images/members/yexin.jpg
           alt: I am Yexin. I am wearing a black shirt. 
@@ -95,9 +74,6 @@
         - name: Allen Zheng
           image: ../images/members/allen.jpg
           alt: I am Allen. I am wearing a black jacket.
-        - name: Wesley Lewis
-          image: ../images/members/wesley.jpg
-          alt: I am Wesley.
         - name: Janavi Gupta
           website: https://guptajanavi.wixsite.com/website
           image: ../images/members/janavi.jpg
@@ -141,6 +117,21 @@
           image: ../images/members/tanisha-mehta.png
           alt: I am Tanisha.
           website: https://www.linkedin.com/in/tanisha-s-mehta/ 
+        - name: Bharath Hegde
+          image: ../images/members/bharath_hedge.jpg
+          website: https://bharath-hegde.github.io/
+        - name: Karolena Zhou
+          image: ../images/members/karolena_zhou.jpg
+          website: https://www.linkedin.com/in/karolena-zhou/
+        - name: Victoria de Leon
+          image: ../images/members/victoria_de_leon.jpg
+          website: https://sites.google.com/view/victoriarodleon/main
+        - name: Cindy Sun
+          image: ../images/members/cindy_sun.jpg
+          website: https://www.linkedin.com/in/cindy-sun-317479308
+        - name: Annika Srinivasan
+          image: ../images/members/annika_srinivasan.jpg
+          website: https://annikas5.wixsite.com/annikasrinivasan
 - name: Collaborators
   list:
     - full: true
@@ -220,6 +211,27 @@
           image: ../images/members/YatharthAhuja.JPG
           website: https://www.linkedin.com/in/yatharth-ahuja/
           alt: I am Yatharth. I am wearing a blue jacket.
+        - name: Saurav Kambil
+          image: ../images/members/saurav.jpg
+          alt: I am Saurav. I am wearing a blue jacket.
+        - name: Zilin Zhang
+          image: ../images/members/zilin.jpg
+          alt: I am Zilin. I am wearing a white shirt with a brick wall behind me.
+        - name: Sankalp Chopkar
+          image: ../images/members/sankalp.jpg
+          website: https://www.ri.cmu.edu/ri-people/sankalp-chopkar/
+          alt: I am Sankalp. I am wearing a light pink dress shirt.
+        - name: Atharva Pusalkar
+          image: ../images/members/atharva.jpg
+          website: https://atharva-18.github.io/
+          alt: I am Atharva. I am wearing a black shirt with the mountains behind me.
+        - name: Abhishek Tandon
+          image: ../images/members/abhishek.jpg
+          website: https://tandon-a.github.io/
+          alt: I am Abhishek. I am wearing a red shirt.
+        - name: Anujraaj Goyal
+          image: ../images/members/argo.jpg
+          alt: I am Argo. I am wearing a blue jacket.
     - full: False
       name: Undergraduate students
       list:
@@ -241,6 +253,9 @@
         - name: Yikang (Bruce) Cheng
           image: ../images/members/bruce.jpg
           alt: I am Bruce.
+        - name: Wesley Lewis
+          image: ../images/members/wesley.jpg
+          alt: I am Wesley.
     - full: False
       name: MRSD team (Team TouRI)
       website: https://mrsdprojects.ri.cmu.edu/2022teamh/
