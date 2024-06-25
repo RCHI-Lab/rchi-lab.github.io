@@ -4,6 +4,9 @@ title: Lab Photos
 slim: true
 ---
 
+## Wushiland Boba, Summer 2024
+![Wushiland Boba Summer 2024](images/lab_photos/boba_summer2024.jpg)
+
 ## Hofbrauhaus, Spring 2023
 ![Hofbrauhaus Spring 2023](images/lab_photos/hofbrauhaus_spring2023.jpg)
 
