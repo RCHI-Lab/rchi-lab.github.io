@@ -194,6 +194,11 @@
     - full: False
       name: Master's students
       list:
+        - name: Zhanyi Sun
+          website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
+          coadvisor: David Held
+          coadvisorweb: https://www.ri.cmu.edu/ri-faculty/david-held/
+          new_role: (now PhD student at Stanford)
         - name: Vaidehi Patil
           image: ../images/members/vaidehi.jpg
           website: https://www.ri.cmu.edu/ri-people/vaidehi-patil/
