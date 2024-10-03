@@ -38,6 +38,10 @@
           coadvisor: Henny Admoni
           coadvisorweb: http://hennyadmoni.com
           alt: I am Zulekha. I am wearing a white shirt.
+        - name: Junxiang (Jim) Wang
+          image: ../images/members/junxiang_wang.jpg
+          website: https://jimwang418.github.io/
+          alt: I am Jim. 
 - name: Master's Students
   list:
     - full: true
@@ -64,6 +68,10 @@
         - name: Jing Gao
           image: ../images/members/JingGao.jpg
           alt: I am Jing Gao. 
+        - name: Divyam Goel
+          image: ../images/members/divyam_goel.jpg
+          website: https://dv-fenix.github.io/
+          alt: I am Divyam Goel.
 - name: Undergraduate Students
   list:
     - full: true
@@ -132,6 +140,9 @@
         - name: Annika Srinivasan
           image: ../images/members/annika_srinivasan.jpeg
           website: https://annikas5.wixsite.com/annikasrinivasan
+        - name: Vivianna Lieu
+          image: ../images/members/vivianna_lieu.jpg
+          website: https://www.linkedin.com/in/vivianna-lieu/
 - name: Collaborators
   list:
     - full: true
