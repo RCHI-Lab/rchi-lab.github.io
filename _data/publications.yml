@@ -9,11 +9,13 @@
       booktitle={Advances in neural information processing systems (NeurIPS)},
       year={2024}       
     }
-  img: ../images/Difftop2024.png
+  image: ../images/Difftop2024.png
   pdf: https://arxiv.org/abs/2402.05421
-  short_id: wan2024difftop
+  id: wan2024difftop
   venue: Advances in neural information processing systems (NeurIPS), 2024
   awards: Spotlight Presentation
+  year: 2024
+  type: conference
   
 - title: "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation"
   authors: Yufei Wang*, Zhou Xian*, Feng Chen*, Tsun-Hsuan Wang, Yian Wang, Katerina Fragkiadaki, Zackory Erickson, David Held, Chuang Gan
