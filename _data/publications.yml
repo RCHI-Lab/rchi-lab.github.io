@@ -33,6 +33,7 @@
   id: padmanabha2024voicepilot
   venue: ACM Symposium on User Interface Software and Technology (UIST) 2024
   year: 2024
+  news: https://www.ri.cmu.edu/voicepilot-framework-enhances-communication-between-humans-and-physically-assistive-robots/
   type: conference
 
 - title: "DiffTOP: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning"
