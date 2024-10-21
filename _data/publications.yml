@@ -1,4 +1,22 @@
 # Find and Delete these: ’
+- title: "Towards an LLM-Based Speech Interface for Robot-Assisted Feeding"
+  abstract: "Physically assistive robots present an opportunity to significantly increase the well-being and independence of individuals with motor impairments or other forms of disability who are unable to complete activities of daily living (ADLs). Speech interfaces, especially ones that utilize Large Language Models (LLMs), can enable individuals to effectively and naturally communicate high-level commands and nuanced preferences to robots. In this work, we demonstrate an LLM-based speech interface for a commercially available assistive feeding robot. Our system is based on an iteratively designed framework, from the paper “VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots,” that incorporates human-centric elements for integrating LLMs as interfaces for robots. It has been evaluated through a user study with 11 older adults at an independent living facility. "
+  authors: Jessie Yuan, Janavi Gupta, Akhil Padmanabha, Zulekha Karachiwalla, Carmel Majidi, Henny Admoni, Zackory Erickson
+  bibtex: |
+    @inproceedings{yuan2024towards,
+      title={Towards an LLM-Based Speech Interface for Robot-Assisted Feeding},
+      author={Yuan, Jessie and Gupta, Janavi and Padmanabha, Akhil and Karachiwalla, Zulekha and Majidi, Carmel and Admoni, Henny and Erickson, Zackory},
+      booktitle={Adjunct Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+      pages={1--4},
+      year={2024}
+    }
+  image: ../images/voicepilot_workshop.png
+  pdf: https://dl.acm.org/doi/abs/10.1145/3672539.3686759
+  id: yuan2024towards
+  venue: ACM Symposium on User Interface Software and Technology (UIST) Adjunct 2024
+  year: 2024
+  type: conference
+
 - title: "VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots"
   abstract: "Physically assistive robots present an opportunity to significantly increase the well-being and independence of individuals with motor impairments or other forms of disability who are unable to complete activities of daily living. Speech interfaces, especially ones that utilize Large Language Models (LLMs), can enable individuals to effectively and naturally communicate high-level commands and nuanced preferences to robots. Frameworks for integrating LLMs as interfaces to robots for high level task planning and code generation have been proposed, but fail to incorporate human-centric considerations which are essential while developing assistive interfaces. In this work, we present a framework for incorporating LLMs as speech interfaces for physically assistive robots, constructed iteratively with 3 stages of testing involving a feeding robot, culminating in an evaluation with 11 older adults at an independent living facility. We use both quantitative and qualitative data from the final study to validate our framework and additionally provide design guidelines for using LLMs as speech interfaces for assistive robots."
   authors: Akhil Padmanabha*, Jessie Yuan*, Janavi Gupta, Zulekha Karachiwalla, Carmel Majidi, Henny Admoni, Zackory Erickson
