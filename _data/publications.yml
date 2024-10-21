@@ -1,4 +1,22 @@
 # Find and Delete these: ’
+- title: "VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots"
+  abstract: "Physically assistive robots present an opportunity to significantly increase the well-being and independence of individuals with motor impairments or other forms of disability who are unable to complete activities of daily living. Speech interfaces, especially ones that utilize Large Language Models (LLMs), can enable individuals to effectively and naturally communicate high-level commands and nuanced preferences to robots. Frameworks for integrating LLMs as interfaces to robots for high level task planning and code generation have been proposed, but fail to incorporate human-centric considerations which are essential while developing assistive interfaces. In this work, we present a framework for incorporating LLMs as speech interfaces for physically assistive robots, constructed iteratively with 3 stages of testing involving a feeding robot, culminating in an evaluation with 11 older adults at an independent living facility. We use both quantitative and qualitative data from the final study to validate our framework and additionally provide design guidelines for using LLMs as speech interfaces for assistive robots."
+  authors: Akhil Padmanabha*, Jessie Yuan*, Janavi Gupta, Zulekha Karachiwalla, Carmel Majidi, Henny Admoni, Zackory Erickson
+  bibtex: |
+    @inproceedings{padmanabha2024voicepilot,
+      title={Voicepilot: Harnessing LLMs as speech interfaces for physically assistive robots},
+      author={Padmanabha, Akhil and Yuan, Jessie and Gupta, Janavi and Karachiwalla, Zulekha and Majidi, Carmel and Admoni, Henny and Erickson, Zackory},
+      booktitle={Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+      pages={1--18},
+      year={2024}
+    }
+  image: ../images/voicepilot.gif
+  pdf: https://arxiv.org/abs/2404.04066
+  id: padmanabha2024voicepilot
+  venue: ACM Symposium on User Interface Software and Technology (UIST) 2024
+  year: 2024
+  type: conference
+
 - title: "DiffTOP: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning"
   abstract: "This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimization as the policy representation to generate actions for deep reinforcement and imitation learning. Trajectory optimization is a powerful and widely used algorithm in control, parameterized by a cost and a dynamics function. The key to our approach is to leverage the recent progress in differentiable trajectory optimization, which enables computing the gradients of the loss with respect to the parameters of trajectory optimization. As a result, the cost and dynamics functions of trajectory optimization can be learned end-to-end. DiffTOP addresses the ``objective mismatch'' issue of prior model-based RL algorithms, as the dynamics model in DiffTOP is learned to directly maximize task performance by differentiating the policy gradient loss through the trajectory optimization process. We further benchmark DiffTOP for imitation learning on standard robotic manipulation task suites with high-dimensional sensory observations and compare our method to feed-forward policy classes as well as Energy-Based Models (EBM) and Diffusion. Across 15 model-based RL tasks and 35imitation learning tasks with high-dimensional image and point cloud inputs, DiffTOP outperforms prior state-of-the-art methods in both domains."
   authors: Weikang Wan*, Ziyu Wang*, Yufei Wang*, Zackory Erickson, David Held
