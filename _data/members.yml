@@ -95,6 +95,7 @@
           image: ../images/members/sumayya.jpg
           alt: I am Sumayya.
         - name: Jessie Yuan
+          website: https://jessie-yuan.github.io/
           image: ../images/members/jessie.jpg
           alt: I am Jessie.
         - name: Chen Chen
