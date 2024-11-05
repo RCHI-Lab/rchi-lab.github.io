@@ -72,6 +72,9 @@
           image: ../images/members/divyam_goel.jpg
           website: https://dv-fenix.github.io/
           alt: I am Divyam Goel.
+        - name: Xinwen Xu
+          image: ../images/members/XinwenXu.jpg
+          alt: I am XinwenXU. 
 - name: Undergraduate Students
   list:
     - full: true
