@@ -46,6 +46,10 @@
           image: ../images/members/zheyuan_hu.jpg
           website: https://huzheyuan.io/
           alt: I am Zheyuan.
+        - name: Hongyi Chen
+          image: ../images/members/hongyi_chen.jpg
+          website: https://hychen-naza.github.io/
+          alt: I am Hongyi.
 - name: Master's Students
   list:
     - full: true
