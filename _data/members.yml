@@ -42,6 +42,10 @@
           image: ../images/members/jim_wang.jpg
           website: https://jimwang418.github.io/
           alt: I am Jim. 
+        - name: Zheyuan Hu
+          image: ../images/members/zheyuan_hu.jpg
+          website: https://huzheyuan.io/
+          alt: I am Zheyuan.
 - name: Master's Students
   list:
     - full: true
