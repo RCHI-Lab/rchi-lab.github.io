@@ -82,7 +82,10 @@
           alt: I am Divyam Goel.
         - name: Xinwen Xu
           image: ../images/members/XinwenXu.jpg
-          alt: I am XinwenXU. 
+          alt: I am Xinwen Xu. 
+        - name: Tiancheng Wu
+          image: ../images/members/tiancheng_wu.jpg
+          alt: I am Tiancheng Wu. 
 - name: Undergraduate Students
   list:
     - full: true
