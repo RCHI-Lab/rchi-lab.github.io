@@ -86,6 +86,9 @@
         - name: Tiancheng Wu
           image: ../images/members/tiancheng_wu.jpg
           alt: I am Tiancheng Wu. 
+        - name: Mino Nakura
+          image: ../images/members/minonakura.jpg
+          alt: I am Mino Nakura.
 - name: Undergraduate Students
   list:
     - full: true
