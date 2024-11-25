@@ -4,8 +4,15 @@ title: Lab Photos
 slim: true
 ---
 
+## Top Golf, Fall 2024
+![Top Golf Fall 2024](images/lab_photos/topgolf_fall_2024.jpg)
+
+---
+
 ## Wushiland Boba, Summer 2024
 ![Wushiland Boba Summer 2024](images/lab_photos/boba_summer2024.jpg)
+
+--- 
 
 ## Hofbrauhaus, Spring 2023
 ![Hofbrauhaus Spring 2023](images/lab_photos/hofbrauhaus_spring2023.jpg)
