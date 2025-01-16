@@ -1,4 +1,21 @@
 # Find and Delete these: ’
+- title: "LAMS: LLM-Driven Automatic Mode Switching for Assistive Teleoperation"
+  abstract: "Teleoperating high degrees-of-freedom (DoF) robotic manipulators via low-DoF controllers like joysticks often requires frequent switching between control modes, where each mode maps controller movements to specific robot actions. Manually performing this frequent switching can make teleoperation cumbersome and inefficient. On the other hand, existing automatic mode-switching solutions, such as heuristic-based or learning-based methods, are often task-specific and lack generalizability. In this paper, we introduce LLM-Driven Automatic Mode Switching (LAMS), a novel approach that leverages Large Language Models (LLMs) to automatically switch control modes based on task context. Unlike existing methods, LAMS requires no prior task demonstrations and incrementally improves by integrating user-generated mode-switching examples. We validate LAMS through an ablation study and a user study with 10 participants on complex, long-horizon tasks, demonstrating that LAMS effectively reduces manual mode switches, is preferred over alternative methods, and improves performance over time. The project website with supplementary materials is at https://lams-assistance.github.io."
+  authors: Yiran Tao*, Jehan Yang*, Dan Ding, Zackory Erickson
+  bibtex: |
+    @inproceedings{tao2025lams,
+      title={LAMS: LLM-Driven Automatic Mode Switching for Assistive Teleoperation}, 
+      author={Yiran Tao and Jehan Yang and Dan Ding and Zackory Erickson},
+      year={2025},
+      booktitle={ACM/IEEE International Conference on Human-Robot Interaction (HRI)}
+    }
+  image: ../images/lams.png
+  pdf: https://arxiv.org/abs/2501.08558
+  id: tao2025lams
+  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2025
+  year: 2025
+  type: conference
+
 - title: "EMGBench: Benchmarking Out-of-Distribution Generalization and Adaptation for Electromyography"
   abstract: "This paper introduces the first generalization and adaptation benchmark using machine learning for evaluating out-of-distribution performance of electromyography (EMG) classification algorithms. The ability of an EMG classifier to handle inputs drawn from a different distribution than the training distribution is critical for real-world deployment as a control interface. By predicting the user’s intended gesture using EMG signals, we can create a wearable solution to control assistive technologies, such as computers, prosthetics, and mobile manipulator robots. This new out-of-distribution benchmark consists of two major tasks that have utility for building robust and adaptable control interfaces: 1) intersubject classification, and 2) adaptation using train-test splits for time-series. This benchmark spans nine datasets, the largest collection of EMG datasets in a benchmark. Among these, a new dataset is introduced, featuring a novel, easy-to-wear high-density EMG wearable for data collection. The lack of open-source benchmarks has made comparing accuracy results between papers challenging for the EMG research community. This new benchmark provides researchers with a valuable resource for analyzing practical measures of out-of-distribution performance for EMG datasets. Our code and data from our new dataset can be found at emgbench.github.io"
   authors: Jehan Yang, Maxwell Soh, Vivianna Lieu, Douglas J Weber, Zackory Erickson
