@@ -133,6 +133,94 @@
   news: 
   awards: 
 
+- title: "Do Mistakes Matter? Comparing Trust Responses of Different Age Groups to Errors Made by Physically Assistive Robots"
+  authors: Sasha Wald*, Kavya Puthuveetil*, Zackory Erickson
+  year: 2024
+  type: conference
+  venue: IEEE International Conference on Robot and Human Interactive Communication (ROMAN)
+  image: ../images/roman2024.png
+  id: wald2024mistakes
+  projectpage: https://rchi-lab.github.io/do-mistakes-matter/
+  code: 
+  bibtex: |
+      @inproceedings{wald2024mistakes,
+      title={Do Mistakes Matter? Comparing Trust Responses of Different Age Groups to Errors Made by Physically Assistive Robots},
+      author={Wald, Sasha and Puthuveetil, Kavya and Erickson, Zackory},
+      booktitle={2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
+      pages={373--380},
+      year={2024},
+      organization={IEEE}}
+  abstract: "Trust is a key factor in ensuring acceptable human-robot interaction, especially in settings where robots may be assisting with critical activities of daily living. When practically deployed, robots are bound to make occasional mistakes, yet the degree to which these errors will impact a care recipient’s trust in the robot, especially in performing physically assistive tasks, remains an open question. To investigate this, we conducted experiments where participants interacted with physically assistive robots which would occasionally make inten- tional mistakes while performing two different tasks: bathing and feeding. Our study considered the error response of two populations: younger adults at a university (median age 26) and older adults at an independent living facility (median age 83). We observed that the impact of errors on a users’ trust in the robot depends on both their age and the task that the robot is performing. We also found that older adults tend to evaluate the robot on factors unrelated to the robot’s performance, making their trust in the system more resilient to errors when compared to younger adults. Code and supplementary materials are available on our project webpage."
+  video: https://www.youtube.com/watch?v=inyzOOkq8wU
+  pdf: https://arxiv.org/pdf/2408.13153
+  news: 
+  awards: 
+
+- title: "Unfolding the literature: A review of robotic cloth manipulation"
+  authors: Alberta Longhini, Yufei Wang, Irene Garcia-Camacho, David Blanco-Mulero, Marco Moletta, Michael Welle, Guillem Alenyà, Hang Yin, Zackory Erickson, David Held, Júlia Borràs, Danica Kragic
+  year: 2024
+  type: journal
+  venue: Annual Review of Control, Robotics, and Autonomous Systems
+  image: ../images/unfold2024.png
+  id: longhini2024unfolding
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{longhini2024unfolding,
+      title={Unfolding the literature: A review of robotic cloth manipulation},
+      author={Longhini, Alberta and Wang, Yufei and Garcia-Camacho, Irene and Blanco-Mulero, David and Moletta, Marco and Welle, Michael and Aleny{\`a}, Guillem and Yin, Hang and Erickson, Zackory and Held, David and others},
+      journal={Annual Review of Control, Robotics, and Autonomous Systems},
+      volume={8},
+      publisher={Annual Reviews}}
+  abstract: "The realm of textiles spans clothing, households, healthcare, sports, and industrial applications. The deformable nature of these objects poses unique challenges that prior work on rigid objects cannot fully address. The increasing interest within the community in textile perception and manipulation has led to new methods that aim to address challenges in modeling, perception, and control, resulting in significant progress. However, this progress is often tailored to one specific textile or a subcategory of these textiles. To understand what restricts these methods and hinders current approaches from generalizing to a broader range of real-world textiles, this review provides an overview of the field, focusing specifically on how and to what extent textile variations are addressed in modeling, perception, benchmarking, and manipulation of textiles. We conclude by identifying key open problems and outlining grand challenges that will drive future advancements in the field."
+  video: 
+  pdf: https://arxiv.org/pdf/2407.01361
+  news: 
+  awards: 
+
+- title: "AdaFold: Adapting Folding Trajectories of Cloths via Feedback-Loop Manipulation"
+  authors: Alberta Longhini, Michael C. Welle, Zackory Erickson, Danica Kragic
+  year: 2024
+  type: journal
+  venue: IEEE Robotics and Automation Letter (RA-L)
+  image: ../images/adafold2024.png
+  id: longhini2024adafold
+  projectpage: https://adafold.github.io
+  code: 
+  bibtex: |
+      @article{longhini2024adafold,
+      title={AdaFold: Adapting Folding Trajectories of Cloths via Feedback-loop Manipulation},
+      author={Longhini, Alberta and Welle, Michael C and Erickson, Zackory and Kragic, Danica},
+      journal={arXiv preprint arXiv:2403.06210},
+      year={2024}}
+  abstract: "We present AdaFold, a model-based feedback-loop framework for optimizing folding trajectories. AdaFold extracts a particle-based representation of cloth from RGB-D images and feeds back the representation to a model predictive control to re-plan folding trajectory at every time-step. A key component of AdaFold that enables feedback-loop manipulation is the use of semantic descriptors extracted from geometric features. These descriptors enhance the particle representation of the cloth to distinguish between ambiguous point clouds of differently folded cloths. Our experiments demonstrate AdaFold's ability to adapt folding trajectories of cloths with varying physical properties and generalize from simulated training to real-world execution."
+  video: 
+  pdf: https://arxiv.org/pdf/2403.06210
+  news: 
+  awards: 
+
+- title: "BodyMAP-Jointly Predicting Body Mesh and 3D Applied Pressure Map for People in Bed"
+  authors: Abhishek Tandon*, Anujraaj Goyal*, Henry M Clever, Zackory Erickson
+  year: 2024
+  type: conference
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  image: ../images/bodymap2024.png
+  id: tandon2024bodymap
+  projectpage: https://bodymap3d.github.io
+  code: https://github.com/RCHI-Lab/BodyMAP
+  bibtex: |
+      @inproceedings{tandon2024bodymap,
+      title={BodyMAP-Jointly Predicting Body Mesh and 3D Applied Pressure Map for People in Bed},
+      author={Tandon, Abhishek and Goyal, Anujraaj and Clever, Henry M and Erickson, Zackory},
+      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      pages={2480--2489},
+      year={2024}}
+  abstract: "Accurately predicting the 3D human posture and the pressure exerted on the body while resting in bed, visualized as a body mesh (3D pose & shape) with a 3D pressure map, holds significant promise for healthcare applications, particularly, in the prevention of pressure ulcers. Current methods focus on singular facets of the problem---predicting only 2D/3D poses, generating 2D pressure images, predicting pressure only for certain body regions instead of the full body, or forming indirect approximations to the 3D pressure map. In contrast, we introduce BodyMAP, that jointly predicts the human body mesh and 3D applied pressure map across the entire human body using a depth image and its associated 2D pressure image from a pressure-sensing mattress. The 3D pressure map is represented as a pressure value at each mesh vertex, enabling precise localization of high-pressure regions on the body. Additionally, we present BodyMAP-WS, a new formulation of pressure prediction in which we implicitly learn pressure in 3D by aligning sensed 2D pressure images with a differentiable 2D projection from predicted 3D pressure maps. In evaluations with real-world human data, our method outperforms the current state-of-the-art technique by 25% on both body mesh and 3D applied pressure map prediction tasks for people in bed."
+  video: https://www.youtube.com/watch?v=tY863CKNBo0
+  pdf: https://openaccess.thecvf.com/content/CVPR2024/papers/Tandon_BodyMAP_-_Jointly_Predicting_Body_Mesh_and_3D_Applied_Pressure_CVPR_2024_paper.pdf
+  news: 
+  awards: 
+
 - title: "Force Constrained Visual Policy: Safe Robot-Assisted Dressing via Multi-Modal Sensing"
   authors: Zhanyi Sun*, Yufei Wang*, David Held&dagger;, Zackory Erickson&dagger;
   year: 2024
