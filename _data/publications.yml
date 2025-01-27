@@ -12,7 +12,7 @@
   image: ../images/lams.png
   pdf: https://arxiv.org/abs/2501.08558
   id: tao2025lams
-  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2025
+  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
   year: 2025
   type: conference
 
@@ -32,7 +32,7 @@
   image: ../images/emgbench.png
   pdf: https://arxiv.org/abs/2410.23625
   id: yang2024emgbenchbenchmarkingoutofdistributiongeneralization
-  venue: Advances in neural information processing systems (NeurIPS) 2024
+  venue: Advances in neural information processing systems (NeurIPS)
   year: 2024
   type: conference
 
@@ -50,7 +50,7 @@
   image: ../images/voicepilot_workshop.png
   pdf: https://dl.acm.org/doi/abs/10.1145/3672539.3686759
   id: yuan2024towards
-  venue: ACM Symposium on User Interface Software and Technology (UIST) Adjunct 2024
+  venue: ACM Symposium on User Interface Software and Technology (UIST) Adjunct
   year: 2024
   type: conference
 
@@ -68,13 +68,13 @@
   image: ../images/voicepilot.gif
   pdf: https://arxiv.org/abs/2404.04066
   id: padmanabha2024voicepilot
-  venue: ACM Symposium on User Interface Software and Technology (UIST) 2024
+  venue: ACM Symposium on User Interface Software and Technology (UIST)
   year: 2024
   news: https://www.ri.cmu.edu/voicepilot-framework-enhances-communication-between-humans-and-physically-assistive-robots/
   type: conference
 
-- title: "DiffTOP: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning"
-  abstract: "This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimization as the policy representation to generate actions for deep reinforcement and imitation learning. Trajectory optimization is a powerful and widely used algorithm in control, parameterized by a cost and a dynamics function. The key to our approach is to leverage the recent progress in differentiable trajectory optimization, which enables computing the gradients of the loss with respect to the parameters of trajectory optimization. As a result, the cost and dynamics functions of trajectory optimization can be learned end-to-end. DiffTOP addresses the ``objective mismatch'' issue of prior model-based RL algorithms, as the dynamics model in DiffTOP is learned to directly maximize task performance by differentiating the policy gradient loss through the trajectory optimization process. We further benchmark DiffTOP for imitation learning on standard robotic manipulation task suites with high-dimensional sensory observations and compare our method to feed-forward policy classes as well as Energy-Based Models (EBM) and Diffusion. Across 15 model-based RL tasks and 35imitation learning tasks with high-dimensional image and point cloud inputs, DiffTOP outperforms prior state-of-the-art methods in both domains."
+- title: "DiffTORI: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning"
+  abstract: "This paper introduces DiffTORI, which utilizes Differentiable Trajectory Optimization as the policy representation to generate actions for deep Reinforcement and Imitation learning. Trajectory optimization is a powerful and widely used algorithm in control, parameterized by a cost and a dynamics function. The key to our approach is to leverage the recent progress in differentiable trajectory optimization, which enables computing the gradients of the loss with respect to the parameters of trajectory optimization. As a result, the cost and dynamics functions of trajectory optimization can be learned end-to-end. DiffTORI addresses the ``objective mismatch'' issue of prior model-based RL algorithms, as the dynamics model in DiffTORI is learned to directly maximize task performance by differentiating the policy gradient loss through the trajectory optimization process. We further benchmark DiffTORI for imitation learning on standard robotic manipulation task suites with high-dimensional sensory observations and compare our method to feed-forward policy classes as well as Energy-Based Models (EBM) and Diffusion. Across 15 model-based RL tasks and 35 imitation learning tasks with high-dimensional image and point cloud inputs, DiffTORI outperforms prior state-of-the-art methods in both domains."
   authors: Weikang Wan*, Ziyu Wang*, Yufei Wang*, Zackory Erickson, David Held
   bibtex: |
     @inproceedings{wan2024difftop,
@@ -86,7 +86,7 @@
   image: ../images/Difftop2024.png
   pdf: https://arxiv.org/abs/2402.05421
   id: wan2024difftop
-  venue: Advances in neural information processing systems (NeurIPS), 2024
+  venue: Advances in neural information processing systems (NeurIPS)
   awards: Spotlight Presentation
   year: 2024
   type: conference
