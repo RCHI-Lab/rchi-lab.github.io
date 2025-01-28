@@ -1,4 +1,21 @@
 # Find and Delete these: ’
+- title: "High-density electromyography for effective gesture-based control of physically assistive mobile manipulators"
+  abstract: "High-density electromyography (HDEMG) can detect myoelectric activity as control inputs to a variety of electronically-controlled devices. Furthermore, HDEMG sensors may be built into a variety of clothing, allowing for a non-intrusive myoelectric interface that is integrated into a user’s routine. In our work, we introduce an easily-producible HDEMG device that interfaces with the control of a mobile manipulator to perform a range of household and physically assistive tasks. Mobile manipulators can operate throughout the home and are applicable for a spectrum of assistive and daily tasks in the home. We evaluate the use of real-time myoelectric gesture recognition using our device to enable precise control over the intricate mobility and manipulation functionalities of an 8 degree-of-freedom mobile manipulator. Our evaluation, involving 13 participants engaging in challenging self-care and household activities, demonstrates the potential of our wearable HDEMG system to control a mobile manipulator in the home."
+  authors: Jehan Yang, Kent Shibata, Doug Weber, Zackory Erickson
+  bibtex: |
+    @article{yang2023high,
+      title={High-density Electromyography for Effective Gesture-based Control of Physically Assistive Mobile Manipulators},
+      author={Yang, Jehan and Shibata, Kent and Weber, Douglas and Erickson, Zackory},
+      journal={arXiv preprint arXiv:2312.07745},
+      year={2023}
+    }
+  image: ../images/hdemg.png
+  pdf: https://www.nature.com/articles/s44182-025-00018-3.pdf
+  id: yang2023high
+  venue: Nature Partner Journals in Robotics (npj Robotics)
+  year: 2025
+  type: journal
+
 - title: "LAMS: LLM-Driven Automatic Mode Switching for Assistive Teleoperation"
   abstract: "Teleoperating high degrees-of-freedom (DoF) robotic manipulators via low-DoF controllers like joysticks often requires frequent switching between control modes, where each mode maps controller movements to specific robot actions. Manually performing this frequent switching can make teleoperation cumbersome and inefficient. On the other hand, existing automatic mode-switching solutions, such as heuristic-based or learning-based methods, are often task-specific and lack generalizability. In this paper, we introduce LLM-Driven Automatic Mode Switching (LAMS), a novel approach that leverages Large Language Models (LLMs) to automatically switch control modes based on task context. Unlike existing methods, LAMS requires no prior task demonstrations and incrementally improves by integrating user-generated mode-switching examples. We validate LAMS through an ablation study and a user study with 10 participants on complex, long-horizon tasks, demonstrating that LAMS effectively reduces manual mode switches, is preferred over alternative methods, and improves performance over time. The project website with supplementary materials is at https://lams-assistance.github.io."
   authors: Yiran Tao*, Jehan Yang*, Dan Ding, Zackory Erickson
