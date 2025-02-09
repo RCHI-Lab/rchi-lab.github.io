@@ -4,6 +4,9 @@ title: Lab Photos
 slim: true
 ---
 
+## Zone 28, Spring 2025
+![Zone 28 Spring 2025](images/lab_photos/zone28-spring2025.jpeg)
+
 ## Top Golf, Fall 2024
 ![Top Golf Fall 2024](images/lab_photos/topgolf_fall_2024.jpg)
 
