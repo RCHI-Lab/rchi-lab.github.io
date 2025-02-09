@@ -7,6 +7,8 @@ slim: true
 ## Zone 28, Spring 2025
 ![Zone 28 Spring 2025](images/lab_photos/zone28-spring2025.jpeg)
 
+---
+
 ## Top Golf, Fall 2024
 ![Top Golf Fall 2024](images/lab_photos/topgolf_fall_2024.jpg)
 
@@ -16,6 +18,16 @@ slim: true
 ![Wushiland Boba Summer 2024](images/lab_photos/boba_summer2024.jpg)
 
 --- 
+
+## Boba at Tepper, Spring 2024
+![Boba at Tepper Spring 2024](images/lab_photos/boba-spring2024.jpg)
+
+---
+
+## Cat Cafe social, Fall 2023
+![Cat Cafe Fall 2023](images/lab_photos/catcafe-fall2023.jpg)
+
+---
 
 ## Hofbrauhaus, Spring 2023
 ![Hofbrauhaus Spring 2023](images/lab_photos/hofbrauhaus_spring2023.jpg)
