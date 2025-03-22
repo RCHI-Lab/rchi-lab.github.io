@@ -161,6 +161,8 @@
         - name: Vivianna Lieu
           image: ../images/members/vivianna_lieu.jpg
           website: https://www.linkedin.com/in/vivianna-lieu/
+        - name: Zhenghao Jin
+          image: ../images/members/zhenghao-jin.jpg
 - name: Collaborators
   list:
     - full: true
