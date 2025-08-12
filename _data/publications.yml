@@ -4,11 +4,11 @@
   authors: Junxiang Wang, Emek Barış Küçüktabak, Rana Soltani Zarrin, Zackory Erickson
   bibtex: |
     @article{wang2025cori,
-    title = {{CoRI}: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction},
-    author = {Wang, Junxiang and K{\"u}{\c{c}}{\"u}ktabak, Emek Bar{\i}{\c{s}} and Zarrin, Rana Soltani and Erickson, Zackory},
-    journal = {arXiv preprint arXiv:2505.20537},
-    year = {2025},
-  }
+      title = {{CoRI}: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction},
+      author = {Wang, Junxiang and K{\"u}{\c{c}}{\"u}ktabak, Emek Bar{\i}{\c{s}} and Zarrin, Rana Soltani and Erickson, Zackory},
+      journal = {arXiv preprint arXiv:2505.20537},
+      year = {2025},
+    }
   image: ../images/CoRI-CoRL2025.png
   pdf: https://arxiv.org/abs/2505.20537
   id: wang2025cori
