@@ -1,4 +1,21 @@
 # Find and Delete these: ’
+- title: "CoRI: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction"
+  abstract: "Clear communication of robot intent fosters transparency and interpretability in physical human-robot interaction (pHRI), particularly during assistive tasks involving direct human-robot contact. We introduce CoRI, a pipeline that automatically generates natural language communication of a robot’s upcoming actions directly from its motion plan and visual perception. Our pipeline first processes the robot’s image view to identify human poses and key environmental features. It then encodes the planned 3D spatial trajectory (including velocity and force) onto this view, visually grounding the path and its dynamics. CoRI queries a vision-language model with this visual representation to interpret the planned action within the visual context before generating concise, user-directed statements, without relying on task-specific information. Results from a user study involving robot-assisted feeding, bathing, and shaving tasks across two different robots indicate that CoRI leads to statistically significant difference in communication clarity compared to a baseline communication strategy. Specifically, CoRI effectively conveys not only the robot’s high-level intentions but also crucial details about its motion and any collaborative user action needed."
+  authors: Junxiang Wang, Emek Barış Küçüktabak, Rana Soltani Zarrin, Zackory Erickson
+  bibtex: |
+    @article{wang2025cori,
+    title = {{CoRI}: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction},
+    author = {Wang, Junxiang and K{\"u}{\c{c}}{\"u}ktabak, Emek Bar{\i}{\c{s}} and Zarrin, Rana Soltani and Erickson, Zackory},
+    journal = {arXiv preprint arXiv:2505.20537},
+    year = {2025},
+  }
+  image: ../images/CoRI-CoRL2025.jpg
+  pdf: https://arxiv.org/abs/2505.20537
+  id: wang2025cori
+  venue: Conference on Robot Learning (CoRL)
+  year: 2025
+  type: conference
+  
 - title: "Geometric Red-Teaming for Robotic Manipulation"
   abstract: "Standard evaluation protocols in robotic manipulation typically assess policy performance over curated, in-distribution test sets, offering limited insight into how systems fail under plausible variation. We introduce a red-teaming framework that probes robustness through object-centric geometric perturbations, automatically generating CrashShapes---structurally valid, user-constrained mesh deformations that trigger catastrophic failures in pre-trained manipulation policies. The method integrates a Jacobian field–based deformation model with a gradient-free, simulator-in-the-loop optimization strategy. Across insertion, articulation, and grasping tasks, our approach consistently discovers deformations that collapse policy performance, revealing brittle failure modes missed by static benchmarks. By combining task-level policy rollouts with constraint-aware shape exploration, we aim to build a general purpose framework for structured, object-centric robustness evaluation in robotic manipulation. We additionally show that fine-tuning on individual CrashShapes, a process we refer to as blue-teaming, improves task success by up to 60 percentage points on those shapes, while preserving performance on the original object, demonstrating the utility of red-teamed geometries for targeted policy refinement. Finally, we validate both red-teaming and blue-teaming results with a real robotic arm, observing that simulated CrashShapes reduce task success from 90% to as low as 22.5%, and that blue-teaming recovers performance to up to 90% on the corresponding real-world geometry---closely matching simulation outcomes."
   authors: Divyam Goel, Yufei Wang, Tiancheng Wu, Helen Qiao, Pavel Piliptchak, David Held*, Zackory Erickson*
