@@ -9,7 +9,7 @@
     journal = {arXiv preprint arXiv:2505.20537},
     year = {2025},
   }
-  image: ../images/CoRI-CoRL2025.jpg
+  image: ../images/CoRI-CoRL2025.png
   pdf: https://arxiv.org/abs/2505.20537
   id: wang2025cori
   venue: Conference on Robot Learning (CoRL)
