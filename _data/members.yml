@@ -92,6 +92,7 @@
         - name: Yinong He
           image: ../images/members/yinong-he.jpg
           alt: I am Yinong He. 
+          website: https://www.hyn-kulu.github.io
 - name: Undergraduate Students
   list:
     - full: true
@@ -168,6 +169,7 @@
           image: ../images/members/zhenghao-jin.jpg
         - name: Jasmine Li
           image: ../images/members/jasmine-li.jpg
+          website: https://www.linkedin.com/in/jasmine-jiani-li/
         - name: Robyn Wu
           image: ../images/members/robyn-wu.jpg
 - name: Collaborators
