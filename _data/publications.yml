@@ -10,7 +10,7 @@
   year: 2025
   type: conference
   
-- title: "CoRI: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction"
+- title: "CoRI: Communication of Robot Intent for Physical Human-Robot Interaction"
   abstract: "Clear communication of robot intent fosters transparency and interpretability in physical human-robot interaction (pHRI), particularly during assistive tasks involving direct human-robot contact. We introduce CoRI, a pipeline that automatically generates natural language communication of a robot’s upcoming actions directly from its motion plan and visual perception. Our pipeline first processes the robot’s image view to identify human poses and key environmental features. It then encodes the planned 3D spatial trajectory (including velocity and force) onto this view, visually grounding the path and its dynamics. CoRI queries a vision-language model with this visual representation to interpret the planned action within the visual context before generating concise, user-directed statements, without relying on task-specific information. Results from a user study involving robot-assisted feeding, bathing, and shaving tasks across two different robots indicate that CoRI leads to statistically significant difference in communication clarity compared to a baseline communication strategy. Specifically, CoRI effectively conveys not only the robot’s high-level intentions but also crucial details about its motion and any collaborative user action needed."
   authors: Junxiang Wang, Emek Barış Küçüktabak, Rana Soltani Zarrin, Zackory Erickson
   bibtex: |
