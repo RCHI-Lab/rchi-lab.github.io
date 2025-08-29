@@ -89,6 +89,9 @@
         - name: Mino Nakura
           image: ../images/members/minonakura.jpg
           alt: I am Mino Nakura.
+        - name: Yinong He
+          image: ../images/members/yinong-he.jpg
+          alt: I am Yinong He. 
 - name: Undergraduate Students
   list:
     - full: true
@@ -163,6 +166,10 @@
           website: https://www.linkedin.com/in/vivianna-lieu/
         - name: Zhenghao Jin
           image: ../images/members/zhenghao-jin.jpg
+        - name: Jasmine Li
+          image: ../images/members/jasmine-li.jpg
+        - name: Robyn Wu
+          image: ../images/members/robyn-wu.jpg
 - name: Collaborators
   list:
     - full: true
