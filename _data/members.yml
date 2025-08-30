@@ -92,7 +92,7 @@
         - name: Yinong He
           image: ../images/members/yinong-he.jpg
           alt: I am Yinong He. 
-          website: https://www.hyn-kulu.github.io
+          website: https://hyn-kulu.github.io
 - name: Undergraduate Students
   list:
     - full: true
