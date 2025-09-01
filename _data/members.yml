@@ -93,6 +93,10 @@
           image: ../images/members/yinong-he.jpg
           alt: I am Yinong He. 
           website: https://hyn-kulu.github.io
+        - name: Tianhui (Tiffany) Han
+          image: ../images/members/tianhui-han.png
+          alt: I am Tianhui Han. 
+          website: https://hea467.github.io/tiffany-website/
 - name: Undergraduate Students
   list:
     - full: true
