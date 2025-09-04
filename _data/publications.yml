@@ -1,14 +1,14 @@
 # Find and Delete these: ’
 - title: "Incremental Learning for Robot Shared Autonomy"
- abstract: "Shared autonomy holds promise for improving the usability and accessibility of assistive robotic arms, but current methods often rely on costly expert demonstrations and remain static after pretraining, limiting their ability to handle real-world variations. Even with extensive training data, unforeseen challenges--especially those that fundamentally alter task dynamics, such as unexpected obstacles or spatial constraints--can cause assistive policies to break down, leading to ineffective or unreliable assistance. To address this, we propose ILSA, an Incrementally Learned Shared Autonomy framework that continuously refines its assistive policy through user interactions, adapting to real-world challenges beyond the scope of pre-collected data. At the core of ILSA is a structured fine-tuning mechanism that enables continual improvement with each interaction by effectively integrating limited new interaction data while preserving prior knowledge, ensuring a balance between adaptation and generalization. A user study with 20 participants demonstrates ILSA's effectiveness, showing faster task completion and improved user experience compared to static alternatives."
- authors: Yiran Tao, Guixiu Qiao, Dan Ding, Zackory Erickson
- bibtex: |
- image: ../images/incremental-learning.png
- pdf:
- id: tao2025ilrsa
- venue:International Conference on Intelligent Robots and Systems (IROS)
- year: 2025
- type: conference
+  abstract: "Shared autonomy holds promise for improving the usability and accessibility of assistive robotic arms, but current methods often rely on costly expert demonstrations and remain static after pretraining, limiting their ability to handle real-world variations. Even with extensive training data, unforeseen challenges--especially those that fundamentally alter task dynamics, such as unexpected obstacles or spatial constraints--can cause assistive policies to break down, leading to ineffective or unreliable assistance. To address this, we propose ILSA, an Incrementally Learned Shared Autonomy framework that continuously refines its assistive policy through user interactions, adapting to real-world challenges beyond the scope of pre-collected data. At the core of ILSA is a structured fine-tuning mechanism that enables continual improvement with each interaction by effectively integrating limited new interaction data while preserving prior knowledge, ensuring a balance between adaptation and generalization. A user study with 20 participants demonstrates ILSA's effectiveness, showing faster task completion and improved user experience compared to static alternatives."
+  authors: Yiran Tao, Guixiu Qiao, Dan Ding, Zackory Erickson
+  bibtex: |
+  image: ../images/incremental-learning.png
+  pdf:
+  id: tao2025ilrsa
+  venue:International Conference on Intelligent Robots and Systems (IROS)
+  year: 2025
+  type: conference
 
 - title: "Force-Modulated Visual Policy for Robot-Assisted Dressing with Arm Motions"
   abstract: "Robot-assisted dressing has the potential to significantly improve the lives of individuals with mobility impairments. To ensure an effective and comfortable dressing experience, the robot must be able to handle challenging deformable garments, apply appropriate forces, and adapt to limb movements throughout the dressing process. Prior work often makes simplifying assumptions—such as static human limbs during dressing—which limits real-world applicability. In this work, we develop a robot-assisted dressing system capable of handling partial observations with visual occlusions, as well as robustly adapting to arm motions during the dressing process. Given a policy trained in simulation with partial observations, we propose a method to fine-tune it in the real world using a small amount of data and multi-modal feedback from vision and force sensing, to further improve the policy’s adaptability to arm motions and enhance safety. We evaluate our method in simulation with simplified articulated human meshes and in a real world human study with 12 participants across 264 dressing trials. Our policy successfully dresses two long-sleeve everyday garments onto the participants while being adaptive to various kinds of arm motions, and greatly outperforms prior baselines in terms of task completion and user feedback."
