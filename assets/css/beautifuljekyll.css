@@ -222,7 +222,8 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
+    padding-left: 0.9375rem;
+    height: 4.125rem;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
