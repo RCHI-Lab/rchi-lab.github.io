@@ -29,7 +29,7 @@ function showhide(d) {
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     {% if pub.type == "preprint" %}
-        {% assign authors = {{pub.authors}} | split: ", " %}
+        {% assign authors = pub.authors | split: ", " %}
         <tr>
             <td width="200" height="100">
                 <img src="{{pub.image}}" img width="250">
@@ -112,7 +112,7 @@ function showhide(d) {
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
     {% if pub.type != "preprint" %}
-        {% assign authors = {{pub.authors}} | split: ", " %}
+        {% assign authors = pub.authors | split: ", " %}
         <tr>
             <td width="200" height="100">
                 <img src="{{pub.image}}" img width="250">
