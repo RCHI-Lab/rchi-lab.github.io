@@ -89,22 +89,9 @@
           website: https://www.linkedin.com/in/ellenahrumlee/
           image: ../images/members/Ellen.png
           alt: I am Ellen
-        - name: Catherine Li
-          image: ../images/members/catherine_li.jpg
-          alt: I am Catherine. 
-        - name: Tanisha Mehta
-          image: ../images/members/tanisha-mehta.png
-          alt: I am Tanisha.
-          website: https://www.linkedin.com/in/tanisha-s-mehta/ 
-        - name: Bharath Hegde
-          image: ../images/members/bharath_hegde.jpg
-          website: https://bharath-hegde.github.io/
         - name: Karolena Zhou
           image: ../images/members/karolena_zhou.jpg
           website: https://www.linkedin.com/in/karolena-zhou/
-        - name: Victoria de Leon
-          image: ../images/members/victoria_de_leon.jpg
-          website: https://sites.google.com/view/victoriarodleon/main
         - name: Cindy Sun
           image: ../images/members/cindy_sun.jpg
           website: https://www.linkedin.com/in/cindy-sun-317479308
@@ -121,18 +108,6 @@
           website: https://www.linkedin.com/in/jasmine-jiani-li/
         - name: Robyn Wu
           image: ../images/members/robyn-wu.jpg
-- name: Collaborators
-  list:
-    - full: true
-      list:
-        - name: Karan Khokar
-          image: ../images/members/karan.jpg
-          website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
-          alt: I am Karan. I am wearing a blue shirt.
-        - name: Alberta Longhini
-          image: ../images/members/alberta.jpg
-          website: https://albilo17.github.io/
-          alt: I am Alberta. I am wearing a blue sweater in front of the ocean.
 - name: PostDogs
   list:
     - full: true
@@ -227,6 +202,19 @@
     - full: False
       name: Undergraduate students
       list:
+        - name: Bharath Hegde
+          image: ../images/members/bharath_hegde.jpg
+          website: https://bharath-hegde.github.io/
+        - name: Victoria de Leon
+          image: ../images/members/victoria_de_leon.jpg
+          website: https://sites.google.com/view/victoriarodleon/main
+        - name: Tanisha Mehta
+          image: ../images/members/tanisha-mehta.png
+          alt: I am Tanisha.
+          website: https://www.linkedin.com/in/tanisha-s-mehta/ 
+        - name: Catherine Li
+          image: ../images/members/catherine_li.jpg
+          alt: I am Catherine. 
         - name: Maxwell Soh
           image: ../images/members/maxwell_soh.jpeg
           alt: I am Maxwell. I am wearing a black shirt and glasses. 
@@ -282,6 +270,17 @@
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
+    - full: False
+      name: Collaborators
+      list: 
+        - name: Karan Khokar
+          image: ../images/members/karan.jpg
+          website: https://scholar.google.com/citations?user=eCSsSWcAAAAJ&hl=en
+          alt: I am Karan. I am wearing a blue shirt.
+        - name: Alberta Longhini
+          image: ../images/members/alberta.jpg
+          website: https://albilo17.github.io/
+          alt: I am Alberta. I am wearing a blue sweater in front of the ocean.
     - full: False
       name: MRSD Students (Team Auxilio)
       website: https://mrsdprojects.ri.cmu.edu/2023teamf/
