@@ -69,6 +69,10 @@
           image: ../images/members/tianhui-han.png
           alt: I am Tianhui Han. 
           website: https://hea467.github.io/tiffany-website/
+        - name: Shikun Ban
+          image: ../images/members/shikun-ban.jpg
+          alt: I am Shikun Ban. 
+          website: https://oliverbansk.github.io
 - name: Undergraduate Students
   list:
     - full: true
@@ -77,18 +81,6 @@
           website: https://guptajanavi.wixsite.com/website
           image: ../images/members/janavi.png
           alt: I am Janavi.
-        - name: Preethi Krishnamoorthy
-          website: https://www.linkedin.com/in/preethikrish/
-          image: ../images/members/preethi.jpg
-          alt: I am Preethi.
-        - name: Sumayya Syeda
-          website: https://www.linkedin.com/in/sums/
-          image: ../images/members/sumayya.jpg
-          alt: I am Sumayya.
-        - name: Ellen Lee
-          website: https://www.linkedin.com/in/ellenahrumlee/
-          image: ../images/members/Ellen.png
-          alt: I am Ellen
         - name: Karolena Zhou
           image: ../images/members/karolena_zhou.jpg
           website: https://www.linkedin.com/in/karolena-zhou/
@@ -202,6 +194,18 @@
     - full: False
       name: Undergraduate students
       list:
+        - name: Ellen Lee
+          website: https://www.linkedin.com/in/ellenahrumlee/
+          image: ../images/members/Ellen.png
+          alt: I am Ellen
+        - name: Sumayya Syeda
+          website: https://www.linkedin.com/in/sums/
+          image: ../images/members/sumayya.jpg
+          alt: I am Sumayya.
+        - name: Preethi Krishnamoorthy
+          website: https://www.linkedin.com/in/preethikrish/
+          image: ../images/members/preethi.jpg
+          alt: I am Preethi.
         - name: Bharath Hegde
           image: ../images/members/bharath_hegde.jpg
           website: https://bharath-hegde.github.io/
