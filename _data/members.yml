@@ -73,6 +73,10 @@
           image: ../images/members/shikun-ban.jpg
           alt: I am Shikun Ban. 
           website: https://oliverbansk.github.io
+        - name: Saksham Bhutani
+          image: ../images/members/saksham-bhutani.jpg
+          alt: I am Saksham Bhutani. 
+          website: https://sakshambhutani.xyz
 - name: Undergraduate Students
   list:
     - full: true
