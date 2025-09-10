@@ -77,6 +77,10 @@
           image: ../images/members/saksham-bhutani.jpg
           alt: I am Saksham Bhutani. 
           website: https://sakshambhutani.xyz
+        - name: Julian Millan
+          image: ../images/members/julian-millan.jpg
+          alt: I am Julian Millan. 
+          website: https://julian-millan.github.io
 - name: Undergraduate Students
   list:
     - full: true
