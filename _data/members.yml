@@ -81,6 +81,10 @@
           image: ../images/members/julian-millan.jpg
           alt: I am Julian Millan. 
           website: https://julian-millan.github.io
+        - name: Shohei Nagai
+          image: ../images/members/shohei-nagai.jpg
+          alt: I am Shohei Nagai. 
+          website: https://shoheinagai.com
 - name: Undergraduate Students
   list:
     - full: true
