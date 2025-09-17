@@ -53,7 +53,7 @@
       primaryClass={cs.RO},
       url={https://arxiv.org/abs/2509.12379}, 
     }
-  image: ../images/GRT-CoRL2025.gif
+  image: ../images/GRTM-CoRL2025.jpg
   pdf: https://arxiv.org/abs/2509.12379
   id: goel2025geo
   venue: Conference on Robot Learning (CoRL)
