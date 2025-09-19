@@ -85,6 +85,10 @@
           image: ../images/members/shohei-nagai.jpg
           alt: I am Shohei Nagai. 
           website: https://shoheinagai.com
+        - name: Crystal Zhou
+          image: ../images/members/crystal-zhou.jpg
+          alt: I am Crystal Zhou. 
+          website: https://www.linkedin.com/in/crystal-zhou02/
 - name: Undergraduate Students
   list:
     - full: true
