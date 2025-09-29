@@ -89,6 +89,10 @@
           image: ../images/members/crystal-zhou.jpg
           alt: I am Crystal Zhou. 
           website: https://www.linkedin.com/in/crystal-zhou02/
+        - name: Anjana Ramachandran
+          image: ../images/members/anjana-ramachandran.jpeg
+          alt: I am Anjana Ramachandran. 
+          website: https://anjana2123.github.io/
 - name: Undergraduate Students
   list:
     - full: true
