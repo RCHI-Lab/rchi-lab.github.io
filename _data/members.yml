@@ -44,6 +44,9 @@
           image: ../images/members/hongyi_chen.jpg
           website: https://hychen-naza.github.io/
           alt: I am Hongyi.
+        - name: Yucheng Li
+          image: ../images/members/yucheng_li.jpg
+          alt: I am Yucheng.
 - name: Master's Students
   list:
     - full: true
