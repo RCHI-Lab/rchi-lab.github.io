@@ -93,6 +93,10 @@
           image: ../images/members/anjana-ramachandran.jpeg
           alt: I am Anjana Ramachandran. 
           website: https://anjana2123.github.io/
+        - name: Alexis Hao
+          image: ../images/members/alexis.jpg
+          alt: I am Alexis Hao. 
+          website: https://hyhalexis.github.io/
 - name: Undergraduate Students
   list:
     - full: true
