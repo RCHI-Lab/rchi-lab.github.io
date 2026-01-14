@@ -47,6 +47,10 @@
         - name: Yucheng Li
           image: ../images/members/yucheng_li.jpg
           alt: I am Yucheng.
+        - name: Cailyn Smith
+          image: ../images/members/cailyn_smith.jpg
+          website: https://cailyn-s.github.io/
+          alt: I am Cailyn.
 - name: Master's Students
   list:
     - full: true
