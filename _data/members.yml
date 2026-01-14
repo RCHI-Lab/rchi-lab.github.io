@@ -104,6 +104,10 @@
           image: ../images/members/alexis.jpg
           alt: I am Alexis Hao. 
           website: https://hyhalexis.github.io/
+        - name: Qihao (Keith) Lin
+          image: ../images/members/qihao-lin.png
+          alt: I am Qihao (Keith) Lin
+          
 - name: Undergraduate Students
   list:
     - full: true
