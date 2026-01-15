@@ -107,6 +107,7 @@
         - name: Qihao (Keith) Lin
           image: ../images/members/qihao-lin.png
           alt: I am Qihao (Keith) Lin
+          website: https://keithllin.github.io/ 
           
 - name: Undergraduate Students
   list:
