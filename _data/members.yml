@@ -136,6 +136,9 @@
           website: https://www.linkedin.com/in/jasmine-jiani-li/
         - name: Robyn Wu
           image: ../images/members/robyn-wu.jpg
+        - name: Nir Pechuk
+          image: ../images/members/nir-pechuk.jpg
+          website: https://github.com/nirpechuk
 - name: PostDogs
   list:
     - full: true
