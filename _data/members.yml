@@ -106,8 +106,12 @@
           website: https://hyhalexis.github.io/
         - name: Qihao (Keith) Lin
           image: ../images/members/qihao-lin.png
-          alt: I am Qihao (Keith) Lin
+          alt: I am Qihao (Keith) Lin.
           website: https://keithllin.github.io/ 
+        - name: Niharika Pant
+          image: ../images/members/niharika-pant.jpg
+          alt: I am Niharika Pant.
+          website: https://www.linkedin.com/in/niharika-pant/
           
 - name: Undergraduate Students
   list:
