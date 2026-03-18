@@ -1,4 +1,40 @@
 # Find and Delete these: ’
+- title: "Bidirectional Human-Robot Communication for Physical Human-Robot Interaction"
+  abstract: "Effective physical human-robot interaction requires systems that are not only adaptable to user preferences but also transparent about their actions. This paper introduces BRIDGE, a system for bidirectional human-robot communication in physical assistance. Our method allows users to modify a robot's planned trajectory -- position, velocity, and force -- in real time using natural language. We utilize a large language model (LLM) to interpret any trajectory modifications implied by user commands in the context of the planned motion and conversation history. Importantly, our system provides verbal feedback in response to the user, either assuring any resulting changes or posing a clarifying question. We evaluated our method in a user study with 18 older adults across three assistive tasks, comparing BRIDGE to an ablation without verbal feedback and a baseline. Results show that participants successfully used the system to modify trajectories in real time. Moreover, the bidirectional feedback led to significantly higher ratings of interactivity and transparency, demonstrating that the robot's verbal response is critical for a more intuitive user experience. Videos and code can be found on our project website: https://bidir-comm.github.io/"
+  authors: Junxiang Wang, Cindy Wang, Rana Soltani Zarrin, Zackory Erickson
+  bibtex: |
+    @article{wang2026bidirectional,
+      title={Bidirectional Human-Robot Communication for Physical Human-Robot Interaction},
+      author={Wang, Junxiang and Wang, Cindy and Zarrin, Rana Soltani and Erickson, Zackory},
+      journal={arXiv preprint arXiv:2601.10796},
+      year={2026}
+    }
+  image: 
+  pdf:
+  id: wang2026bidirectional
+  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
+  year: 2026
+  type: conference
+  awards: (Best Paper Nomination)
+
+- title: "WAFFLE: A Wearable Approach to Bite Timing Estimation in Robot-Assisted Feeding"
+  abstract: "Millions of people around the world need assistance with feeding. Robotic feeding systems offer the potential to enhance autonomy and quality of life for individuals with impairments and reduce caregiver workload. However, their widespread adoption has been limited by technical challenges such as estimating bite timing, the appropriate moment for the robot to transfer food to a user's mouth. In this work, we introduce WAFFLE: Wearable Approach For Feeding with LEarned bite timing, a system that accurately predicts bite timing by leveraging wearable sensor data to be highly reactive to natural user cues such as head movements, chewing, and talking. We train a supervised regression model on bite timing data from 14 participants and incorporate a user-adjustable assertiveness threshold to convert predictions into proceed or stop commands. In a study with 15 participants without motor impairments with the Obi feeding robot, WAFFLE performs statistically on par with or better than baseline methods across measures of feeling of control, robot understanding, and workload, and is preferred by the majority of participants for both individual and social dining. We further demonstrate WAFFLE's generalizability in a study with 2 participants with motor impairments in their home environments using a Kinova 7DOF robot. Our findings support WAFFLE's effectiveness in enabling natural, reactive bite timing that generalizes across users, robot hardware, robot positioning, feeding trajectories, foods, and both individual and social dining contexts."
+  authors: Akhil Padmanabha*, Jessie Yuan*, Tanisha S. Mehta, Rajat Kumar Jenamani, Eric Hu, Victoria de León, Anthony Wertz, Janavi Gupta, Ben Dodson, Yunting Yan, Carmel Majidi, Tapomayukh Bhattacharjee&dagger;, Zackory Erickson&dagger;
+  bibtex: |
+    @article{padmanabha2025waffle,
+      title={WAFFLE: A Wearable Approach to Bite Timing Estimation in Robot-Assisted Feeding},
+      author={Padmanabha, Akhil and Yuan, Jessie and Mehta, Tanisha and Jenamani, Rajat Kumar and Hu, Eric and de Le{\'o}n, Victoria and Wertz, Anthony and Gupta, Janavi and Dodson, Ben and Yan, Yunting and others},
+      journal={arXiv preprint arXiv:2510.03910},
+      year={2025}
+    }
+  image: 
+  pdf:
+  id: padmanabha2025waffle
+  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
+  year: 2026
+  type: conference
+  awards: (Best Paper Nomination)
+
 - title: "Incremental Learning for Robot Shared Autonomy"
   abstract: "Shared autonomy holds promise for improving the usability and accessibility of assistive robotic arms, but current methods often rely on costly expert demonstrations and remain static after pretraining, limiting their ability to handle real-world variations. Even with extensive training data, unforeseen challenges--especially those that fundamentally alter task dynamics, such as unexpected obstacles or spatial constraints--can cause assistive policies to break down, leading to ineffective or unreliable assistance. To address this, we propose ILSA, an Incrementally Learned Shared Autonomy framework that continuously refines its assistive policy through user interactions, adapting to real-world challenges beyond the scope of pre-collected data. At the core of ILSA is a structured fine-tuning mechanism that enables continual improvement with each interaction by effectively integrating limited new interaction data while preserving prior knowledge, ensuring a balance between adaptation and generalization. A user study with 20 participants demonstrates ILSA's effectiveness, showing faster task completion and improved user experience compared to static alternatives."
   authors: Yiran Tao, Guixiu Qiao, Dan Ding, Zackory Erickson
@@ -166,7 +202,7 @@
   pdf: https://arxiv.org/abs/2402.05421
   id: wan2024difftop
   venue: Advances in neural information processing systems (NeurIPS)
-  awards: Spotlight Presentation
+  s: Spotlight Presentation
   year: 2024
   type: conference
   
@@ -189,7 +225,7 @@
   video: 
   pdf: https://arxiv.org/abs/2306.12372
   news: 
-  awards: 
+  s: 
 
 - title: "RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback"
   authors: Yufei Wang*, Zhanyi Sun*, Jesse Zhang, Zhou Xian, Erdem Bıyık, David Held&dagger;, Zackory Erickson&dagger;
@@ -210,7 +246,7 @@
   video: 
   pdf: https://arxiv.org/abs/2402.03681
   news: 
-  awards: 
+  s: 
 
 - title: "Do Mistakes Matter? Comparing Trust Responses of Different Age Groups to Errors Made by Physically Assistive Robots"
   authors: Sasha Wald*, Kavya Puthuveetil*, Zackory Erickson
@@ -233,7 +269,7 @@
   video: https://www.youtube.com/watch?v=inyzOOkq8wU
   pdf: https://arxiv.org/pdf/2408.13153
   news: 
-  awards: 
+  s: 
 
 - title: "Unfolding the literature: A review of robotic cloth manipulation"
   authors: Alberta Longhini, Yufei Wang, Irene Garcia-Camacho, David Blanco-Mulero, Marco Moletta, Michael Welle, Guillem Alenyà, Hang Yin, Zackory Erickson, David Held, Júlia Borràs, Danica Kragic
@@ -255,7 +291,7 @@
   video: 
   pdf: https://arxiv.org/pdf/2407.01361
   news: 
-  awards: 
+  s: 
 
 - title: "AdaFold: Adapting Folding Trajectories of Cloths via Feedback-Loop Manipulation"
   authors: Alberta Longhini, Michael C. Welle, Zackory Erickson, Danica Kragic
@@ -276,7 +312,7 @@
   video: 
   pdf: https://arxiv.org/pdf/2403.06210
   news: 
-  awards: 
+  s: 
 
 - title: "BodyMAP-Jointly Predicting Body Mesh and 3D Applied Pressure Map for People in Bed"
   authors: Abhishek Tandon*, Anujraaj Goyal*, Henry M Clever, Zackory Erickson
@@ -298,7 +334,7 @@
   video: https://www.youtube.com/watch?v=tY863CKNBo0
   pdf: https://openaccess.thecvf.com/content/CVPR2024/papers/Tandon_BodyMAP_-_Jointly_Predicting_Body_Mesh_and_3D_Applied_Pressure_CVPR_2024_paper.pdf
   news: 
-  awards: 
+  s: 
 
 - title: "Force Constrained Visual Policy: Safe Robot-Assisted Dressing via Multi-Modal Sensing"
   authors: Zhanyi Sun*, Yufei Wang*, David Held&dagger;, Zackory Erickson&dagger;
@@ -319,7 +355,7 @@
   video: 
   pdf: https://arxiv.org/abs/2311.04390
   news: 
-  awards: 
+  s: 
 
 - title: "Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator"
   authors: Akhil Padmanabha, Janavi Gupta, Chen Chen, Jehan Yang, Vy Nguyen, Douglas J. Weber, Carmel Majidi, and Zackory Erickson
