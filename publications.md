@@ -48,7 +48,7 @@ function showhide(d) {
                     {% endfor %}<br>
                     <em>{{pub.venue}}</em>, {{pub.year}}
                     {% if pub.awards %}
-                        <b> {{pub.awards}}</b>
+                        <br><b> {{pub.awards}}</b>
                     {% endif %}
                     <br>
                 </div>
