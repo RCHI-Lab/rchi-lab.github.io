@@ -3,14 +3,18 @@
   abstract: "Effective physical human-robot interaction requires systems that are not only adaptable to user preferences but also transparent about their actions. This paper introduces BRIDGE, a system for bidirectional human-robot communication in physical assistance. Our method allows users to modify a robot's planned trajectory -- position, velocity, and force -- in real time using natural language. We utilize a large language model (LLM) to interpret any trajectory modifications implied by user commands in the context of the planned motion and conversation history. Importantly, our system provides verbal feedback in response to the user, either assuring any resulting changes or posing a clarifying question. We evaluated our method in a user study with 18 older adults across three assistive tasks, comparing BRIDGE to an ablation without verbal feedback and a baseline. Results show that participants successfully used the system to modify trajectories in real time. Moreover, the bidirectional feedback led to significantly higher ratings of interactivity and transparency, demonstrating that the robot's verbal response is critical for a more intuitive user experience. Videos and code can be found on our project website: https://bidir-comm.github.io/"
   authors: Junxiang Wang, Cindy Wang, Rana Soltani Zarrin, Zackory Erickson
   bibtex: |
-    @article{wang2026bidirectional,
+    @inproceedings{wang2026bidirectional,
       title={Bidirectional Human-Robot Communication for Physical Human-Robot Interaction},
-      author={Wang, Junxiang and Wang, Cindy and Zarrin, Rana Soltani and Erickson, Zackory},
-      journal={arXiv preprint arXiv:2601.10796},
-      year={2026}
+      author={Junxiang Wang and Cindy Wang and Rana Soltani Zarrin and Zackory Erickson},
+      year = {2026},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      booktitle = {Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+      pages = {572-580},
+      numpages = {9},
     }
-  image: 
-  pdf:
+  image: ../images/BRIDGE-HRI2026.png
+  pdf: https://arxiv.org/pdf/2601.10796
   id: wang2026bidirectional
   venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
   year: 2026
