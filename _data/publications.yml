@@ -29,12 +29,17 @@
     @article{padmanabha2025waffle,
       title={WAFFLE: A Wearable Approach to Bite Timing Estimation in Robot-Assisted Feeding},
       author={Padmanabha, Akhil and Yuan, Jessie and Mehta, Tanisha and Jenamani, Rajat Kumar and Hu, Eric and de Le{\'o}n, Victoria and Wertz, Anthony and Gupta, Janavi and Dodson, Ben and Yan, Yunting and others},
-      journal={arXiv preprint arXiv:2510.03910},
-      year={2025}
+      year = {2026},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      booktitle = {Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+      pages = {78-87},
+      numpages = {10},
     }
-  image: 
-  pdf:
+  image: ../images/WAFFLE-HRI2026.gif
+  pdf: https://arxiv.org/pdf/2510.03910
   id: padmanabha2025waffle
+  projectpage: https://sites.google.com/view/bitetiming/home
   venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
   year: 2026
   type: conference
