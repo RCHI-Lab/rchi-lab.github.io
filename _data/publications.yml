@@ -16,6 +16,7 @@
   image: ../images/BRIDGE-HRI2026.png
   pdf: https://arxiv.org/pdf/2601.10796
   id: wang2026bidirectional
+  projectpage: https://bidir-comm.github.io/
   venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI)
   year: 2026
   type: conference
