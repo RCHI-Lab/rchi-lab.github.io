@@ -143,6 +143,12 @@
         - name: Nir Pechuk
           image: ../images/members/nir-pechuk.JPG
           website: https://github.com/nirpechuk
+        - name: Chuhan Meng
+          image: ../images/members/chuhan-meng.png
+          website: https://aquamarine-kheer-924c6e.netlify.app/
+        - name: Jason Ding
+          image: ../images/members/jason-ding.png
+          website: https://www.jsonding.com/
 - name: PostDogs
   list:
     - full: true
