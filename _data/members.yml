@@ -6,25 +6,24 @@
           image: ../images/members/zackory.jpg
           website: https://zackory.com
           alt: I am Zackory. I have short hair with black glasses. I am wearing a black polo with a gray sweater.
-- name: PhD Students
+- name: Postdocs
   list:
     - full: true
       list:
-        - name: Yufei Wang
-          image: ../images/members/yufei.jpg
-          website: https://yufeiwang63.github.io
-          coadvisor: David Held
-          coadvisorweb: https://davheld.github.io
-          alt: I am Yufei. I am wearing a gray shirt.
-        - name: Kavya Puthuveetil
-          image: ../images/members/kavya.jpg
-          website: https://kpputhuveetil.github.io/
-          alt: I am Kavya. I am wearing a blue dress shirt.
         - name: Jehan Yang
           image: ../images/members/jehan.jpg
           website: https://jehanyang.github.io/about/
           coadvisor: Douglas Weber
           coadvisorweb: https://engineering.cmu.edu/directory/bios/weber-douglas.html/
+- name: PhD Students
+  list:
+    - full: true
+      list:
+        - name: Kavya Puthuveetil
+          image: ../images/members/kavya.jpg
+          website: https://kpputhuveetil.github.io/
+          alt: I am Kavya. I am wearing a blue dress shirt.
+
           alt: I am Jehan. I am wearing a gray polo shirt.
         - name: Zulekha Karachiwalla
           image: ../images/members/zulekha.jpg
@@ -167,6 +166,13 @@
     - full: False
       name: PhD students
       list:
+        - name: Yufei Wang
+          image: ../images/members/yufei.jpg
+          website: https://yufeiwang63.github.io
+          coadvisor: David Held
+          coadvisorweb: https://davheld.github.io
+          alt: I am Yufei. I am wearing a gray shirt.
+          new_role: (now Research Staff at Genesis AI)
         - name: Akhil Padmanabha
           image: ../images/members/akhil.jpg
           website: https://akhilpadmanabha.github.io
