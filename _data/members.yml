@@ -149,6 +149,9 @@
         - name: Jason Ding
           image: ../images/members/jason-ding.png
           website: https://www.jsonding.com/
+        - name: Asha Boyapati
+          images: ../images/members/asha-boyapati.jpg
+          
 - name: PostDogs
   list:
     - full: true
