@@ -15,6 +15,7 @@
           website: https://jehanyang.github.io/about/
           coadvisor: Douglas Weber
           coadvisorweb: https://engineering.cmu.edu/directory/bios/weber-douglas.html/
+          alt: I am Jehan. I am wearing a gray polo shirt.
 - name: PhD Students
   list:
     - full: true
@@ -23,8 +24,6 @@
           image: ../images/members/kavya.jpg
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
-
-          alt: I am Jehan. I am wearing a gray polo shirt.
         - name: Zulekha Karachiwalla
           image: ../images/members/zulekha.jpg
           website: https://zkarachi.github.io/
