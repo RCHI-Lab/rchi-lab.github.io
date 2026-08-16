@@ -14,6 +14,10 @@
           image: ../images/members/kazuki_yane.JPG
           website: https://kazuki-yane.github.io
           alt: I am Kazuki. I am standing in front of a lawn. 
+        - name: Akira Takakura
+          image: ../images/members/akira-takakura.jpg
+          website: https://akira-takakura.github.io/
+          alt: I am Akira. I am outside and wearing a black collered shirt. 
 - name: Postdocs
   list:
     - full: true
