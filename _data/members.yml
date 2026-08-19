@@ -163,6 +163,9 @@
           image: ../images/members/akira-takakura.jpg
           website: https://akira-takakura.github.io/
           alt: I am Akira. I am outside and wearing a black collered shirt. 
+        - name: Jinyu Zhang
+          image: ../images/members/jinyu-zhang.jpg
+          alt: I am Jinyu. I am wearing a light gren shirt and standing outside in front of trees. 
 
 - name: PostDogs
   list:
