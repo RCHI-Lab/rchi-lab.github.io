@@ -6,18 +6,6 @@
           image: ../images/members/zackory.jpg
           website: https://zackory.com
           alt: I am Zackory. I have short hair with black glasses. I am wearing a black polo with a gray sweater.
-- name: Collaborators
-  list: 
-    - full: true
-      list:
-        - name: Kazuki Yane
-          image: ../images/members/kazuki_yane.JPG
-          website: https://kazuki-yane.github.io
-          alt: I am Kazuki. I am standing in front of a lawn. 
-        - name: Akira Takakura
-          image: ../images/members/akira-takakura.jpg
-          website: https://akira-takakura.github.io/
-          alt: I am Akira. I am outside and wearing a black collered shirt. 
 - name: Postdocs
   list:
     - full: true
@@ -163,6 +151,19 @@
           image: ../images/members/asha-boyapati.jpg
           website: https://www.linkedin.com/in/asha-boyapati-7570283a4/
           
+- name: Collaborators
+  list: 
+    - full: true
+      list:
+        - name: Kazuki Yane
+          image: ../images/members/kazuki_yane.JPG
+          website: https://kazuki-yane.github.io
+          alt: I am Kazuki. I am standing in front of a lawn. 
+        - name: Akira Takakura
+          image: ../images/members/akira-takakura.jpg
+          website: https://akira-takakura.github.io/
+          alt: I am Akira. I am outside and wearing a black collered shirt. 
+
 - name: PostDogs
   list:
     - full: true
