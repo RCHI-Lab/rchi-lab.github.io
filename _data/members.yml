@@ -24,12 +24,6 @@
           image: ../images/members/kavya.jpg
           website: https://kpputhuveetil.github.io/
           alt: I am Kavya. I am wearing a blue dress shirt.
-        - name: Zulekha Karachiwalla
-          image: ../images/members/zulekha.jpg
-          website: https://zkarachi.github.io/
-          coadvisor: Henny Admoni
-          coadvisorweb: http://hennyadmoni.com
-          alt: I am Zulekha. I am wearing a white shirt.
         - name: Junxiang (Jim) Wang
           image: ../images/members/jim_wang.jpg
           website: https://jimwang418.github.io/
@@ -200,6 +194,12 @@
           coadvisorweb: https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html
           alt: I am Akhil. I am wearing a white dress shirt.
           new_role: (now Research Scientist at Meta)
+        - name: Zulekha Karachiwalla
+          image: ../images/members/zulekha.jpg
+          website: https://zkarachi.github.io/
+          coadvisor: Henny Admoni
+          coadvisorweb: http://hennyadmoni.com
+          alt: I am Zulekha. I am wearing a white shirt.
     - full: False
       name: Master's students
       list:
