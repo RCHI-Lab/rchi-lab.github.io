@@ -104,6 +104,10 @@
           image: ../images/members/niharika-pant.jpg
           alt: I am Niharika Pant.
           website: https://www.linkedin.com/in/niharika-pant/
+        - name: Shuai Zhou
+          image: ../images/members/shuai-zhou.jpg
+          alt: I am Shuai Zhou. I am wearing a wide brimmed hat. 
+          website: https://www.shuai-zhou.com/
           
 - name: Undergraduate Students
   list:
