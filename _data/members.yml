@@ -47,10 +47,6 @@
   list:
     - full: true
       list:
-        - name: Divyam Goel
-          image: ../images/members/divyam_goel.jpg
-          website: https://dv-fenix.github.io/
-          alt: I am Divyam Goel.
         - name: Xinwen Xu
           image: ../images/members/XinwenXu.jpg
           alt: I am Xinwen Xu. 
@@ -108,27 +104,15 @@
           image: ../images/members/shuai-zhou.jpg
           alt: I am Shuai Zhou. I am wearing a wide brimmed hat. 
           website: https://www.shuai-zhou.com/
+        - name: Hongjia Huang
+          image: ../images/members/hongjia-huang.jpg
+          alt: I am Hongjia Huang. I am wearing a navy jacket. 
+          website: https://scaliaven.github.io
           
 - name: Undergraduate Students
   list:
     - full: true
       list:
-        - name: Janavi Gupta
-          website: https://guptajanavi.wixsite.com/website
-          image: ../images/members/janavi.png
-          alt: I am Janavi.
-        - name: Karolena Zhou
-          image: ../images/members/karolena_zhou.jpg
-          website: https://www.linkedin.com/in/karolena-zhou/
-        - name: Cindy Sun
-          image: ../images/members/cindy_sun.jpg
-          website: https://www.linkedin.com/in/cindy-sun-317479308
-        - name: Annika Srinivasan
-          image: ../images/members/annika_srinivasan.jpeg
-          website: https://annikas5.wixsite.com/annikasrinivasan
-        - name: Vivianna Lieu
-          image: ../images/members/vivianna_lieu.jpg
-          website: https://www.linkedin.com/in/vivianna-lieu/
         - name: Zhenghao Jin
           image: ../images/members/zhenghao-jin.jpg
         - name: Jasmine Li
@@ -207,6 +191,11 @@
     - full: False
       name: Master's students
       list:
+        - name: Divyam Goel
+          image: ../images/members/divyam_goel.jpg
+          website: https://dv-fenix.github.io/
+          alt: I am Divyam Goel.
+          new_role: (now PhD student at CMU)
         - name: Yiran Tao
           image: ../images/members/yirantao.jpeg
           website: http://yirantao1000.github.io/
@@ -357,6 +346,22 @@
         - name: Wesley Lewis
           image: ../images/members/wesley.jpg
           alt: I am Wesley.
+        - name: Janavi Gupta
+          website: https://guptajanavi.wixsite.com/website
+          image: ../images/members/janavi.png
+          alt: I am Janavi.
+        - name: Karolena Zhou
+          image: ../images/members/karolena_zhou.jpg
+          website: https://www.linkedin.com/in/karolena-zhou/
+        - name: Cindy Sun
+          image: ../images/members/cindy_sun.jpg
+          website: https://www.linkedin.com/in/cindy-sun-317479308
+        - name: Annika Srinivasan
+          image: ../images/members/annika_srinivasan.jpeg
+          website: https://annikas5.wixsite.com/annikasrinivasan
+        - name: Vivianna Lieu
+          image: ../images/members/vivianna_lieu.jpg
+          website: https://www.linkedin.com/in/vivianna-lieu/
     - full: False
       name: Collaborators
       list: 
