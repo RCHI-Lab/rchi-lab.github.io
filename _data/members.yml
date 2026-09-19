@@ -108,6 +108,10 @@
           image: ../images/members/hongjia-huang.jpg
           alt: I am Hongjia Huang. I am wearing a navy jacket. 
           website: https://scaliaven.github.io
+        - name: Aashish Dhanani
+          image: ../images/members/aashish-dhanani.jpg
+          alt: I am Aashish Dhanani. I am wearing a black jacket. 
+          website: https://aashishdhanani.github.io/
           
 - name: Undergraduate Students
   list:
