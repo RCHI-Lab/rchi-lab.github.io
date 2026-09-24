@@ -50,12 +50,6 @@
         - name: Xinwen Xu
           image: ../images/members/XinwenXu.jpg
           alt: I am Xinwen Xu. 
-        - name: Tiancheng Wu
-          image: ../images/members/tiancheng_wu.jpg
-          alt: I am Tiancheng Wu. 
-        - name: Mino Nakura
-          image: ../images/members/minonakura.jpg
-          alt: I am Mino Nakura.
         - name: Yinong He
           image: ../images/members/yinong-he.jpg
           alt: I am Yinong He. 
@@ -68,10 +62,6 @@
           image: ../images/members/shikun-ban.jpg
           alt: I am Shikun Ban. 
           website: https://oliverbansk.github.io
-        - name: Saksham Bhutani
-          image: ../images/members/saksham-bhutani.jpg
-          alt: I am Saksham Bhutani. 
-          website: https://sakshambhutani.xyz
         - name: Julian Millan
           image: ../images/members/julian-millan.jpg
           alt: I am Julian Millan. 
@@ -88,10 +78,6 @@
           image: ../images/members/anjana-ramachandran.jpeg
           alt: I am Anjana Ramachandran. 
           website: https://anjana2123.github.io/
-        - name: Alexis Hao
-          image: ../images/members/alexis.jpg
-          alt: I am Alexis Hao. 
-          website: https://hyhalexis.github.io/
         - name: Qihao (Keith) Lin
           image: ../images/members/qihao-lin.png
           alt: I am Qihao (Keith) Lin.
@@ -117,8 +103,6 @@
   list:
     - full: true
       list:
-        - name: Zhenghao Jin
-          image: ../images/members/zhenghao-jin.jpg
         - name: Jasmine Li
           image: ../images/members/jasmine-li.jpg
           website: https://www.linkedin.com/in/jasmine-jiani-li/
@@ -140,6 +124,10 @@
           image: ../images/members/divya_gupta.jpg
           website: https://divs997.github.io
           alt: I am Divya Gupta. I am wearing a black dress in front of a flat gray background. 
+        - name: Eva Li 
+          image: ../images/members/eva-li.jpg
+          website: http://evali.vercel.app/
+          alt: I am Eva Li. I am wearing a blue shirt. 
           
 - name: Collaborators
   list: 
@@ -195,6 +183,21 @@
     - full: False
       name: Master's students
       list:
+        - name: Alexis Hao
+          image: ../images/members/alexis.jpg
+          alt: I am Alexis Hao. 
+          website: https://hyhalexis.github.io/
+        - name: Saksham Bhutani
+          image: ../images/members/saksham-bhutani.jpg
+          alt: I am Saksham Bhutani. 
+          website: https://sakshambhutani.xyz
+          new_role: (now PhD student at Columbia University)
+        - name: Tiancheng Wu
+          image: ../images/members/tiancheng_wu.jpg
+          alt: I am Tiancheng Wu. 
+        - name: Mino Nakura
+          image: ../images/members/minonakura.jpg
+          alt: I am Mino Nakura.
         - name: Divyam Goel
           image: ../images/members/divyam_goel.jpg
           website: https://dv-fenix.github.io/
@@ -269,6 +272,8 @@
     - full: False
       name: Undergraduate students
       list:
+        - name: Zhenghao Jin
+          image: ../images/members/zhenghao-jin.jpg
         - name: Ellen Lee
           website: https://www.linkedin.com/in/ellenahrumlee/
           image: ../images/members/Ellen.png
